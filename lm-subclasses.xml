@@ -1,0 +1,1284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <info>
+    <name>Subclasses (Libris Mortis)</name>
+    <description>Archetypes and features from LM.</description>
+    <update version="1.0.0">
+      <file name="subclasses.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/subclasses.xml"/>
+    </update>
+  </info>
+  <element name="Vice of Despair" type="Archetype" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_BLACKGUARD_DESPAIR">
+    <supports>Blackguard Archetype</supports>
+    <description>Vice of Despair for the Blackguard.
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_VICE_OF_DESPAIR&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_AURA_OF_DESPAIR&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_UNLIVING_FORTITUDE&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_DREAD_LORD&quot; /&gt;</description>
+    <rules>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_VICE_OF_DESPAIR" level="3"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_AURA_OF_DESPAIR" level="7"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_UNLIVING_FORTITUDE" level="15"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_DREAD_LORD" level="20"/>
+    </rules>
+  </element>
+  <element name="Vice of Domination" type="Archetype" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_BLACKGUARD_DOMINATION">
+    <supports>Blackguard Archetype</supports>
+    <description>Vice of Domination for the Blackguard.
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_VICE_OF_DOMINATION&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_AURA_OF_DOMINATION&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_SCORNFUL_REBUKE&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_INVINCIBLE_CONQUEROR&quot; /&gt;</description>
+    <rules>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_VICE_OF_DOMINATION" level="3"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_AURA_OF_DOMINATION" level="7"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_SCORNFUL_REBUKE" level="15"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_INVINCIBLE_CONQUEROR" level="20"/>
+    </rules>
+  </element>
+  <element name="Vice of Fury" type="Archetype" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_BLACKGUARD_VENGEANCE">
+    <supports>Blackguard Archetype</supports>
+    <description>Vice of Fury for the Blackguard.
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_VENGEANCE_VICE_OF_FURY&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_VENGEANCE_RELENTLESS_KILLER&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_VENGEANCE_BURNING_HATRED&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_VENGEANCE_AVATAR_OF_WRATH&quot; /&gt;</description>
+    <rules>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_VENGEANCE_VICE_OF_FURY" level="3"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_VENGEANCE_RELENTLESS_KILLER" level="7"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_VENGEANCE_BURNING_HATRED" level="15"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_VENGEANCE_AVATAR_OF_WRATH" level="20"/>
+    </rules>
+  </element>
+  <element name="Vice of Pride" type="Archetype" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_BLACKGUARD_PRIDE">
+    <supports>Blackguard Archetype</supports>
+    <description>Vice of Pride for the Blackguard.
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_VICE_OF_PRIDE&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_AURA_OF_FALSE_DIVINITY&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_SELF_IMPORTANCE&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_HERALD_OF_SALVATION&quot; /&gt;</description>
+    <rules>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_VICE_OF_PRIDE" level="3"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_AURA_OF_FALSE_DIVINITY" level="7"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_SELF_IMPORTANCE" level="15"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_HERALD_OF_SALVATION" level="20"/>
+    </rules>
+  </element>
+  <element name="Vice of Treachery" type="Archetype" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_BLACKGUARD_TREACHERY">
+    <supports>Blackguard Archetype</supports>
+    <description>Vice of Treachery for the Blackguard.
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_VICE_OF_TREACHERY&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_AURA_OF_TREACHERY&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_BETRAYER_S_ESCAPE&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_ICON_OF_DECEIT&quot; /&gt;</description>
+    <rules>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_VICE_OF_TREACHERY" level="3"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_AURA_OF_TREACHERY" level="7"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_BETRAYER_S_ESCAPE" level="15"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_ICON_OF_DECEIT" level="20"/>
+    </rules>
+  </element>
+  <element name="Darkness Domain" type="Archetype" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_CLERIC_DARKNESS">
+    <supports>Cleric Archetype</supports>
+    <description>Darkness Domain for the Cleric.
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_DARKNESS_DOMAIN&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_CHANNEL_DIVINITY_SHADOW_PURGE&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_SHADOW_STEP&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_POTENT_SPELLCASTING&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_HUNGRY_DARKNESS&quot; /&gt;</description>
+    <rules>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_DARKNESS_DOMAIN" level="1"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_CHANNEL_DIVINITY_SHADOW_PURGE" level="2"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_SHADOW_STEP" level="6"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_POTENT_SPELLCASTING" level="8"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_HUNGRY_DARKNESS" level="17"/>
+    </rules>
+  </element>
+  <element name="Death's Chosen" type="Archetype" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FIGHTER_DEATH_S_CHOSEN">
+    <supports>Fighter Archetype</supports>
+    <description>Death's Chosen for the Fighter.
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_DEATH_S_CHOSEN&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_UNNATURAL_PRESENCE&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_VIGOR_OF_THE_CHOSEN&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_NEGATIVE_ENERGY_AURA&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_IMMORTAL_SERVANT&quot; /&gt;</description>
+    <rules>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_DEATH_S_CHOSEN" level="3"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_UNNATURAL_PRESENCE" level="7"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_VIGOR_OF_THE_CHOSEN" level="10"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_NEGATIVE_ENERGY_AURA" level="15"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_IMMORTAL_SERVANT" level="18"/>
+    </rules>
+  </element>
+  <element name="College of the Dirgesinger" type="Archetype" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_BARD_DIRGESINGER">
+    <supports>Bard Archetype</supports>
+    <description>College of the Dirgesinger for the Bard.
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DIRGESINGER_COLLEGE_OF_THE_DIRGESINGER&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DIRGESINGER_SONG_OF_AWAKENING&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DIRGESINGER_INFECTIOUS_GRIEF&quot; /&gt;</description>
+    <rules>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DIRGESINGER_COLLEGE_OF_THE_DIRGESINGER" level="3"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DIRGESINGER_SONG_OF_AWAKENING" level="6"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DIRGESINGER_INFECTIOUS_GRIEF" level="14"/>
+    </rules>
+  </element>
+  <element name="The Dread Lord" type="Archetype" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_WARLOCK_DREAD_LORD">
+    <supports>Warlock Archetype</supports>
+    <description>The Dread Lord for the Warlock.
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_THE_DREAD_LORD&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_UNDEAD_SERVANTS&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_FEED_ON_WEAKNESS&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_UNDEAD_ARMY&quot; /&gt;</description>
+    <rules>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_THE_DREAD_LORD" level="1"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_UNDEAD_SERVANTS" level="6"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_FEED_ON_WEAKNESS" level="10"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_UNDEAD_ARMY" level="14"/>
+    </rules>
+  </element>
+  <element name="Circle of Twilight" type="Archetype" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_DRUID_TWILIGHT">
+    <supports>Druid Archetype</supports>
+    <description>Circle of Twilight for the Druid.
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_CIRCLE_OF_TWILIGHT&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_SPEECH_BEYOND_THE_GRAVE&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_WATCHER_AT_THE_THRESHOLD&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_BOUNTIFUL_HARVEST&quot; /&gt;
+&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_PATHS_OF_THE_DEAD&quot; /&gt;</description>
+    <rules>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_CIRCLE_OF_TWILIGHT" level="2"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_SPEECH_BEYOND_THE_GRAVE" level="6"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_WATCHER_AT_THE_THRESHOLD" level="10"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_BOUNTIFUL_HARVEST" level="14"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_PATHS_OF_THE_DEAD" level="14"/>
+    </rules>
+  </element>
+  <element name="Vice of Despair" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_VICE_OF_DESPAIR">
+    <description>The Vice of Despair is what a blackguard gains when they turn their back on the living and pledge themselves to the cause of undeath. By amplifying the negative energy already suffused into their souls, these blackguards command necromantic energies and undead creatures alike and use them as a means to whatever nihilistic end they seek. Such necromancers sometimes become death knights beyond the grave, often serving archfiends or other evil entities in exchange for dark boons and gifts of power.</description>
+    <sheet>
+      <description>The Vice of Despair is what a blackguard gains when they turn their back on the living and pledge themselves to the cause of undeath. By amplifying the negative energy already suffused into their souls, these blackguards command necromantic energies and undead creatures alike and use them as a means to whatever nihilistic end they seek. Such necromancers sometimes become death knights beyond the grave, often serving archfiends or other evil entities in exchange for dark boons and gifts of power.</description>
+    </sheet>
+  </element>
+  <element name="Channel Divinity" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_CHANNEL_DIVINITY">
+    <description>3rd-level Vice of Despair feature
+
+You gain the following two Channel Divinity options.</description>
+    <sheet>
+      <description>3rd-level Vice of Despair feature
+
+You gain the following two Channel Divinity options.</description>
+    </sheet>
+  </element>
+  <element name="Control Undead" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_CONTROL_UNDEAD">
+    <description>As an action, you target one undead creature you can see within 30 feet of you. The target must make a Wisdom saving throw. On a failed save, the target must obey your commands for the next 24 hours, or until you use this Channel Divinity option again. An undead whose Challenge Rating is equal to or greater than your blackguard level is immune to this effect.</description>
+    <sheet>
+      <description>As an action, you target one undead creature you can see within 30 feet of you. The target must make a Wisdom saving throw. On a failed save, the target must obey your commands for the next 24 hours, or until you use this Channel Divinity option again. An undead whose Challenge Rating is equal to or greater than your blackguard level is immune to this effect.</description>
+    </sheet>
+  </element>
+  <element name="Disrupt Life" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_DISRUPT_LIFE">
+    <description>As an action, you channel negative energy and focus it into a burst of life-destroying power. Each living creature within 20 feet of you of your choice must make a Constitution saving throw, taking necrotic damage equal to 2d10 + your blackguard level on a failed save, or half as much damage on a successful one.</description>
+    <sheet>
+      <description>As an action, you channel negative energy and focus it into a burst of life-destroying power. Each living creature within 20 feet of you of your choice must make a Constitution saving throw, taking necrotic damage equal to 2d10 + your blackguard level on a failed save, or half as much damage on a successful one.</description>
+    </sheet>
+  </element>
+  <element name="Vice Spells" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_VICE_SPELLS">
+    <description>3rd-level Vice of Despair feature
+
+You gain vice spells at the blackguard levels listed.
+
+Oathbreaker Spells
+
+Blackguard Level | Spells
+
+3rd | bane, inflict wounds
+
+5th | darkness, ray of enfeeblement
+
+9th | animate dead, bestow curse
+
+13th | blight, phantasmal killer
+
+17th | contagion, destructive wave</description>
+    <sheet>
+      <description>3rd-level Vice of Despair feature
+
+You gain vice spells at the blackguard levels listed.
+
+Oathbreaker Spells
+
+Blackguard Level | Spells
+
+3rd | bane, inflict wounds
+
+5th | darkness, ray of enfeeblement
+
+9th | animate dead, bestow curse
+
+13th | blight, phantasmal killer
+
+17th | contagion, destructive wave</description>
+    </sheet>
+  </element>
+  <element name="Aura of Despair" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_AURA_OF_DESPAIR">
+    <description>7th-level Vice of Despair feature
+
+ou emanate an aura of hopelessness and sorrow. Hostile, living creatures within 10 feet of you suffer a penalty on attack rolls and ability checks equal to half your Charisma modifier (rounded up, minimum of a -1 penalty), provided that you aren't incapacitated.
+
+At 18th level, the range of this aura increases to 30 feet.</description>
+    <sheet>
+      <description>7th-level Vice of Despair feature
+
+ou emanate an aura of hopelessness and sorrow. Hostile, living creatures within 10 feet of you suffer a penalty on attack rolls and ability checks equal to half your Charisma modifier (rounded up, minimum of a -1 penalty), provided that you aren't incapacitated.
+
+At 18th level, the range of this aura increases to 30 feet.</description>
+    </sheet>
+  </element>
+  <element name="Unliving Fortitude" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_UNLIVING_FORTITUDE">
+    <description>15th-level Vice of Despair feature
+
+You gain resistance to necrotic and poison damage. You also have advantage on saving throws against effects that inflict exhaustion or the poisoned condition.</description>
+    <sheet>
+      <description>15th-level Vice of Despair feature
+
+You gain resistance to necrotic and poison damage. You also have advantage on saving throws against effects that inflict exhaustion or the poisoned condition.</description>
+    </sheet>
+  </element>
+  <element name="Dread Lord" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_DREAD_LORD">
+    <description>20th-level Vice of Despair feature
+
+You can use your action surround yourself with an aura of gloom that lasts for 1 minute. The aura reduces any bright light in a 30-foot radius around you to dim light. Whenever an enemy that is frightened by you starts its turn in the aura, it takes 4d10 psychic damage. Additionally, you and allied creatures in the aura are draped in deeper shadow. Creatures that rely on sight have disadvantage on attack rolls against creatures draped in this shadow.
+
+While the aura lasts, you can use a bonus action on your turn to cause the shadows in the aura to attack one creature. Make a melee spell attack against the target. On a hit, the target takes necrotic damage equal to 3d10 + your Charisma modifier.
+
+After activating the aura, you can't do so again until you finish a long rest.</description>
+    <sheet>
+      <description>20th-level Vice of Despair feature
+
+You can use your action surround yourself with an aura of gloom that lasts for 1 minute. The aura reduces any bright light in a 30-foot radius around you to dim light. Whenever an enemy that is frightened by you starts its turn in the aura, it takes 4d10 psychic damage. Additionally, you and allied creatures in the aura are draped in deeper shadow. Creatures that rely on sight have disadvantage on attack rolls against creatures draped in this shadow.
+
+While the aura lasts, you can use a bonus action on your turn to cause the shadows in the aura to attack one creature. Make a melee spell attack against the target. On a hit, the target takes necrotic damage equal to 3d10 + your Charisma modifier.
+
+After activating the aura, you can't do so again until you finish a long rest.</description>
+    </sheet>
+  </element>
+  <element name="Vice of Domination" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_VICE_OF_DOMINATION">
+    <description>Blackguards of domination demand submission from their enemies. They impose order by force whenever necessary, crushing resistance and making others do their bidding. Surrender on the blackguard's terms is the only hope for any foe. Those who fail to capitulate can expect to be crushed and displayed as bloody examples of what it means to oppose the blackguard's resolve. In the hands of evil, dominance becomes tyranny.
+
+Most blackguards of this vice are former paladins of the Oath of Conquest. Not all evil paladins of this oath become blackguards, however. Rather, a conquest paladin becomes a domination blackguard when the desire to harm others begins to outweigh their quest to establish order. Enjoying the use of violent force to subjugate foes, as well as taking delight in the suffering of others, is a distinct sign that a conquest paladin has fallen down the path of darkness.
+
+Despite this connection to the Oath of Conquest, blackguards of this vice needn't serve the forces of law. For example, a chaos-based blackguard that serves a demon lord might use this vice's power to dominate others as a display of their master's supremacy. With this in mind, non-lawful blackguards of domination are few and far in between, typically because some other vice fits their personality more.
+
+Oath of Conquest Features
+
+Blackguards of the Vice of Domination gain the same features as paladins of the Oath of Conquest. However, they needn't follow any tenets associated with that paladin oath.
+
+A former conquest paladin may wish to continue upholding their oath if it aligns with their views as a blackguard. However, a blackguard of domination does not derive power from such an oath. Rather, they draw their strength from the negative emotions associated with their quest to establish power over others.</description>
+    <sheet>
+      <description>Blackguards of domination demand submission from their enemies. They impose order by force whenever necessary, crushing resistance and making others do their bidding. Surrender on the blackguard's terms is the only hope for any foe. Those who fail to capitulate can expect to be crushed and displayed as bloody examples of what it means to oppose the blackguard's resolve. In the hands of evil, dominance becomes tyranny.
+
+Most blackguards of this vice are former paladins of the Oath of Conquest. Not all evil paladins of this oath become blackguards, however. Rather, a conquest paladin becomes a domination blackguard when the desire to harm others begins to outweigh their quest to establish order. Enjoying the use of violent force to subjugate foes, as well as taking delight in the suffering of others, is a distinct sign that a conquest paladin has fallen down the path of darkness.
+
+Despite this connection to the Oath of Conquest, blackguards of this vice needn't serve the forces of law. For example, a chaos-based blackguard that serves a demon lord might use this vice's power to dominate others as a display of their master's supremacy. With this in mind, non-lawful blackguards of domination are few and far in between, typically because some other vice fits their personality more.
+
+Oath of Conquest Features
+
+Blackguards of the Vice of Domination gain the same features as paladins of the Oath of Conquest. However, they needn't follow any tenets associated with that paladin oath.
+
+A former conquest paladin may wish to continue upholding their oath if it aligns with their views as a blackguard. However, a blackguard of domination does not derive power from such an oath. Rather, they draw their strength from the negative emotions associated with their quest to establish power over others.</description>
+    </sheet>
+  </element>
+  <element name="Channel Divinity" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_CHANNEL_DIVINITY">
+    <description>3rd-level Vice of Domination feature
+
+You gain the following two Channel Divinity options.</description>
+    <sheet>
+      <description>3rd-level Vice of Domination feature
+
+You gain the following two Channel Divinity options.</description>
+    </sheet>
+  </element>
+  <element name="Conquering Presence" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_CONQUERING_PRESENCE">
+    <description>You can use your Channel Divinity to exude a terrifying presence. As an action, you force each creature of your choice that you can see within 30 feet of you to make a Wisdom saving throw. On a failed save, a creature becomes frightened of you for 1 minute. The frightened creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success.</description>
+    <sheet>
+      <description>You can use your Channel Divinity to exude a terrifying presence. As an action, you force each creature of your choice that you can see within 30 feet of you to make a Wisdom saving throw. On a failed save, a creature becomes frightened of you for 1 minute. The frightened creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success.</description>
+    </sheet>
+  </element>
+  <element name="Guided Strike" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_GUIDED_STRIKE">
+    <description>You can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.</description>
+    <sheet>
+      <description>You can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.</description>
+    </sheet>
+  </element>
+  <element name="Vice Spells" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_VICE_SPELLS">
+    <description>3rd-level Vice of Domination feature
+
+You gain vice spells at the blackguard levels listed.
+
+Vice of Domination Spells
+
+Blackguard Level | Spells
+
+3rd | armor of Agathys, command
+
+5th | hold person, spiritual weapon
+
+9th | bestow curse, fear
+
+13th | dominate beast, stoneskin
+
+17th | cloudkill, dominate person</description>
+    <sheet>
+      <description>3rd-level Vice of Domination feature
+
+You gain vice spells at the blackguard levels listed.
+
+Vice of Domination Spells
+
+Blackguard Level | Spells
+
+3rd | armor of Agathys, command
+
+5th | hold person, spiritual weapon
+
+9th | bestow curse, fear
+
+13th | dominate beast, stoneskin
+
+17th | cloudkill, dominate person</description>
+    </sheet>
+  </element>
+  <element name="Aura of Domination" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_AURA_OF_DOMINATION">
+    <description>7th-level Vice of Domination feature
+
+You constantly emanate a menacing aura while you're not incapacitated. The aura extends 10 feet from you in every direction, but not through total cover.
+
+If a creature is frightened of you, its speed is reduced to 0 while in the aura, and that creature takes psychic damage equal to half your blackguard level if it starts its turn there.
+
+At 18th level, the range of this aura increases to 30 feet.</description>
+    <sheet>
+      <description>7th-level Vice of Domination feature
+
+You constantly emanate a menacing aura while you're not incapacitated. The aura extends 10 feet from you in every direction, but not through total cover.
+
+If a creature is frightened of you, its speed is reduced to 0 while in the aura, and that creature takes psychic damage equal to half your blackguard level if it starts its turn there.
+
+At 18th level, the range of this aura increases to 30 feet.</description>
+    </sheet>
+  </element>
+  <element name="Scornful Rebuke" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_SCORNFUL_REBUKE">
+    <description>15th-level Vice of Domination feature
+
+Those who dare to strike you are psychically punished for their audacity. Whenever a creature hits you with an attack, that creature takes psychic damage equal to your Charisma modifier (minimum of 1) if you're not incapacitated.</description>
+    <sheet>
+      <description>15th-level Vice of Domination feature
+
+Those who dare to strike you are psychically punished for their audacity. Whenever a creature hits you with an attack, that creature takes psychic damage equal to your Charisma modifier (minimum of 1) if you're not incapacitated.</description>
+    </sheet>
+  </element>
+  <element name="Invincible Conqueror" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_INVINCIBLE_CONQUEROR">
+    <description>20th-level Vice of Domination feature
+
+You gain the ability to harness extraordinary martial prowess. As an action, you can magically become an avatar of conquest, gaining the following benefits for 1 minute:
+
+You have resistance to all damage.
+
+When you take the Attack action on your turn, you can make one additional attack as part of that action.
+
+Your melee weapon attacks score a critical hit on a roll of 19 or 20 on the d20.
+
+Once you use this feature, you can't use it again until you finish a long rest.</description>
+    <sheet>
+      <description>20th-level Vice of Domination feature
+
+You gain the ability to harness extraordinary martial prowess. As an action, you can magically become an avatar of conquest, gaining the following benefits for 1 minute:
+
+You have resistance to all damage.
+
+When you take the Attack action on your turn, you can make one additional attack as part of that action.
+
+Your melee weapon attacks score a critical hit on a roll of 19 or 20 on the d20.
+
+Once you use this feature, you can't use it again until you finish a long rest.</description>
+    </sheet>
+  </element>
+  <element name="Vice of Fury" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_FURY_VICE_OF_FURY">
+    <description>The Vice of Fury is for blackguards who particularly enjoy violence, murder, and the obliteration of their enemies. Many of these blackguard of fury channels raw anger into the violence required for victory. In battle, blackguards of fury are wild killers, impulsive, bloodthirsty, and destructive. They answer every offense or injury with overwhelming retaliation, and their enemies receive little mercy. Allies can expect a blackguard of fury to rush to the forefront of any armed conflict and to bring foes to ruin as quickly as possible. Evil blackguards of fury allow the vice to rule them entirely, not just on the battlefield.
+
+Oath of Vengeance Features
+
+Blackguards of the Vice of Fury gain the same features as paladins of the Oath of Vengeance. However, they needn't follow any tenets associated with that paladin oath.
+
+A former vengeance paladin may wish to continue upholding their oath, as it may align with their views as a blackguard. However, a blackguard of fury does not derive power from such an oath. Rather, they draw their strength from their anger, bloodlust, and destructive impulses, and not any commitment to the ideals of justice or order. Thus, rather than punishing evildoers for their sins, a blackguard of fury may focus their destructive ire against anything—and anyone—that stands in the way of their goals.</description>
+    <sheet>
+      <description>The Vice of Fury is for blackguards who particularly enjoy violence, murder, and the obliteration of their enemies. Many of these blackguard of fury channels raw anger into the violence required for victory. In battle, blackguards of fury are wild killers, impulsive, bloodthirsty, and destructive. They answer every offense or injury with overwhelming retaliation, and their enemies receive little mercy. Allies can expect a blackguard of fury to rush to the forefront of any armed conflict and to bring foes to ruin as quickly as possible. Evil blackguards of fury allow the vice to rule them entirely, not just on the battlefield.
+
+Oath of Vengeance Features
+
+Blackguards of the Vice of Fury gain the same features as paladins of the Oath of Vengeance. However, they needn't follow any tenets associated with that paladin oath.
+
+A former vengeance paladin may wish to continue upholding their oath, as it may align with their views as a blackguard. However, a blackguard of fury does not derive power from such an oath. Rather, they draw their strength from their anger, bloodlust, and destructive impulses, and not any commitment to the ideals of justice or order. Thus, rather than punishing evildoers for their sins, a blackguard of fury may focus their destructive ire against anything—and anyone—that stands in the way of their goals.</description>
+    </sheet>
+  </element>
+  <element name="Abjure Enemy" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_FURY_ABJURE_ENEMY">
+    <description>As an action, you present your holy symbol and speak words of denunciation, using your Channel Divinity. Choose one creature within 60 feet of you that you can see. That creature must make a Wisdom saving throw, unless it is immune to being frightened. Fiends and undead have disadvantage on this saving throw.
+
+On a failed save, the creature is frightened for 1 minute or until it takes any damage. While frightened, the creature's speed is 0, and it can't benefit from any bonus to its speed.
+
+On a successful save, the creature's speed is halved for 1 minute or until the creature takes any damage.</description>
+    <sheet>
+      <description>As an action, you present your holy symbol and speak words of denunciation, using your Channel Divinity. Choose one creature within 60 feet of you that you can see. That creature must make a Wisdom saving throw, unless it is immune to being frightened. Fiends and undead have disadvantage on this saving throw.
+
+On a failed save, the creature is frightened for 1 minute or until it takes any damage. While frightened, the creature's speed is 0, and it can't benefit from any bonus to its speed.
+
+On a successful save, the creature's speed is halved for 1 minute or until the creature takes any damage.</description>
+    </sheet>
+  </element>
+  <element name="Channel Divinity" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_FURY_CHANNEL_DIVINITY">
+    <description>3rd-level Vice of Fury feature
+
+You gain the following two Channel Divinity options.</description>
+    <sheet>
+      <description>3rd-level Vice of Fury feature
+
+You gain the following two Channel Divinity options.</description>
+    </sheet>
+  </element>
+  <element name="Vice Spells" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_FURY_VICE_SPELLS">
+    <description>You gain vice spells at the blackguard levels listed.
+
+Vice of Fury Spells
+
+Blackguard Level | Spells
+
+3rd | bane, hunter's mark
+
+5th | hold person, misty step
+
+9th | haste, protection from energy
+
+13th | banishment, dimension door
+
+17th | hold monster, scrying</description>
+    <sheet>
+      <description>You gain vice spells at the blackguard levels listed.
+
+Vice of Fury Spells
+
+Blackguard Level | Spells
+
+3rd | bane, hunter's mark
+
+5th | hold person, misty step
+
+9th | haste, protection from energy
+
+13th | banishment, dimension door
+
+17th | hold monster, scrying</description>
+    </sheet>
+  </element>
+  <element name="Mark for Death" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_FURY_MARK_FOR_DEATH">
+    <description>As a bonus action, you can mark a creature you can see within 10 feet of you for death, using your Channel Divinity. You gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls unconscious.</description>
+    <sheet>
+      <description>As a bonus action, you can mark a creature you can see within 10 feet of you for death, using your Channel Divinity. You gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls unconscious.</description>
+    </sheet>
+  </element>
+  <element name="Relentless Killer" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_FURY_RELENTLESS_KILLER">
+    <description>7th-level Vice of Fury feature
+
+Your supernatural focus helps you close off a foe's retreat. When you hit a creature with an opportunity attack, you can move up to half your speed immediately after the attack and as part of the same reaction. This movement doesn't provoke opportunity attacks.</description>
+    <sheet>
+      <description>7th-level Vice of Fury feature
+
+Your supernatural focus helps you close off a foe's retreat. When you hit a creature with an opportunity attack, you can move up to half your speed immediately after the attack and as part of the same reaction. This movement doesn't provoke opportunity attacks.</description>
+    </sheet>
+  </element>
+  <element name="Burning Hatred" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_FURY_BURNING_HATRED">
+    <description>15th-level Vice of Fury feature
+
+The rage with which you declare your Mark of Death gives you greater power over your foe. When a creature under the effect of your Mark of Death makes an attack, you can use your reaction to make a melee weapon attack against that creature if it is within range.</description>
+    <sheet>
+      <description>15th-level Vice of Fury feature
+
+The rage with which you declare your Mark of Death gives you greater power over your foe. When a creature under the effect of your Mark of Death makes an attack, you can use your reaction to make a melee weapon attack against that creature if it is within range.</description>
+    </sheet>
+  </element>
+  <element name="Avatar of Wrath" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_FURY_AVATAR_OF_WRATH">
+    <description>20th-level Vice of Fury feature
+
+You can assume the form of a furious demon. Using your action, you undergo a transformation. For 1 hour, you gain the following benefits:
+
+Wings sprout from your back and grant you a flying speed of 60 feet.
+
+You emanate an aura of menace in a 30-foot radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature must succeed on a Wisdom saving throw or become frightened of you for 1 minute or until it takes any damage. Attack rolls against the frightened creature have advantage.
+
+Once you use this feature, you can't use it again until you finish a long rest.</description>
+    <sheet>
+      <description>20th-level Vice of Fury feature
+
+You can assume the form of a furious demon. Using your action, you undergo a transformation. For 1 hour, you gain the following benefits:
+
+Wings sprout from your back and grant you a flying speed of 60 feet.
+
+You emanate an aura of menace in a 30-foot radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature must succeed on a Wisdom saving throw or become frightened of you for 1 minute or until it takes any damage. Attack rolls against the frightened creature have advantage.
+
+Once you use this feature, you can't use it again until you finish a long rest.</description>
+    </sheet>
+  </element>
+  <element name="Vice of Pride" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_VICE_OF_PRIDE">
+    <description>The Vice of Pride is for blackguards who are overtaken by conceit and narcissism. Some of these &quot;false paladins&quot; knowingly use this guise to achieve evil ends. Others are paladins that are so deluded in their self-importance that they still believe themselves to be on the path of righteousness, even going as far as to only use radiant smites and other abilities that they perceive as being holy in nature. Either way, most blackguards of this vice use their silvered words and demonstrations of power to influence others to their benefit, some even going as far as to attract a cult of followers in order to be worshiped as a god.</description>
+    <sheet>
+      <description>The Vice of Pride is for blackguards who are overtaken by conceit and narcissism. Some of these &quot;false paladins&quot; knowingly use this guise to achieve evil ends. Others are paladins that are so deluded in their self-importance that they still believe themselves to be on the path of righteousness, even going as far as to only use radiant smites and other abilities that they perceive as being holy in nature. Either way, most blackguards of this vice use their silvered words and demonstrations of power to influence others to their benefit, some even going as far as to attract a cult of followers in order to be worshiped as a god.</description>
+    </sheet>
+  </element>
+  <element name="Channel Divinity" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_CHANNEL_DIVINITY">
+    <description>3rd-level Vice of Pride feature
+
+You gain the following two Channel Divinity options.</description>
+    <sheet>
+      <description>3rd-level Vice of Pride feature
+
+You gain the following two Channel Divinity options.</description>
+    </sheet>
+  </element>
+  <element name="Honeyed Words" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_HONEYED_WORDS">
+    <description>You can use your Channel Divinity to augment your influence with blasphemous power. As a bonus action, you grant yourself a +5 bonus to Charisma (Deception) checks for the next 10 minutes.</description>
+    <sheet>
+      <description>You can use your Channel Divinity to augment your influence with blasphemous power. As a bonus action, you grant yourself a +5 bonus to Charisma (Deception) checks for the next 10 minutes.</description>
+    </sheet>
+  </element>
+  <element name="Radiance of the Savior" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_RADIANCE_OF_THE_SAVIOR">
+    <description>You use your Channel Divinity to harness sunlight, banishing darkness and dealing radiant damage to your foes. As an action, you present your holy symbol, and any magical darkness within 30 feet of you is dispelled. Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes radiant damage equal to 1d10 + your blackguard level on a failed save, or half as much damage on a successful one. A creature that has total cover from you is not affected.</description>
+    <sheet>
+      <description>You use your Channel Divinity to harness sunlight, banishing darkness and dealing radiant damage to your foes. As an action, you present your holy symbol, and any magical darkness within 30 feet of you is dispelled. Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes radiant damage equal to 1d10 + your blackguard level on a failed save, or half as much damage on a successful one. A creature that has total cover from you is not affected.</description>
+    </sheet>
+  </element>
+  <element name="Vice Spells" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_VICE_SPELLS">
+    <description>3rd-level Vice of Pride feature
+
+You gain vice spells at the blackguard levels listed.
+
+Vice of Pride Spells
+
+Blackguard Level | Spells
+
+3rd | charm person, cure wounds
+
+5th | detect thoughts, suggestion
+
+9th | beacon of hope, daylight
+
+13th | charm monster, compulsion
+
+17th | dominate person, geas</description>
+    <sheet>
+      <description>3rd-level Vice of Pride feature
+
+You gain vice spells at the blackguard levels listed.
+
+Vice of Pride Spells
+
+Blackguard Level | Spells
+
+3rd | charm person, cure wounds
+
+5th | detect thoughts, suggestion
+
+9th | beacon of hope, daylight
+
+13th | charm monster, compulsion
+
+17th | dominate person, geas</description>
+    </sheet>
+  </element>
+  <element name="Aura of False Divinity" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_AURA_OF_FALSE_DIVINITY">
+    <description>7th-level Vice of Pride feature
+
+You exude an aura of awe-inspiring energy that makes it easier for you to influence others. Any creature of your choice that starts its turn within 10 feet of you must make a Wisdom saving throw, provided that you aren't incapacitated. On a failed save, the creature is charmed by you. A creature charmed in this way can repeat the saving throw at the end of each minute, or at the end of each of its turns in combat, ending the effect on itself on a success. Once it succeeds on the saving throw, a creature is immune to your Aura of False Divinity for 24 hours.
+
+At 18th level, the range of this aura increases to 30 feet.</description>
+    <sheet>
+      <description>7th-level Vice of Pride feature
+
+You exude an aura of awe-inspiring energy that makes it easier for you to influence others. Any creature of your choice that starts its turn within 10 feet of you must make a Wisdom saving throw, provided that you aren't incapacitated. On a failed save, the creature is charmed by you. A creature charmed in this way can repeat the saving throw at the end of each minute, or at the end of each of its turns in combat, ending the effect on itself on a success. Once it succeeds on the saving throw, a creature is immune to your Aura of False Divinity for 24 hours.
+
+At 18th level, the range of this aura increases to 30 feet.</description>
+    </sheet>
+  </element>
+  <element name="Self-Importance" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_SELF_IMPORTANCE">
+    <description>15th-level Vice of Pride feature
+
+Whenever you take damage, you can use your reaction to target one creature within 30 feet of you, other than the source of the damage. The target must make a Charisma saving throw against your spell save DC. If the target is a willing creature, or if it is charmed by you, it fails the saving throw automatically. On a failed save, you take only half the damage dealt to you (rounded down), and the targeted creature takes the other half.</description>
+    <sheet>
+      <description>15th-level Vice of Pride feature
+
+Whenever you take damage, you can use your reaction to target one creature within 30 feet of you, other than the source of the damage. The target must make a Charisma saving throw against your spell save DC. If the target is a willing creature, or if it is charmed by you, it fails the saving throw automatically. On a failed save, you take only half the damage dealt to you (rounded down), and the targeted creature takes the other half.</description>
+    </sheet>
+  </element>
+  <element name="Herald of Salvation" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_HERALD_OF_SALVATION">
+    <description>20th-level Vice of Pride feature
+
+You can assume the form of a divine being, taking on an angelic appearance tailored to your personality and characteristics.
+
+Using your action, you undergo a transformation. For 1 minute, you gain the following benefits:
+
+You manifest a pair of spectral wings, granting you a flying speed equal to your walking speed. You also shed bright light out to 30 feet, and dim light 30 feet beyond that.
+
+Creatures that are charmed by you follow your verbal commands to the best of their ability, even if doing so would compromise their moral integrity or would obviously be harmful to them.
+
+Creatures within 10 feet of you have disadvantage on Wisdom and Charisma saving throws against your blackguard spells and your Vice of Pride features.
+
+Once you use this feature, you can't use it again until you finish a long rest.</description>
+    <sheet>
+      <description>20th-level Vice of Pride feature
+
+You can assume the form of a divine being, taking on an angelic appearance tailored to your personality and characteristics.
+
+Using your action, you undergo a transformation. For 1 minute, you gain the following benefits:
+
+You manifest a pair of spectral wings, granting you a flying speed equal to your walking speed. You also shed bright light out to 30 feet, and dim light 30 feet beyond that.
+
+Creatures that are charmed by you follow your verbal commands to the best of their ability, even if doing so would compromise their moral integrity or would obviously be harmful to them.
+
+Creatures within 10 feet of you have disadvantage on Wisdom and Charisma saving throws against your blackguard spells and your Vice of Pride features.
+
+Once you use this feature, you can't use it again until you finish a long rest.</description>
+    </sheet>
+  </element>
+  <element name="Vice of Treachery" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_VICE_OF_TREACHERY">
+    <description>The Vice of Treachery for blackguards who care only for their own power and survival, and are faithful only to themselves. Anyone desperate enough to follow one of these blackguards does so because, while deceitful, these blackguards command great power. Those who follow them without falling prey to their treachery hope to indulge in wanton violence and accumulate great treasure. Many of these blackguards pay homage to demon lords, especially Grazz't and Orcus. The Lords of Hell and other beings of Law are loath to ally with these champions of chaos, but sometimes Baalzebul and Glasya find a kindred spirit in a blackguard's penchant for double dealing and treachery.</description>
+    <sheet>
+      <description>The Vice of Treachery for blackguards who care only for their own power and survival, and are faithful only to themselves. Anyone desperate enough to follow one of these blackguards does so because, while deceitful, these blackguards command great power. Those who follow them without falling prey to their treachery hope to indulge in wanton violence and accumulate great treasure. Many of these blackguards pay homage to demon lords, especially Grazz't and Orcus. The Lords of Hell and other beings of Law are loath to ally with these champions of chaos, but sometimes Baalzebul and Glasya find a kindred spirit in a blackguard's penchant for double dealing and treachery.</description>
+    </sheet>
+  </element>
+  <element name="Channel Divinity" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_CHANNEL_DIVINITY">
+    <description>3rd-level Vice of Treachery feature
+
+You gain the following two Channel Divinity options.</description>
+    <sheet>
+      <description>3rd-level Vice of Treachery feature
+
+You gain the following two Channel Divinity options.</description>
+    </sheet>
+  </element>
+  <element name="Cloak of Shadows" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_CLOAK_OF_SHADOWS">
+    <description>You can use your Channel Divinity to vanish from sight. As an action, you become invisible until the end of your next turn. You become visible if you attack or cast a spell.</description>
+    <sheet>
+      <description>You can use your Channel Divinity to vanish from sight. As an action, you become invisible until the end of your next turn. You become visible if you attack or cast a spell.</description>
+    </sheet>
+  </element>
+  <element name="Vice Spells" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_VICE_SPELLS">
+    <description>3rd-level Vice of Treachery feature
+
+You gain vice spells at the blackguard levels listed.
+
+Oath of Treachery Spells
+
+Blackguard Level | Spells
+
+3rd | charm person, expeditious retreat
+
+5th | invisibility, mirror image
+
+9th | gaseous form, haste
+
+13th | confusion, greater invisibility
+
+17th | dominate person, passwall</description>
+    <sheet>
+      <description>3rd-level Vice of Treachery feature
+
+You gain vice spells at the blackguard levels listed.
+
+Oath of Treachery Spells
+
+Blackguard Level | Spells
+
+3rd | charm person, expeditious retreat
+
+5th | invisibility, mirror image
+
+9th | gaseous form, haste
+
+13th | confusion, greater invisibility
+
+17th | dominate person, passwall</description>
+    </sheet>
+  </element>
+  <element name="Poison Strike" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_POISON_STRIKE">
+    <description>You can use your Channel Divinity to make a weapon deadlier. As a bonus action, you touch one weapon or piece of ammunition and conjure a special poison on it. The poison lasts for 1 minute. The next time a creature takes damage from that weapon or ammunition it takes extra necrotic or poison damage (your choice) equal to 2d10 + your blackguard level, or 20 + your blackguard level if you had advantage on the attack roll.</description>
+    <sheet>
+      <description>You can use your Channel Divinity to make a weapon deadlier. As a bonus action, you touch one weapon or piece of ammunition and conjure a special poison on it. The poison lasts for 1 minute. The next time a creature takes damage from that weapon or ammunition it takes extra necrotic or poison damage (your choice) equal to 2d10 + your blackguard level, or 20 + your blackguard level if you had advantage on the attack roll.</description>
+    </sheet>
+  </element>
+  <element name="Aura of Treachery" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_AURA_OF_TREACHERY">
+    <description>7th-level Vice of Treachery feature
+
+You emanate an aura of discord, which gives you the following benefits.
+
+Cull the Herd
+
+You have advantage on melee attack rolls against any creature that has one or more of its allies within 5 feet of it.
+
+Treacherous Strike
+
+If a creature within 5 feet of you misses you with a melee attack, you can use your reaction to force the attacker to reroll that attack against a creature of your choice that is also within 5 feet of the attacker. The ability fails and is wasted if the attacker is immune to being charmed.
+
+You can use this ability a number of times equal to your proficiency bonus. You regain expended uses of it when you finish a short or long rest.</description>
+    <sheet>
+      <description>7th-level Vice of Treachery feature
+
+You emanate an aura of discord, which gives you the following benefits.
+
+Cull the Herd
+
+You have advantage on melee attack rolls against any creature that has one or more of its allies within 5 feet of it.
+
+Treacherous Strike
+
+If a creature within 5 feet of you misses you with a melee attack, you can use your reaction to force the attacker to reroll that attack against a creature of your choice that is also within 5 feet of the attacker. The ability fails and is wasted if the attacker is immune to being charmed.
+
+You can use this ability a number of times equal to your proficiency bonus. You regain expended uses of it when you finish a short or long rest.</description>
+    </sheet>
+  </element>
+  <element name="Betrayer's Escape" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_BETRAYER_S_ESCAPE">
+    <description>15th-level Vice of Treachery feature
+
+You gain the ability to slip away from your foes. Immediately after you are hit by an attack, you can use your reaction to turn invisible and teleport up to 60 feet to a spot you can see. You remain invisible until the end of your next turn or until you attack, deal damage, or force a creature to make a saving throw. Once you use this feature, you must finish a short or long rest before you can use it again.</description>
+    <sheet>
+      <description>15th-level Vice of Treachery feature
+
+You gain the ability to slip away from your foes. Immediately after you are hit by an attack, you can use your reaction to turn invisible and teleport up to 60 feet to a spot you can see. You remain invisible until the end of your next turn or until you attack, deal damage, or force a creature to make a saving throw. Once you use this feature, you must finish a short or long rest before you can use it again.</description>
+    </sheet>
+  </element>
+  <element name="Icon of Deceit" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_ICON_OF_DECEIT">
+    <description>20th-level Vice of Treachery feature
+
+You gain the ability to emanate feelings of treachery. As an action, you can magically become an avatar of deceit, gaining the following benefits for 1 minute:
+
+You are invisible.
+
+If a creature damages you on its turn, it must make a Wisdom saving throw against your spell save DC. On a failed save, you control the creature's movement and action on its next turn, provided that you aren't incapacitated on that turn. A creature automatically succeeds on the save if the creature is immune to being charmed.
+
+If you have advantage on an attack roll, you gain a bonus to its damage roll equal to your blackguard level.
+
+Once you use this feature, you can't use it again until you finish a long rest.</description>
+    <sheet>
+      <description>20th-level Vice of Treachery feature
+
+You gain the ability to emanate feelings of treachery. As an action, you can magically become an avatar of deceit, gaining the following benefits for 1 minute:
+
+You are invisible.
+
+If a creature damages you on its turn, it must make a Wisdom saving throw against your spell save DC. On a failed save, you control the creature's movement and action on its next turn, provided that you aren't incapacitated on that turn. A creature automatically succeeds on the save if the creature is immune to being charmed.
+
+If you have advantage on an attack roll, you gain a bonus to its damage roll equal to your blackguard level.
+
+Once you use this feature, you can't use it again until you finish a long rest.</description>
+    </sheet>
+  </element>
+  <element name="Darkness Domain" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_DARKNESS_DOMAIN">
+    <description>If the Light Domain represents the beauty and joy of day and the Twilight Domain the calm and serenity of dusk, then the Darkness Domain represents the full submersion into unknowable night. Upholding the ideals of nihilism, secrecy, and self-reliance, clerics of darkness often reject their pride and material desires and instead focus on the pursuit of training and self-improvement. Acknowledging their insignificance in this world and yet refusing to fade away completely, clerics of darkness typically act as assassins, mercenaries, monster hunters, vigilantes, gatekeepers of knowledge, and other professions typically seen as &quot;undesirable&quot; or beyond the threshold of normal society.
+
+Evil deities such as Lolth, Tenebrous, and Zehir are most known for being gods of darkness, but gods of trickery, illusion, or death, such as Mask, Sehanine, and The Raven Queen, may also extend their influence to the Darkness Domain. On a rare occassion, even a god of light might take on clerics of darkness, drawing on the power of the divine shadow they cast to create servants that can operate effectively in corners of the world that traditional clerics of light would normally avoid.
+
+Darkness Domain Spells
+
+Cleric Level | Spells
+
+1st | arms of Hadar, hex
+
+3rd | blindness/deafness, darkness
+
+5th | fear, vampiric touch
+
+7th | blight, Evard's black tentacles
+
+9th | contagion, enervation</description>
+    <sheet>
+      <description>If the Light Domain represents the beauty and joy of day and the Twilight Domain the calm and serenity of dusk, then the Darkness Domain represents the full submersion into unknowable night. Upholding the ideals of nihilism, secrecy, and self-reliance, clerics of darkness often reject their pride and material desires and instead focus on the pursuit of training and self-improvement. Acknowledging their insignificance in this world and yet refusing to fade away completely, clerics of darkness typically act as assassins, mercenaries, monster hunters, vigilantes, gatekeepers of knowledge, and other professions typically seen as &quot;undesirable&quot; or beyond the threshold of normal society.
+
+Evil deities such as Lolth, Tenebrous, and Zehir are most known for being gods of darkness, but gods of trickery, illusion, or death, such as Mask, Sehanine, and The Raven Queen, may also extend their influence to the Darkness Domain. On a rare occassion, even a god of light might take on clerics of darkness, drawing on the power of the divine shadow they cast to create servants that can operate effectively in corners of the world that traditional clerics of light would normally avoid.
+
+Darkness Domain Spells
+
+Cleric Level | Spells
+
+1st | arms of Hadar, hex
+
+3rd | blindness/deafness, darkness
+
+5th | fear, vampiric touch
+
+7th | blight, Evard's black tentacles
+
+9th | contagion, enervation</description>
+    </sheet>
+  </element>
+  <element name="Pierce the Night" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_PIERCE_THE_NIGHT">
+    <description>1st-level Darkness Domain feature
+
+Your dread power allows you and your allies to see through the darkness. You have darkvision out to a range of 120 feet. In that radius, you can see in dim light as if it were bright light and in darkness as if it were dim light.
+
+As an action, you can magically share the darkvision of this feature with willing creatures you can see within 10 feet of you, up to a number of creatures equal to your proficiency bonus. The shared darkvision lasts for 1 hour. Once you share it, you can't do so again until you finish a long rest, unless you expend a spell slot of any level to share it again.</description>
+    <sheet>
+      <description>1st-level Darkness Domain feature
+
+Your dread power allows you and your allies to see through the darkness. You have darkvision out to a range of 120 feet. In that radius, you can see in dim light as if it were bright light and in darkness as if it were dim light.
+
+As an action, you can magically share the darkvision of this feature with willing creatures you can see within 10 feet of you, up to a number of creatures equal to your proficiency bonus. The shared darkvision lasts for 1 hour. Once you share it, you can't do so again until you finish a long rest, unless you expend a spell slot of any level to share it again.</description>
+    </sheet>
+  </element>
+  <element name="Rebuke the Light" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_REBUKE_THE_LIGHT">
+    <description>1st-level Darkness Domain feature
+
+You can rebuke attackers with the power of darkness. When a creature within 5 feet of you that you can see hits you with an attack, you can use your reaction to cause the creature to make a Constitution saving throw. On a failed save, the creature is blinded until the end of your next turn.
+
+You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest.</description>
+    <sheet>
+      <description>1st-level Darkness Domain feature
+
+You can rebuke attackers with the power of darkness. When a creature within 5 feet of you that you can see hits you with an attack, you can use your reaction to cause the creature to make a Constitution saving throw. On a failed save, the creature is blinded until the end of your next turn.
+
+You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest.</description>
+    </sheet>
+  </element>
+  <element name="Channel Divinity: Shadow Purge" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_CHANNEL_DIVINITY_SHADOW_PURGE">
+    <description>2nd-level Darkness Domain feature
+
+You can use your Channel Divinity to harness darkness, banishing light and dealing necrotic damage to your foes.
+
+As an action, you present your holy symbol, and any magical light sources within 30 feet of you are dispelled. Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes necrotic damage equal to 2d10 + your cleric level on a failed saving throw, and half as much damage on a successful one. A creature that has total cover from you is not affected.</description>
+    <sheet>
+      <description>2nd-level Darkness Domain feature
+
+You can use your Channel Divinity to harness darkness, banishing light and dealing necrotic damage to your foes.
+
+As an action, you present your holy symbol, and any magical light sources within 30 feet of you are dispelled. Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes necrotic damage equal to 2d10 + your cleric level on a failed saving throw, and half as much damage on a successful one. A creature that has total cover from you is not affected.</description>
+    </sheet>
+  </element>
+  <element name="Shadow Step" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_SHADOW_STEP">
+    <description>6th-level Darkness Domain feature
+
+You can draw on the mystical power of night to rise into the air. As a bonus action when you are in dim light or darkness, you can magically give yourself a flying speed equal to your walking speed for 1 minute. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</description>
+    <sheet>
+      <description>6th-level Darkness Domain feature
+
+You can draw on the mystical power of night to rise into the air. As a bonus action when you are in dim light or darkness, you can magically give yourself a flying speed equal to your walking speed for 1 minute. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</description>
+    </sheet>
+  </element>
+  <element name="Potent Spellcasting" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_POTENT_SPELLCASTING">
+    <description>8th-level Darkness Domain feature
+
+You add your Wisdom modifier to the damage you deal with any cleric cantrip.</description>
+    <sheet>
+      <description>8th-level Darkness Domain feature
+
+You add your Wisdom modifier to the damage you deal with any cleric cantrip.</description>
+    </sheet>
+  </element>
+  <element name="Hungry Darkness" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_HUNGRY_DARKNESS">
+    <description>17th-level Darkness Domain feature
+
+You gain vitality from darkness itself. When you start your turn in dim light or darkness, you regain hit points equal to 5 + your Wisdom modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points.</description>
+    <sheet>
+      <description>17th-level Darkness Domain feature
+
+You gain vitality from darkness itself. When you start your turn in dim light or darkness, you regain hit points equal to 5 + your Wisdom modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points.</description>
+    </sheet>
+  </element>
+  <element name="Death's Chosen" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_DEATH_S_CHOSEN">
+    <description>A death's chosen is a fighter that turns its back against life and the living. Tainted by dark powers, a death's chosen combines necromantic abilities with martial prowess in order to become elite, unholy warriors of evil. Many of these hateful fighters pledge their lives to the service of a dark god or powerful undead. Others simply fuel their dark powers via evil acts and spiteful behavior.</description>
+    <sheet>
+      <description>A death's chosen is a fighter that turns its back against life and the living. Tainted by dark powers, a death's chosen combines necromantic abilities with martial prowess in order to become elite, unholy warriors of evil. Many of these hateful fighters pledge their lives to the service of a dark god or powerful undead. Others simply fuel their dark powers via evil acts and spiteful behavior.</description>
+    </sheet>
+  </element>
+  <element name="Dread Power" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_DREAD_POWER">
+    <description>3rd-level Death's Chosen feature
+
+A pit of negative energy festers within your soul. This energy is represented by your Negative Energy dice, which are each a d6. You have a number of these dice equal to twice your proficiency bonus, and they fuel various dread powers you have, which are detailed below.
+
+Some of your powers expend the Negative Energy die they use, as specified in a power's description, and you can't use a power if it requires you to use a die when your dice are all expended. You regain all your expended Negative Energy dice when you finish a long rest. In addition, as a bonus action, you can regain one expended Negative Energy die, but you can't do so again until you finish a short or long rest.
+
+When you reach certain levels in this class, the size of your Negative Energy dice increases: at 5th level (d8), 11th level (d10), and 17th level (d12).
+
+The powers below use your Negative Energy dice.</description>
+    <sheet>
+      <description>3rd-level Death's Chosen feature
+
+A pit of negative energy festers within your soul. This energy is represented by your Negative Energy dice, which are each a d6. You have a number of these dice equal to twice your proficiency bonus, and they fuel various dread powers you have, which are detailed below.
+
+Some of your powers expend the Negative Energy die they use, as specified in a power's description, and you can't use a power if it requires you to use a die when your dice are all expended. You regain all your expended Negative Energy dice when you finish a long rest. In addition, as a bonus action, you can regain one expended Negative Energy die, but you can't do so again until you finish a short or long rest.
+
+When you reach certain levels in this class, the size of your Negative Energy dice increases: at 5th level (d8), 11th level (d10), and 17th level (d12).
+
+The powers below use your Negative Energy dice.</description>
+    </sheet>
+  </element>
+  <element name="Annihilating Strike" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_ANNIHILATING_STRIKE">
+    <description>You can empower your attacks with necrotic energy. Once on each of your turns, immediately after you damage a target within 30 feet of you with a weapon attack, you can expend one Negative Energy die, rolling it and dealing necrotic damage to the target equal to the number rolled plus your Charisma modifier.</description>
+    <sheet>
+      <description>You can empower your attacks with necrotic energy. Once on each of your turns, immediately after you damage a target within 30 feet of you with a weapon attack, you can expend one Negative Energy die, rolling it and dealing necrotic damage to the target equal to the number rolled plus your Charisma modifier.</description>
+    </sheet>
+  </element>
+  <element name="Life Drain" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_LIFE_DRAIN">
+    <description>You gain vitality from the wounds of your enemies. When a hostile creature within 30 feet of you takes damage, you can use your reaction to expend one Negative Energy die, roll the die, and gain temporary hit points equal to the number rolled plus your Charisma modifier (minimum hit points of 1).</description>
+    <sheet>
+      <description>You gain vitality from the wounds of your enemies. When a hostile creature within 30 feet of you takes damage, you can use your reaction to expend one Negative Energy die, roll the die, and gain temporary hit points equal to the number rolled plus your Charisma modifier (minimum hit points of 1).</description>
+    </sheet>
+  </element>
+  <element name="Withering Rebuke" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_WITHERING_REBUKE">
+    <description>You curse those that would attack you or your allies. When you or another creature you can see within 30 feet of you takes damage from another creature within that range, you can use your reaction and expend one Negative Energy die to curse the target until the end of its next turn. During that time, whenever the target makes an attack roll or saving throw, you roll the Negative Energy die and subtract the number rolled from the total.</description>
+    <sheet>
+      <description>You curse those that would attack you or your allies. When you or another creature you can see within 30 feet of you takes damage from another creature within that range, you can use your reaction and expend one Negative Energy die to curse the target until the end of its next turn. During that time, whenever the target makes an attack roll or saving throw, you roll the Negative Energy die and subtract the number rolled from the total.</description>
+    </sheet>
+  </element>
+  <element name="Unnatural Presence" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_UNNATURAL_PRESENCE">
+    <description>7th-level Death's Chosen feature
+
+As a bonus action, you can regain one expended Negative Energy die, but you can't do so again until you finish a short or long rest. In addition, you have mastered new ways to use your unholy powers, detailed below.</description>
+    <sheet>
+      <description>7th-level Death's Chosen feature
+
+As a bonus action, you can regain one expended Negative Energy die, but you can't do so again until you finish a short or long rest. In addition, you have mastered new ways to use your unholy powers, detailed below.</description>
+    </sheet>
+  </element>
+  <element name="Beguiling Presence" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_BEGUILING_PRESENCE">
+    <description>When you make a Charisma check, you can expend one Negative Energy die, rolling it and adding the result to the total.</description>
+    <sheet>
+      <description>When you make a Charisma check, you can expend one Negative Energy die, rolling it and adding the result to the total.</description>
+    </sheet>
+  </element>
+  <element name="Drain Aptitude" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_DRAIN_APTITUDE">
+    <description>Whenever you use a Dread Power that targets a hostile creature, you steal some of the target's aptitude towards certain tasks. Until the end of your next turn, you gain a bonus to ability checks, while the target suffers a penalty to them; this bonus or penalty takes the form of the expended Negative Energy die, which you roll and add to or subtract from the check's total.</description>
+    <sheet>
+      <description>Whenever you use a Dread Power that targets a hostile creature, you steal some of the target's aptitude towards certain tasks. Until the end of your next turn, you gain a bonus to ability checks, while the target suffers a penalty to them; this bonus or penalty takes the form of the expended Negative Energy die, which you roll and add to or subtract from the check's total.</description>
+    </sheet>
+  </element>
+  <element name="Vigor of the Chosen" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_VIGOR_OF_THE_CHOSEN">
+    <description>10th-level Death's Chosen feature
+
+Your powers taint you to be more like the undead you consort with. You gain resistance to necrotic damage, and if damage reduces you to 0 hit points, you can make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, you drop to 1 hit point instead.</description>
+    <sheet>
+      <description>10th-level Death's Chosen feature
+
+Your powers taint you to be more like the undead you consort with. You gain resistance to necrotic damage, and if damage reduces you to 0 hit points, you can make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, you drop to 1 hit point instead.</description>
+    </sheet>
+  </element>
+  <element name="Negative Energy Aura" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_NEGATIVE_ENERGY_AURA">
+    <description>15th-level Death's Chosen feature
+
+You can surround yourself with a field of unholy energy. As a bonus action, you can create an aura out to a range of 10 feet from you that lasts for 1 minute or until you're incapacitated. Within this aura, hostile creatures can't regain hit points, can't benefit from resistance to necrotic damage, and take necrotic damage equal to your Charisma modifier (minimum of 1) if they end their turn there.
+
+Once you take this bonus action, you can't do so again until you finish a long rest, unless you expend a Negative Energy die to take it again.</description>
+    <sheet>
+      <description>15th-level Death's Chosen feature
+
+You can surround yourself with a field of unholy energy. As a bonus action, you can create an aura out to a range of 10 feet from you that lasts for 1 minute or until you're incapacitated. Within this aura, hostile creatures can't regain hit points, can't benefit from resistance to necrotic damage, and take necrotic damage equal to your Charisma modifier (minimum of 1) if they end their turn there.
+
+Once you take this bonus action, you can't do so again until you finish a long rest, unless you expend a Negative Energy die to take it again.</description>
+    </sheet>
+  </element>
+  <element name="Immortal Servant" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_IMMORTAL_SERVANT">
+    <description>18th-level Death's Chosen feature
+
+At 18th level, you gain the following benefits:
+
+You don't suffer from exhaustion, and you no longer age.
+
+You are immune to disease, necrotic and poison damage, and the poisoned condition.
+
+The range of your Negative Energy Aura increases to 30 feet.</description>
+    <sheet>
+      <description>18th-level Death's Chosen feature
+
+At 18th level, you gain the following benefits:
+
+You don't suffer from exhaustion, and you no longer age.
+
+You are immune to disease, necrotic and poison damage, and the poisoned condition.
+
+The range of your Negative Energy Aura increases to 30 feet.</description>
+    </sheet>
+  </element>
+  <element name="College of the Dirgesinger" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DIRGESINGER_COLLEGE_OF_THE_DIRGESINGER">
+    <description>Dirgesinger bards voice melodies not of celebration and joy, but of sorrow and grief. They seek to spread this melancholy outlook far and wide, believing that only those who give in to their sadness can truly understand the world.
+
+Dirgesingers hold high positions in death-obsessed cultures. Serving as members of a secret guild or as part of a hierarchy of death priests, they are entrusted with the serious responsibility of composing suitable laments for the dead. The more important the deceased, the more sorrowful and moving her lament is expected to be. No one will remember the dead queen in a few short generations, but a great lament might be sung a thousand years hence.
+
+However, most dirgesingers do not belong to any special hierarchy or guild. Instead, they are rootless wanderers who travel from place to place, wrapped in inconsolable grief from some personal tragedy. These sad wanderers seek to express their grief through songs that teach the hearts of their listeners the meaning of true sorrow. Some of these fallen bards want nothing more than for others to understand the depths of their loss. A few are sinister creatures who believe that, since joy has been extinguished for them, they must in turn extinguish the joy of others by using their powers to teach folk the folly of love, the futility of hope, and the finality of the grave. Dirgesingers of this last sort often associate themselves with powerful undead, serving in the courts of vampire lords or lich-kings.</description>
+    <sheet>
+      <description>Dirgesinger bards voice melodies not of celebration and joy, but of sorrow and grief. They seek to spread this melancholy outlook far and wide, believing that only those who give in to their sadness can truly understand the world.
+
+Dirgesingers hold high positions in death-obsessed cultures. Serving as members of a secret guild or as part of a hierarchy of death priests, they are entrusted with the serious responsibility of composing suitable laments for the dead. The more important the deceased, the more sorrowful and moving her lament is expected to be. No one will remember the dead queen in a few short generations, but a great lament might be sung a thousand years hence.
+
+However, most dirgesingers do not belong to any special hierarchy or guild. Instead, they are rootless wanderers who travel from place to place, wrapped in inconsolable grief from some personal tragedy. These sad wanderers seek to express their grief through songs that teach the hearts of their listeners the meaning of true sorrow. Some of these fallen bards want nothing more than for others to understand the depths of their loss. A few are sinister creatures who believe that, since joy has been extinguished for them, they must in turn extinguish the joy of others by using their powers to teach folk the folly of love, the futility of hope, and the finality of the grave. Dirgesingers of this last sort often associate themselves with powerful undead, serving in the courts of vampire lords or lich-kings.</description>
+    </sheet>
+  </element>
+  <element name="Veil of Sorrow" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DIRGESINGER_VEIL_OF_SORROW">
+    <description>3rd-level College of the Dirgesinger feature
+
+You learn how to use negative emotions to defend your mind from further harm. You gain advantage on saving throws against being charmed or frightened. At 10th level, you also gain resistance to psychic damage.</description>
+    <sheet>
+      <description>3rd-level College of the Dirgesinger feature
+
+You learn how to use negative emotions to defend your mind from further harm. You gain advantage on saving throws against being charmed or frightened. At 10th level, you also gain resistance to psychic damage.</description>
+    </sheet>
+  </element>
+  <element name="Dirgesong" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DIRGESINGER_DIRGESONG">
+    <description>3rd-level College of the Dirgesinger feature
+
+You also learn how to use your magic to inflict grief and sorrow upon your foes. When a creature that you can see within 60 feet of you makes an attack roll, an ability check, or a damage roll, you can use your reaction to expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature's roll. You can choose to use this feature after the creature makes its roll, but before the DM determines whether the attack roll or ability check succeeds or fails, or before the creature deals its damage. The creature is immune if it can't hear you or if it's immune to being frightened.</description>
+    <sheet>
+      <description>3rd-level College of the Dirgesinger feature
+
+You also learn how to use your magic to inflict grief and sorrow upon your foes. When a creature that you can see within 60 feet of you makes an attack roll, an ability check, or a damage roll, you can use your reaction to expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature's roll. You can choose to use this feature after the creature makes its roll, but before the DM determines whether the attack roll or ability check succeeds or fails, or before the creature deals its damage. The creature is immune if it can't hear you or if it's immune to being frightened.</description>
+    </sheet>
+  </element>
+  <element name="Song of Awakening" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DIRGESINGER_SONG_OF_AWAKENING">
+    <description>6th-level College of the Dirgesinger feature
+
+Your music has the ability to awaken a corpse and animate it. As an action, you can animate a dead beast or humanoid that is Small or Medium within 10 feet of you, causing it to stand up immediately as a zombie with 1 hit point. It remains animate for 1 hour, after which time it collapses and dies.
+
+In combat, the zombie's turn comes immediately after yours. It obeys your mental commands, and the only action it can take is the Attack action, making one melee attack.
+
+You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest.</description>
+    <sheet>
+      <description>6th-level College of the Dirgesinger feature
+
+Your music has the ability to awaken a corpse and animate it. As an action, you can animate a dead beast or humanoid that is Small or Medium within 10 feet of you, causing it to stand up immediately as a zombie with 1 hit point. It remains animate for 1 hour, after which time it collapses and dies.
+
+In combat, the zombie's turn comes immediately after yours. It obeys your mental commands, and the only action it can take is the Attack action, making one melee attack.
+
+You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest.</description>
+    </sheet>
+  </element>
+  <element name="Infectious Grief" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DIRGESINGER_INFECTIOUS_GRIEF">
+    <description>14th-level College of the Dirgesinger feature
+
+When you play your Dirgesong, the negative emotions inflicted by it can now spread to someone else. When you use your Dirgesong ability, you can target one additional creature within 60 feet of you. The next time that creature makes an attack roll, ability check, or damage roll within the next minute, you can use your Dirgesong against it without expending your reaction or any uses of your Bardic Inspiration feature.
+
+You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</description>
+    <sheet>
+      <description>14th-level College of the Dirgesinger feature
+
+When you play your Dirgesong, the negative emotions inflicted by it can now spread to someone else. When you use your Dirgesong ability, you can target one additional creature within 60 feet of you. The next time that creature makes an attack roll, ability check, or damage roll within the next minute, you can use your Dirgesong against it without expending your reaction or any uses of your Bardic Inspiration feature.
+
+You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</description>
+    </sheet>
+  </element>
+  <element name="The Dread Lord" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_THE_DREAD_LORD">
+    <description>You have made a pact with a malevolent being with power over death that spearheads legions of undead in their shambling march to battle. It might be a powerful undead warlord, such as a death knight or vampire warrior, or it might be a fearsome champion, deity, or demon lord, such as Kas, Orcus, Soth, or Vecna.
+
+Regardless of its identity, the Dread Lord seeks to bring death and destruction to all planes of existence. It rules the living and the dead alike with an iron fist. Even if you are opposed to such a grim future, you wield the Dread Lord's power as your own, using it to further your own goals.
+
+Expanded Spell List
+
+The Dread Lord lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+
+Dread Lord Expanded Spells
+
+Spell Level | Spells
+
+1st | command, inflict wounds
+
+2nd | blindness/deafness, magic weapon
+
+3rd | phantom steed, spirit guardians
+
+4th | phantasmal killer, staggering smite
+
+5th | destructive wave, dominate person</description>
+    <sheet>
+      <description>You have made a pact with a malevolent being with power over death that spearheads legions of undead in their shambling march to battle. It might be a powerful undead warlord, such as a death knight or vampire warrior, or it might be a fearsome champion, deity, or demon lord, such as Kas, Orcus, Soth, or Vecna.
+
+Regardless of its identity, the Dread Lord seeks to bring death and destruction to all planes of existence. It rules the living and the dead alike with an iron fist. Even if you are opposed to such a grim future, you wield the Dread Lord's power as your own, using it to further your own goals.
+
+Expanded Spell List
+
+The Dread Lord lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+
+Dread Lord Expanded Spells
+
+Spell Level | Spells
+
+1st | command, inflict wounds
+
+2nd | blindness/deafness, magic weapon
+
+3rd | phantom steed, spirit guardians
+
+4th | phantasmal killer, staggering smite
+
+5th | destructive wave, dominate person</description>
+    </sheet>
+  </element>
+  <element name="Bonus Proficiencies" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_BONUS_PROFICIENCIES">
+    <description>1st-level Dread Lord feature
+
+You acquire the training necessary to effectively arm yourself for battle. You gain proficiency with medium armor, shields, and martial weapons.</description>
+    <sheet>
+      <description>1st-level Dread Lord feature
+
+You acquire the training necessary to effectively arm yourself for battle. You gain proficiency with medium armor, shields, and martial weapons.</description>
+    </sheet>
+  </element>
+  <element name="Invoke Dread" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_INVOKE_DREAD">
+    <description>1st-level Dread Lord feature
+
+When you hit a creature with a melee attack, or when you target a hostile creature within 30 feet of you with a spell of 1st level or higher, you can choose to assault the creature with magical menace. The target must make a Wisdom saving throw. On a failed save, the target is frightened of you for 1 minute. If the frightened target ends its turn more than 30 feet away from you, it can attempt another Wisdom saving throw, ending the effect on a success.
+
+Once you use this feature to successfully frighten a target, you can't use it again until you finish a short or long rest.</description>
+    <sheet>
+      <description>1st-level Dread Lord feature
+
+When you hit a creature with a melee attack, or when you target a hostile creature within 30 feet of you with a spell of 1st level or higher, you can choose to assault the creature with magical menace. The target must make a Wisdom saving throw. On a failed save, the target is frightened of you for 1 minute. If the frightened target ends its turn more than 30 feet away from you, it can attempt another Wisdom saving throw, ending the effect on a success.
+
+Once you use this feature to successfully frighten a target, you can't use it again until you finish a short or long rest.</description>
+    </sheet>
+  </element>
+  <element name="Undead Servants" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_UNDEAD_SERVANTS">
+    <description>6th-level Dread Lord feature
+
+You can use your dark power to animate the corpses of your foes. If a beast or a humanoid that is Small or Medium dies within 10 feet of you, you can use your reaction to animate it, causing it to stand up immediately as a zombie with 1 hit point. It remains animate for 1 hour, after which time it collapses and dies.
+
+In combat, the zombie's turn comes immediately after yours. It obeys your mental commands, and the only action it can take is the Attack action, making one melee attack.
+
+You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest.</description>
+    <sheet>
+      <description>6th-level Dread Lord feature
+
+You can use your dark power to animate the corpses of your foes. If a beast or a humanoid that is Small or Medium dies within 10 feet of you, you can use your reaction to animate it, causing it to stand up immediately as a zombie with 1 hit point. It remains animate for 1 hour, after which time it collapses and dies.
+
+In combat, the zombie's turn comes immediately after yours. It obeys your mental commands, and the only action it can take is the Attack action, making one melee attack.
+
+You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest.</description>
+    </sheet>
+  </element>
+  <element name="Feed on Weakness" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_FEED_ON_WEAKNESS">
+    <description>10th-level Dread Lord feature
+
+When a hostile creature within 30 feet of you fails a saving throw, you can use your reaction to gain temporary hit points equal to half your warlock level.</description>
+    <sheet>
+      <description>10th-level Dread Lord feature
+
+When a hostile creature within 30 feet of you fails a saving throw, you can use your reaction to gain temporary hit points equal to half your warlock level.</description>
+    </sheet>
+  </element>
+  <element name="Undead Army" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_UNDEAD_ARMY">
+    <description>14th-level Dread Lord feature
+
+You have infinite uses of your Undead Servants feature. Each undead you create with that feature gains a bonus to its attack rolls and saving throws equal to your Charisma modifier (minimum of +1). Additionally, whenever you use Feed on Weakness, each undead ally within 30 feet of you also receives the same temporary hit points.</description>
+    <sheet>
+      <description>14th-level Dread Lord feature
+
+You have infinite uses of your Undead Servants feature. Each undead you create with that feature gains a bonus to its attack rolls and saving throws equal to your Charisma modifier (minimum of +1). Additionally, whenever you use Feed on Weakness, each undead ally within 30 feet of you also receives the same temporary hit points.</description>
+    </sheet>
+  </element>
+  <element name="Circle of Twilight" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_CIRCLE_OF_TWILIGHT">
+    <description>The Circle of Twilight seeks to exterminate undead creatures and preserve the natural cycle of life and death that rules over the cosmos. Their magic allows them to manipulate the boundary between life and death, sending their foes to their final rest while keeping their allies from that fate.
+
+These druids seek out lands that have been tainted by undeath. Such places are grim and foreboding. Once vibrant forests become gloomy, haunted places devoid of animals and filled with plants dying a slow, lingering death. The Circle of Twilight goes to such places to banish undeath and restore life.
+
+Circle Spells
+
+Your ability to tap into the cycle of life and death grants you access to certain spells. At 2nd level, you learn the spare the dying cantrip. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Twilight Spells table.
+
+Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.
+
+Circle of Twilight Spells Spells
+
+Druid Level | Spells
+
+3rd | gentle repose, lesser restoration
+
+5th | magic circle, speak with dead
+
+7th | aura of life, death ward
+
+9th | hallow, mass cure wounds</description>
+    <sheet>
+      <description>The Circle of Twilight seeks to exterminate undead creatures and preserve the natural cycle of life and death that rules over the cosmos. Their magic allows them to manipulate the boundary between life and death, sending their foes to their final rest while keeping their allies from that fate.
+
+These druids seek out lands that have been tainted by undeath. Such places are grim and foreboding. Once vibrant forests become gloomy, haunted places devoid of animals and filled with plants dying a slow, lingering death. The Circle of Twilight goes to such places to banish undeath and restore life.
+
+Circle Spells
+
+Your ability to tap into the cycle of life and death grants you access to certain spells. At 2nd level, you learn the spare the dying cantrip. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Twilight Spells table.
+
+Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.
+
+Circle of Twilight Spells Spells
+
+Druid Level | Spells
+
+3rd | gentle repose, lesser restoration
+
+5th | magic circle, speak with dead
+
+7th | aura of life, death ward
+
+9th | hallow, mass cure wounds</description>
+    </sheet>
+  </element>
+  <element name="Harvest's Scythe" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_HARVEST_S_SCYTHE">
+    <description>2nd-level Circle of Twilight feature
+
+You learn to unravel and harvest the life energy of other creatures. You can augment your spells and other attacks to drain the life force from creatures. You have a pool of energy represented by a number of d10s equal to your druid level.
+
+When you roll damage for a spell or a melee attack while you are transformed by Wild Shape, you can increase that damage by spending dice from the pool. You can spend a number of dice equal to half your druid level or less. Roll the spent dice and add them to the damage as necrotic or radiant damage (your choice). If you reduce one or more hostile creatures to 0 hit points with a spell augmented in this way, you or an ally of your choice that you can see within 30 feet of you regains 2 hit points per die spent to increase the spell's damage, or 5 hit points per die if at least one of the slain creatures was undead.
+
+You regain the expended dice when you finish a long rest.</description>
+    <sheet>
+      <description>2nd-level Circle of Twilight feature
+
+You learn to unravel and harvest the life energy of other creatures. You can augment your spells and other attacks to drain the life force from creatures. You have a pool of energy represented by a number of d10s equal to your druid level.
+
+When you roll damage for a spell or a melee attack while you are transformed by Wild Shape, you can increase that damage by spending dice from the pool. You can spend a number of dice equal to half your druid level or less. Roll the spent dice and add them to the damage as necrotic or radiant damage (your choice). If you reduce one or more hostile creatures to 0 hit points with a spell augmented in this way, you or an ally of your choice that you can see within 30 feet of you regains 2 hit points per die spent to increase the spell's damage, or 5 hit points per die if at least one of the slain creatures was undead.
+
+You regain the expended dice when you finish a long rest.</description>
+    </sheet>
+  </element>
+  <element name="Speech Beyond the Grave" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_SPEECH_BEYOND_THE_GRAVE">
+    <description>6th-level Circle of Twilight feature
+
+You gain the ability to reach beyond death's veil in search of knowledge. Using this feature, you can cast speak with dead without expending a spell slot or material components, and you understand what the target of this casting says. It can understand your questions, even if you don't share a language or it is not intelligent enough to speak.
+
+Once you use this feature, you can't use it again until you finish a short or long rest.</description>
+    <sheet>
+      <description>6th-level Circle of Twilight feature
+
+You gain the ability to reach beyond death's veil in search of knowledge. Using this feature, you can cast speak with dead without expending a spell slot or material components, and you understand what the target of this casting says. It can understand your questions, even if you don't share a language or it is not intelligent enough to speak.
+
+Once you use this feature, you can't use it again until you finish a short or long rest.</description>
+    </sheet>
+  </element>
+  <element name="Watcher at the Threshold" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_WATCHER_AT_THE_THRESHOLD">
+    <description>10th-level Circle of Twilight feature
+
+You gain resistance to necrotic and radiant damage. In addition, while you aren't incapacitated, allies within 30 feet of you gain the same damage resistances and have advantage on death saving throws.</description>
+    <sheet>
+      <description>10th-level Circle of Twilight feature
+
+You gain resistance to necrotic and radiant damage. In addition, while you aren't incapacitated, allies within 30 feet of you gain the same damage resistances and have advantage on death saving throws.</description>
+    </sheet>
+  </element>
+  <element name="Bountiful Harvest" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_BOUNTIFUL_HARVEST">
+    <description>14th-level Circle of Twilight feature
+
+The energy you harvest with your Harvest's Scythe can be reused against other foes. When you reduce one or more hostile creatures to 0 hit points with your Harvest's Scythe, you also gain two expended dice, or four expended dice if at least one of the slain creatures was undead. Additionally, when you damage an undead with your Harvest's Scythe, it also suffers disadvantage on the next saving throw it makes before the end of your next turn.</description>
+    <sheet>
+      <description>14th-level Circle of Twilight feature
+
+The energy you harvest with your Harvest's Scythe can be reused against other foes. When you reduce one or more hostile creatures to 0 hit points with your Harvest's Scythe, you also gain two expended dice, or four expended dice if at least one of the slain creatures was undead. Additionally, when you damage an undead with your Harvest's Scythe, it also suffers disadvantage on the next saving throw it makes before the end of your next turn.</description>
+    </sheet>
+  </element>
+  <element name="Paths of the Dead" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_PATHS_OF_THE_DEAD">
+    <description>14th-level Circle of Twilight feature
+
+Your mastery of death allows you to tread the paths used by ghosts and other spirits. Using this feature, you can cast etherealness. Once the spell ends, you can't cast it with this feature again until you finish a short or long rest.</description>
+    <sheet>
+      <description>14th-level Circle of Twilight feature
+
+Your mastery of death allows you to tread the paths used by ghosts and other spirits. Using this feature, you can cast etherealness. Once the spell ends, you can't cast it with this feature again until you finish a short or long rest.</description>
+    </sheet>
+  </element>
+</elements>
