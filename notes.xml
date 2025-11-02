@@ -2,8 +2,10 @@
 <elements>
   <info>
     <name>Libris Mortis – Notes</name>
-    <update version="1.0.1"/>
     <author>badooga</author>
+    <update version="1.0.1">
+      <file name="notes.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/notes.xml" />
+    </update>
   </info>
   <content>
     <element name="Libris Mortis Overview" type="Generic" source="LM">
