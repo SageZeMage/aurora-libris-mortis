@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
   <info>
-    <name>Libris Mortis</name>
-    <description>Custom content index for Libris Mortis (LM).</description>
-    <author>badooga</author>
-    <update version="1.0.1">
+    <name>Libris Mortis (LM)</name>
+    <description>Custom content for Libris Mortis.</description>
+    <author>SageZeMage</author>
+    <update version="1.0.0">
       <file name="libris-mortis.index" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/libris-mortis.index" />
     </update>
   </info>
 
   <files>
     <file name="source.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/source.xml" />
-    <file name="notes.xml"  url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/notes.xml" />
+    <file name="spells.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/spells.xml" />
   </files>
 </index>
