@@ -1,155 +1,157 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <elements>
   <info>
     <name>Subclasses (Libris Mortis)</name>
     <description>Archetypes and features from LM.</description>
     <update version="1.0.0">
-      <file name="subclasses.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/subclasses.xml"/>
+      <file name="subclasses.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/subclasses.xml" />
     </update>
   </info>
   <element name="Vice of Despair" type="Archetype" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_BLACKGUARD_DESPAIR">
     <supports>Blackguard Archetype</supports>
     <description>Vice of Despair for the Blackguard.
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_VICE_OF_DESPAIR&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_AURA_OF_DESPAIR&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_UNLIVING_FORTITUDE&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_DREAD_LORD&quot; /&gt;</description>
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_VICE_OF_DESPAIR" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_AURA_OF_DESPAIR" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_UNLIVING_FORTITUDE" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_DREAD_LORD" /&gt;</description>
     <rules>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_VICE_OF_DESPAIR" level="3"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_AURA_OF_DESPAIR" level="7"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_UNLIVING_FORTITUDE" level="15"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_DREAD_LORD" level="20"/>
-    </rules>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_VICE_OF_DESPAIR" level="3" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_AURA_OF_DESPAIR" level="7" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_UNLIVING_FORTITUDE" level="15" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_DREAD_LORD" level="20" />
+    <grant type="Spell" id="ID_PHB_SPELL_BANE" spellcasting="Blackguard" level="3" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_INFLICT_WOUNDS" spellcasting="Blackguard" level="3" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_DARKNESS" spellcasting="Blackguard" level="5" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_RAY_OF_ENFEEBLEMENT" spellcasting="Blackguard" level="5" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_ANIMATE_DEAD" spellcasting="Blackguard" level="9" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_BESTOW_CURSE" spellcasting="Blackguard" level="9" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_BLIGHT" spellcasting="Blackguard" level="13" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_PHANTASMAL_KILLER" spellcasting="Blackguard" level="13" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_CONTAGION" spellcasting="Blackguard" level="17" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_DESTRUCTIVE_WAVE" spellcasting="Blackguard" level="17" prepared="true" /></rules>
   </element>
   <element name="Vice of Domination" type="Archetype" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_BLACKGUARD_DOMINATION">
     <supports>Blackguard Archetype</supports>
     <description>Vice of Domination for the Blackguard.
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_VICE_OF_DOMINATION&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_AURA_OF_DOMINATION&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_SCORNFUL_REBUKE&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_INVINCIBLE_CONQUEROR&quot; /&gt;</description>
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_VICE_OF_DOMINATION" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_AURA_OF_DOMINATION" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_SCORNFUL_REBUKE" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_INVINCIBLE_CONQUEROR" /&gt;</description>
     <rules>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_VICE_OF_DOMINATION" level="3"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_AURA_OF_DOMINATION" level="7"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_SCORNFUL_REBUKE" level="15"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_INVINCIBLE_CONQUEROR" level="20"/>
-    </rules>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_VICE_OF_DOMINATION" level="3" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_AURA_OF_DOMINATION" level="7" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_SCORNFUL_REBUKE" level="15" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DOMINATION_INVINCIBLE_CONQUEROR" level="20" />
+    <grant type="Spell" id="ID_PHB_SPELL_ARMOR_OF_AGATHYS" spellcasting="Blackguard" level="3" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_COMMAND" spellcasting="Blackguard" level="3" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" spellcasting="Blackguard" level="5" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_SPIRITUAL_WEAPON" spellcasting="Blackguard" level="5" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_BESTOW_CURSE" spellcasting="Blackguard" level="9" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_FEAR" spellcasting="Blackguard" level="9" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_DOMINATE_BEAST" spellcasting="Blackguard" level="13" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_STONESKIN" spellcasting="Blackguard" level="13" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_CLOUDKILL" spellcasting="Blackguard" level="17" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_DOMINATE_PERSON" spellcasting="Blackguard" level="17" prepared="true" /></rules>
   </element>
   <element name="Vice of Fury" type="Archetype" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_BLACKGUARD_VENGEANCE">
     <supports>Blackguard Archetype</supports>
     <description>Vice of Fury for the Blackguard.
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_VENGEANCE_VICE_OF_FURY&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_VENGEANCE_RELENTLESS_KILLER&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_VENGEANCE_BURNING_HATRED&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_VENGEANCE_AVATAR_OF_WRATH&quot; /&gt;</description>
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_VENGEANCE_VICE_OF_FURY" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_VENGEANCE_RELENTLESS_KILLER" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_VENGEANCE_BURNING_HATRED" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_VENGEANCE_AVATAR_OF_WRATH" /&gt;</description>
     <rules>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_VENGEANCE_VICE_OF_FURY" level="3"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_VENGEANCE_RELENTLESS_KILLER" level="7"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_VENGEANCE_BURNING_HATRED" level="15"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_VENGEANCE_AVATAR_OF_WRATH" level="20"/>
-    </rules>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_VENGEANCE_VICE_OF_FURY" level="3" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_VENGEANCE_RELENTLESS_KILLER" level="7" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_VENGEANCE_BURNING_HATRED" level="15" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_VENGEANCE_AVATAR_OF_WRATH" level="20" />
+    <grant type="Spell" id="ID_PHB_SPELL_BANE" spellcasting="Blackguard" level="3" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_HUNTER_S_MARK" spellcasting="Blackguard" level="3" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" spellcasting="Blackguard" level="5" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_MISTY_STEP" spellcasting="Blackguard" level="5" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_HASTE" spellcasting="Blackguard" level="9" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY" spellcasting="Blackguard" level="9" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_BANISHMENT" spellcasting="Blackguard" level="13" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_DIMENSION_DOOR" spellcasting="Blackguard" level="13" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" spellcasting="Blackguard" level="17" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_SCRYING" spellcasting="Blackguard" level="17" prepared="true" /></rules>
   </element>
   <element name="Vice of Pride" type="Archetype" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_BLACKGUARD_PRIDE">
     <supports>Blackguard Archetype</supports>
     <description>Vice of Pride for the Blackguard.
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_VICE_OF_PRIDE&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_AURA_OF_FALSE_DIVINITY&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_SELF_IMPORTANCE&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_HERALD_OF_SALVATION&quot; /&gt;</description>
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_VICE_OF_PRIDE" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_AURA_OF_FALSE_DIVINITY" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_SELF_IMPORTANCE" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_HERALD_OF_SALVATION" /&gt;</description>
     <rules>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_VICE_OF_PRIDE" level="3"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_AURA_OF_FALSE_DIVINITY" level="7"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_SELF_IMPORTANCE" level="15"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_HERALD_OF_SALVATION" level="20"/>
-    </rules>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_VICE_OF_PRIDE" level="3" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_AURA_OF_FALSE_DIVINITY" level="7" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_SELF_IMPORTANCE" level="15" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_HERALD_OF_SALVATION" level="20" />
+    <grant type="Spell" id="ID_PHB_SPELL_CHARM_PERSON" spellcasting="Blackguard" level="3" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_CURE_WOUNDS" spellcasting="Blackguard" level="3" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_DETECT_THOUGHTS" spellcasting="Blackguard" level="5" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_SUGGESTION" spellcasting="Blackguard" level="5" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_BEACON_OF_HOPE" spellcasting="Blackguard" level="9" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_DAYLIGHT" spellcasting="Blackguard" level="9" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_CHARM_MONSTER" spellcasting="Blackguard" level="13" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_COMPULSION" spellcasting="Blackguard" level="13" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_DOMINATE_PERSON" spellcasting="Blackguard" level="17" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_GEAS" spellcasting="Blackguard" level="17" prepared="true" /></rules>
   </element>
   <element name="Vice of Treachery" type="Archetype" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_BLACKGUARD_TREACHERY">
     <supports>Blackguard Archetype</supports>
     <description>Vice of Treachery for the Blackguard.
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_VICE_OF_TREACHERY&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_AURA_OF_TREACHERY&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_BETRAYER_S_ESCAPE&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_ICON_OF_DECEIT&quot; /&gt;</description>
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_VICE_OF_TREACHERY" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_AURA_OF_TREACHERY" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_BETRAYER_S_ESCAPE" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_ICON_OF_DECEIT" /&gt;</description>
     <rules>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_VICE_OF_TREACHERY" level="3"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_AURA_OF_TREACHERY" level="7"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_BETRAYER_S_ESCAPE" level="15"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_ICON_OF_DECEIT" level="20"/>
-    </rules>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_VICE_OF_TREACHERY" level="3" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_AURA_OF_TREACHERY" level="7" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_BETRAYER_S_ESCAPE" level="15" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TREACHERY_ICON_OF_DECEIT" level="20" />
+    <grant type="Spell" id="ID_PHB_SPELL_CHARM_PERSON" spellcasting="Blackguard" level="3" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_EXPEDITIOUS_RETREAT" spellcasting="Blackguard" level="3" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" spellcasting="Blackguard" level="5" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_MIRROR_IMAGE" spellcasting="Blackguard" level="5" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_GASEOUS_FORM" spellcasting="Blackguard" level="9" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_HASTE" spellcasting="Blackguard" level="9" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_CONFUSION" spellcasting="Blackguard" level="13" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_GREATER_INVISIBILITY" spellcasting="Blackguard" level="13" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_DOMINATE_PERSON" spellcasting="Blackguard" level="17" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_PASSWALL" spellcasting="Blackguard" level="17" prepared="true" /></rules>
   </element>
   <element name="Darkness Domain" type="Archetype" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_CLERIC_DARKNESS">
-    <supports>Cleric Archetype</supports>
+    <supports>Divine Domain</supports>
     <description>Darkness Domain for the Cleric.
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_DARKNESS_DOMAIN&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_CHANNEL_DIVINITY_SHADOW_PURGE&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_SHADOW_STEP&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_POTENT_SPELLCASTING&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_HUNGRY_DARKNESS&quot; /&gt;</description>
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_DARKNESS_DOMAIN" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_CHANNEL_DIVINITY_SHADOW_PURGE" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_SHADOW_STEP" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_POTENT_SPELLCASTING" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_HUNGRY_DARKNESS" /&gt;</description>
     <rules>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_DARKNESS_DOMAIN" level="1"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_CHANNEL_DIVINITY_SHADOW_PURGE" level="2"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_SHADOW_STEP" level="6"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_POTENT_SPELLCASTING" level="8"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_HUNGRY_DARKNESS" level="17"/>
-    </rules>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_DARKNESS_DOMAIN" level="1" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_CHANNEL_DIVINITY_SHADOW_PURGE" level="2" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_SHADOW_STEP" level="6" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_POTENT_SPELLCASTING" level="8" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_HUNGRY_DARKNESS" level="17" />
+    <grant type="Spell" id="ID_PHB_SPELL_ARMS_OF_HADAR" spellcasting="Cleric" level="1" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_HEX" spellcasting="Cleric" level="1" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_BLINDNESS_DEAFNESS" spellcasting="Cleric" level="3" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_DARKNESS" spellcasting="Cleric" level="3" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_FEAR" spellcasting="Cleric" level="5" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_VAMPIRIC_TOUCH" spellcasting="Cleric" level="5" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_BLIGHT" spellcasting="Cleric" level="7" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_EVARD_S_BLACK_TENTACLES" spellcasting="Cleric" level="7" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_CONTAGION" spellcasting="Cleric" level="9" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_ENERVATION_XGE" spellcasting="Cleric" level="9" prepared="true" /></rules>
   </element>
   <element name="Death's Chosen" type="Archetype" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FIGHTER_DEATH_S_CHOSEN">
     <supports>Fighter Archetype</supports>
     <description>Death's Chosen for the Fighter.
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_DEATH_S_CHOSEN&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_UNNATURAL_PRESENCE&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_VIGOR_OF_THE_CHOSEN&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_NEGATIVE_ENERGY_AURA&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_IMMORTAL_SERVANT&quot; /&gt;</description>
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_DEATH_S_CHOSEN" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_UNNATURAL_PRESENCE" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_VIGOR_OF_THE_CHOSEN" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_NEGATIVE_ENERGY_AURA" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_IMMORTAL_SERVANT" /&gt;</description>
     <rules>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_DEATH_S_CHOSEN" level="3"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_UNNATURAL_PRESENCE" level="7"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_VIGOR_OF_THE_CHOSEN" level="10"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_NEGATIVE_ENERGY_AURA" level="15"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_IMMORTAL_SERVANT" level="18"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_DEATH_S_CHOSEN" level="3" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_UNNATURAL_PRESENCE" level="7" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_VIGOR_OF_THE_CHOSEN" level="10" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_NEGATIVE_ENERGY_AURA" level="15" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DEATH_S_CHOSEN_IMMORTAL_SERVANT" level="18" />
     </rules>
   </element>
   <element name="College of the Dirgesinger" type="Archetype" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_BARD_DIRGESINGER">
-    <supports>Bard Archetype</supports>
+    <supports>Bard College</supports>
     <description>College of the Dirgesinger for the Bard.
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DIRGESINGER_COLLEGE_OF_THE_DIRGESINGER&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DIRGESINGER_SONG_OF_AWAKENING&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DIRGESINGER_INFECTIOUS_GRIEF&quot; /&gt;</description>
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DIRGESINGER_COLLEGE_OF_THE_DIRGESINGER" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DIRGESINGER_SONG_OF_AWAKENING" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DIRGESINGER_INFECTIOUS_GRIEF" /&gt;</description>
     <rules>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DIRGESINGER_COLLEGE_OF_THE_DIRGESINGER" level="3"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DIRGESINGER_SONG_OF_AWAKENING" level="6"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DIRGESINGER_INFECTIOUS_GRIEF" level="14"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DIRGESINGER_COLLEGE_OF_THE_DIRGESINGER" level="3" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DIRGESINGER_SONG_OF_AWAKENING" level="6" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DIRGESINGER_INFECTIOUS_GRIEF" level="14" />
     </rules>
   </element>
   <element name="The Dread Lord" type="Archetype" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_WARLOCK_DREAD_LORD">
     <supports>Warlock Archetype</supports>
     <description>The Dread Lord for the Warlock.
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_THE_DREAD_LORD&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_UNDEAD_SERVANTS&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_FEED_ON_WEAKNESS&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_UNDEAD_ARMY&quot; /&gt;</description>
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_THE_DREAD_LORD" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_UNDEAD_SERVANTS" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_FEED_ON_WEAKNESS" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_UNDEAD_ARMY" /&gt;</description>
     <rules>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_THE_DREAD_LORD" level="1"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_UNDEAD_SERVANTS" level="6"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_FEED_ON_WEAKNESS" level="10"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_UNDEAD_ARMY" level="14"/>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_THE_DREAD_LORD" level="1" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_UNDEAD_SERVANTS" level="6" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_FEED_ON_WEAKNESS" level="10" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DREAD_LORD_UNDEAD_ARMY" level="14" />
     </rules>
   </element>
   <element name="Circle of Twilight" type="Archetype" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_DRUID_TWILIGHT">
-    <supports>Druid Archetype</supports>
+    <supports>Druid Circle</supports>
     <description>Circle of Twilight for the Druid.
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_CIRCLE_OF_TWILIGHT&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_SPEECH_BEYOND_THE_GRAVE&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_WATCHER_AT_THE_THRESHOLD&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_BOUNTIFUL_HARVEST&quot; /&gt;
-&lt;div element=&quot;ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_PATHS_OF_THE_DEAD&quot; /&gt;</description>
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_CIRCLE_OF_TWILIGHT" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_SPEECH_BEYOND_THE_GRAVE" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_WATCHER_AT_THE_THRESHOLD" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_BOUNTIFUL_HARVEST" /&gt;
+&lt;div element="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_PATHS_OF_THE_DEAD" /&gt;
+
+This archetype also grants innate spells at higher levels (daily uses). See source text.</description>
     <rules>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_CIRCLE_OF_TWILIGHT" level="2"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_SPEECH_BEYOND_THE_GRAVE" level="6"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_WATCHER_AT_THE_THRESHOLD" level="10"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_BOUNTIFUL_HARVEST" level="14"/>
-      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_PATHS_OF_THE_DEAD" level="14"/>
-    </rules>
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_CIRCLE_OF_TWILIGHT" level="2" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_SPEECH_BEYOND_THE_GRAVE" level="6" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_WATCHER_AT_THE_THRESHOLD" level="10" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_BOUNTIFUL_HARVEST" level="14" />
+      <grant type="Archetype Feature" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_TWILIGHT_PATHS_OF_THE_DEAD" level="14" />
+    <grant type="Spell" id="ID_PHB_SPELL_GENTLE_REPOSE" spellcasting="Druid" level="3" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_LESSER_RESTORATION" spellcasting="Druid" level="3" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_MAGIC_CIRCLE" spellcasting="Druid" level="5" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_DEAD" spellcasting="Druid" level="5" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_AURA_OF_LIFE" spellcasting="Druid" level="7" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_DEATH_WARD" spellcasting="Druid" level="7" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_HALLOW" spellcasting="Druid" level="9" prepared="true" /><grant type="Spell" id="ID_PHB_SPELL_MASS_CURE_WOUNDS" spellcasting="Druid" level="9" prepared="true" /></rules>
   </element>
   <element name="Vice of Despair" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DESPAIR_VICE_OF_DESPAIR">
     <description>The Vice of Despair is what a blackguard gains when they turn their back on the living and pledge themselves to the cause of undeath. By amplifying the negative energy already suffused into their souls, these blackguards command necromantic energies and undead creatures alike and use them as a means to whatever nihilistic end they seek. Such necromancers sometimes become death knights beyond the grave, often serving archfiends or other evil entities in exchange for dark boons and gifts of power.</description>
@@ -524,9 +526,9 @@ Once you use this feature, you can't use it again until you finish a long rest.<
     </sheet>
   </element>
   <element name="Vice of Pride" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_VICE_OF_PRIDE">
-    <description>The Vice of Pride is for blackguards who are overtaken by conceit and narcissism. Some of these &quot;false paladins&quot; knowingly use this guise to achieve evil ends. Others are paladins that are so deluded in their self-importance that they still believe themselves to be on the path of righteousness, even going as far as to only use radiant smites and other abilities that they perceive as being holy in nature. Either way, most blackguards of this vice use their silvered words and demonstrations of power to influence others to their benefit, some even going as far as to attract a cult of followers in order to be worshiped as a god.</description>
+    <description>The Vice of Pride is for blackguards who are overtaken by conceit and narcissism. Some of these "false paladins" knowingly use this guise to achieve evil ends. Others are paladins that are so deluded in their self-importance that they still believe themselves to be on the path of righteousness, even going as far as to only use radiant smites and other abilities that they perceive as being holy in nature. Either way, most blackguards of this vice use their silvered words and demonstrations of power to influence others to their benefit, some even going as far as to attract a cult of followers in order to be worshiped as a god.</description>
     <sheet>
-      <description>The Vice of Pride is for blackguards who are overtaken by conceit and narcissism. Some of these &quot;false paladins&quot; knowingly use this guise to achieve evil ends. Others are paladins that are so deluded in their self-importance that they still believe themselves to be on the path of righteousness, even going as far as to only use radiant smites and other abilities that they perceive as being holy in nature. Either way, most blackguards of this vice use their silvered words and demonstrations of power to influence others to their benefit, some even going as far as to attract a cult of followers in order to be worshiped as a god.</description>
+      <description>The Vice of Pride is for blackguards who are overtaken by conceit and narcissism. Some of these "false paladins" knowingly use this guise to achieve evil ends. Others are paladins that are so deluded in their self-importance that they still believe themselves to be on the path of righteousness, even going as far as to only use radiant smites and other abilities that they perceive as being holy in nature. Either way, most blackguards of this vice use their silvered words and demonstrations of power to influence others to their benefit, some even going as far as to attract a cult of followers in order to be worshiped as a god.</description>
     </sheet>
   </element>
   <element name="Channel Divinity" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_PRIDE_CHANNEL_DIVINITY">
@@ -776,7 +778,7 @@ Once you use this feature, you can't use it again until you finish a long rest.<
     </sheet>
   </element>
   <element name="Darkness Domain" type="Archetype Feature" source="Libris Mortis" id="ID_CUSTOM_LM_ARCHETYPE_FEATURE_DARKNESS_DARKNESS_DOMAIN">
-    <description>If the Light Domain represents the beauty and joy of day and the Twilight Domain the calm and serenity of dusk, then the Darkness Domain represents the full submersion into unknowable night. Upholding the ideals of nihilism, secrecy, and self-reliance, clerics of darkness often reject their pride and material desires and instead focus on the pursuit of training and self-improvement. Acknowledging their insignificance in this world and yet refusing to fade away completely, clerics of darkness typically act as assassins, mercenaries, monster hunters, vigilantes, gatekeepers of knowledge, and other professions typically seen as &quot;undesirable&quot; or beyond the threshold of normal society.
+    <description>If the Light Domain represents the beauty and joy of day and the Twilight Domain the calm and serenity of dusk, then the Darkness Domain represents the full submersion into unknowable night. Upholding the ideals of nihilism, secrecy, and self-reliance, clerics of darkness often reject their pride and material desires and instead focus on the pursuit of training and self-improvement. Acknowledging their insignificance in this world and yet refusing to fade away completely, clerics of darkness typically act as assassins, mercenaries, monster hunters, vigilantes, gatekeepers of knowledge, and other professions typically seen as "undesirable" or beyond the threshold of normal society.
 
 Evil deities such as Lolth, Tenebrous, and Zehir are most known for being gods of darkness, but gods of trickery, illusion, or death, such as Mask, Sehanine, and The Raven Queen, may also extend their influence to the Darkness Domain. On a rare occassion, even a god of light might take on clerics of darkness, drawing on the power of the divine shadow they cast to create servants that can operate effectively in corners of the world that traditional clerics of light would normally avoid.
 
@@ -794,7 +796,7 @@ Cleric Level | Spells
 
 9th | contagion, enervation</description>
     <sheet>
-      <description>If the Light Domain represents the beauty and joy of day and the Twilight Domain the calm and serenity of dusk, then the Darkness Domain represents the full submersion into unknowable night. Upholding the ideals of nihilism, secrecy, and self-reliance, clerics of darkness often reject their pride and material desires and instead focus on the pursuit of training and self-improvement. Acknowledging their insignificance in this world and yet refusing to fade away completely, clerics of darkness typically act as assassins, mercenaries, monster hunters, vigilantes, gatekeepers of knowledge, and other professions typically seen as &quot;undesirable&quot; or beyond the threshold of normal society.
+      <description>If the Light Domain represents the beauty and joy of day and the Twilight Domain the calm and serenity of dusk, then the Darkness Domain represents the full submersion into unknowable night. Upholding the ideals of nihilism, secrecy, and self-reliance, clerics of darkness often reject their pride and material desires and instead focus on the pursuit of training and self-improvement. Acknowledging their insignificance in this world and yet refusing to fade away completely, clerics of darkness typically act as assassins, mercenaries, monster hunters, vigilantes, gatekeepers of knowledge, and other professions typically seen as "undesirable" or beyond the threshold of normal society.
 
 Evil deities such as Lolth, Tenebrous, and Zehir are most known for being gods of darkness, but gods of trickery, illusion, or death, such as Mask, Sehanine, and The Raven Queen, may also extend their influence to the Darkness Domain. On a rare occassion, even a god of light might take on clerics of darkness, drawing on the power of the divine shadow they cast to create servants that can operate effectively in corners of the world that traditional clerics of light would normally avoid.
 
