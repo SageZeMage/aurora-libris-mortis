@@ -9,5 +9,8 @@
   </info>
   <element name="Libris Mortis" type="Source" id="ID_CUSTOM_LM_SOURCE" source="Libris Mortis">
     <description>Libris Mortis</description>
+    <setters>
+      <set name="url">https://drive.google.com/file/d/1zjoJTguCOkJYNU_MKa0osyunoH2fU4DP/view</set>
+    </setters>
   </element>
 </elements>
