@@ -12,5 +12,8 @@
   <files>
     <file name="source.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/source.xml" />
     <file name="spells.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/spells.xml" />
+    <file name="notes.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/notes.xml" />
+    <file name="lm-classes.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/lm-classes.xml" />
+    <file name="lm-subclasses.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/lm-subclasses.xml" />
   </files>
 </index>
