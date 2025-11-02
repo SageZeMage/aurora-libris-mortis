@@ -1,0 +1,1302 @@
+<?xml version='1.0' encoding='utf-8'?>
+<elements>
+  <info>
+    <name>Items (Libris Mortis)</name>
+    <description>Items converted from Libris Mortis 5etools JSON into Aurora format.</description>
+    <update version="1.0.0">
+      <file name="items.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/items.xml" />
+    </update>
+  </info>
+  <element name="Holy Lamp" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_HOLY_LAMP">
+    <description>A holy lamp is a special hooded lantern that is fueled by holy water instead of oil, allowing it to reveal the presence of nearby undead.
+
+A holy lamp casts Vision and Light in a 30-foot radius and Vision and Light for an additional 30 feet. Once lit, it burns for 4 hours on a flask (1 pint) of holy water (flask). As an action, you can lower the hood, reducing the light to Vision and Light in a 5-foot radius.
+
+Within the range of the lamp's Vision and Light, undead can't benefit from being hidden or invisible.</description>
+    <sheet>
+      <description>A holy lamp is a special hooded lantern that is fueled by holy water instead of oil, allowing it to reveal the presence of nearby undead.
+
+A holy lamp casts Vision and Light in a 30-foot radius and Vision and Light for an additional 30 feet. Once lit, it burns for 4 hours on a flask (1 pint) of holy water (flask). As an action, you can lower the hood, reducing the light to Vision and Light in a 5-foot radius.
+
+Within the range of the lamp's Vision and Light, undead can't benefit from being hidden or invisible.</description>
+    </sheet>
+    <setters>
+      <set name="category">Adventuring Gear</set>
+      <set name="cost">100 gp</set>
+    </setters>
+  </element>
+  <element name="Holy Water Sprinkler" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_HOLY_WATER_SPRINKLER">
+    <description>The oversized, hollow head of this heavy maul is actually a reservoir that can hold the contents of four flasks of holy water (flask). When full, the reservoir has eight uses. Filling the reservoir requires an action.
+
+When this maul is used to hit a creature, one use can be expended to release some of the holy water inside of it (no action required). If the target is a fiend or undead, it takes 1d6 radiant damage.</description>
+    <sheet>
+      <description>The oversized, hollow head of this heavy maul is actually a reservoir that can hold the contents of four flasks of holy water (flask). When full, the reservoir has eight uses. Filling the reservoir requires an action.
+
+When this maul is used to hit a creature, one use can be expended to release some of the holy water inside of it (no action required). If the target is a fiend or undead, it takes 1d6 radiant damage.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="cost">50 gp</set>
+      <set name="weight">10 lb.</set>
+      <set name="damage">2d6</set>
+      <set name="damage-type">B</set>
+      <set name="properties">H, 2H</set>
+    </setters>
+  </element>
+  <element name="Priest's Bullet" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_PRIEST_S_BULLET">
+    <description>These hollow glass sling bullets are filled with holy water. When they strike a target, they immediately shatter, dousing the target with half a pint of holy water and dealing 1d6 additional radiant damage to fiends and undead.</description>
+    <sheet>
+      <description>These hollow glass sling bullets are filled with holy water. When they strike a target, they immediately shatter, dousing the target with half a pint of holy water and dealing 1d6 additional radiant damage to fiends and undead.</description>
+    </sheet>
+    <setters>
+      <set name="category">Armor</set>
+      <set name="cost">12 gp</set>
+    </setters>
+  </element>
+  <element name="Slayer's Crossbow" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_SLAYER_S_CROSSBOW">
+    <description>A slayer's crossbow is a special weapon that combines the properties of a hand crossbow, light crossbow, and climber's kit into one ultimate multi-tool. Its name comes the use of these crossbows, alongside silvered bullets and other special equipment, by monster slayers to raid vampire dens and lairs.
+
+Slayer's crossbows (and the knowledge to craft them) can only usually be acquired from the reclusive monster hunters that are known for wielding them. The ability to purchase them or their crafting formula should generally only be unlocked after the party completes a short adventure of the slayers' choosing.
+
+A slayer's crossbow is a martial ranged weapon. It deals 1d6 piercing damage on a hit and has the ammunition (30/120 ft.) and loading properties. It also has the following special properties:
+
+
+
+</description>
+    <sheet>
+      <description>A slayer's crossbow is a special weapon that combines the properties of a hand crossbow, light crossbow, and climber's kit into one ultimate multi-tool. Its name comes the use of these crossbows, alongside silvered bullets and other special equipment, by monster slayers to raid vampire dens and lairs.
+
+Slayer's crossbows (and the knowledge to craft them) can only usually be acquired from the reclusive monster hunters that are known for wielding them. The ability to purchase them or their crafting formula should generally only be unlocked after the party completes a short adventure of the slayers' choosing.
+
+A slayer's crossbow is a martial ranged weapon. It deals 1d6 piercing damage on a hit and has the ammunition (30/120 ft.) and loading properties. It also has the following special properties:
+
+
+
+</description>
+    </sheet>
+    <setters>
+      <set name="category">Ring</set>
+      <set name="cost">250 gp</set>
+      <set name="weight">3 lb.</set>
+      <set name="damage">1d6</set>
+      <set name="damage-type">P</set>
+      <set name="properties">A, LD, V</set>
+      <set name="range">30/120 or 80/320</set>
+    </setters>
+  </element>
+  <element name="Gravedust" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_GRAVEDUST">
+    <description>This gray-brown powder derives its name from its resemblance to the grime common to tombs and other long-enclosed areas.
+
+A fiend or undead subjected to this positoxins must make a DC 10 Constitution saving throw, taking 9 (2d8) radiant damage on a failed save, or half as much damage on a successful one.</description>
+    <sheet>
+      <description>This gray-brown powder derives its name from its resemblance to the grime common to tombs and other long-enclosed areas.
+
+A fiend or undead subjected to this positoxins must make a DC 10 Constitution saving throw, taking 9 (2d8) radiant damage on a failed save, or half as much damage on a successful one.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="cost">100 gp</set>
+      <set name="damage">Positoxin</set>
+    </setters>
+  </element>
+  <element name="Lichbane" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_LICHBANE">
+    <description>This bone-white unguent is dangerous to intelligent fiends and undead, such as liches and other spellcasters.
+
+A fiend or undead subjected to this positoxins must succeed on a DC 15 Constitution saving throw or suffer disadvantage on ability checks and saving throws that use Intelligence, Wisdom, and Charisma for 1 hour.</description>
+    <sheet>
+      <description>This bone-white unguent is dangerous to intelligent fiends and undead, such as liches and other spellcasters.
+
+A fiend or undead subjected to this positoxins must succeed on a DC 15 Constitution saving throw or suffer disadvantage on ability checks and saving throws that use Intelligence, Wisdom, and Charisma for 1 hour.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="cost">1000 gp</set>
+      <set name="damage">Positoxin</set>
+    </setters>
+  </element>
+  <element name="Liquid Mortality" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_LIQUID_MORTALITY">
+    <description>This potent oil is thought by most undead creatures to be mere myth.
+
+A fiend or undead subjected to this positoxins must make a DC 19 Constitution saving throw, taking 49 (14d6) radiant damage on a failed save, or half as much damage on a successful one. If this damage leaves the creature with 30 hit points or fewer, the creature is immediately destroyed.</description>
+    <sheet>
+      <description>This potent oil is thought by most undead creatures to be mere myth.
+
+A fiend or undead subjected to this positoxins must make a DC 19 Constitution saving throw, taking 49 (14d6) radiant damage on a failed save, or half as much damage on a successful one. If this damage leaves the creature with 30 hit points or fewer, the creature is immediately destroyed.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="cost">4000 gp</set>
+      <set name="damage">Positoxin</set>
+    </setters>
+  </element>
+  <element name="Sunlight Oil" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_SUNLIGHT_OIL">
+    <description>This thin, slippery liquid seems to emit a soft glow, even in the absence of a light source.
+
+A fiend or undead subjected to this positoxins must make a DC 15 Constitution saving throw, taking 24 (7d6) radiant damage on a failed save, or half as much damage on a successful one. On a failed save, the target also becomes more sensitive to light for 1 hour. During this time, all light sources are treated as sunlight for the purpose of Sunlight Sensitivity and similar traits possessed by the target. If the creature has the Light Sensitivity trait, it is instead blinded and incapacitated for the same duration.</description>
+    <sheet>
+      <description>This thin, slippery liquid seems to emit a soft glow, even in the absence of a light source.
+
+A fiend or undead subjected to this positoxins must make a DC 15 Constitution saving throw, taking 24 (7d6) radiant damage on a failed save, or half as much damage on a successful one. On a failed save, the target also becomes more sensitive to light for 1 hour. During this time, all light sources are treated as sunlight for the purpose of Sunlight Sensitivity and similar traits possessed by the target. If the creature has the Light Sensitivity trait, it is instead blinded and incapacitated for the same duration.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="cost">2000 gp</set>
+      <set name="damage">Positoxin</set>
+    </setters>
+  </element>
+  <element name="Bloodwine" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_BLOODWINE">
+    <description>This thick, crimson positoxin includes garlic in its creation, making it particularly harmful to vampires and other undead that are weak to garlic. Such creatures have disadvantage on saving throws against this positoxin.
+
+A fiend or undead subjected to this positoxins must succeed on a DC 16 Constitution saving throw or take 3 (1d6) radiant damage and become frightened of every other creature. The frightened creature must repeat the saving throw every 24 hours, taking 3 (1d6) radiant damage on a failed save. Until this effect ends, the damage the positoxin deals can't be healed by any means. After seven successful saving throws, the effect ends and the creature can heal normally.</description>
+    <sheet>
+      <description>This thick, crimson positoxin includes garlic in its creation, making it particularly harmful to vampires and other undead that are weak to garlic. Such creatures have disadvantage on saving throws against this positoxin.
+
+A fiend or undead subjected to this positoxins must succeed on a DC 16 Constitution saving throw or take 3 (1d6) radiant damage and become frightened of every other creature. The frightened creature must repeat the saving throw every 24 hours, taking 3 (1d6) radiant damage on a failed save. Until this effect ends, the damage the positoxin deals can't be healed by any means. After seven successful saving throws, the effect ends and the creature can heal normally.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="cost">400 gp</set>
+      <set name="damage">Positoxin</set>
+    </setters>
+  </element>
+  <element name="Boneshard Paste" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_BONESHARD_PASTE">
+    <description>This positoxin includes bone fragments in its recipe, giving it a pale color.
+
+A fiend or undead subjected to this positoxins must succeed on a DC 13 Constitution saving throw or be frightened of every other creature for 1 minute. The frightened creature is stunned. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</description>
+    <sheet>
+      <description>This positoxin includes bone fragments in its recipe, giving it a pale color.
+
+A fiend or undead subjected to this positoxins must succeed on a DC 13 Constitution saving throw or be frightened of every other creature for 1 minute. The frightened creature is stunned. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="cost">300 gp</set>
+      <set name="damage">Positoxin</set>
+    </setters>
+  </element>
+  <element name="Celestial Essence" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_CELESTIAL_ESSENCE">
+    <description>This viscous golden substance seems almost to shine with an inner radiance.
+
+A fiend or undead subjected to this positoxins must succeed on a DC 15 Constitution saving throw or take 10 (3d6) radiant damage and become frightened of every other creature for 1 hour. The frightened creature is blinded.</description>
+    <sheet>
+      <description>This viscous golden substance seems almost to shine with an inner radiance.
+
+A fiend or undead subjected to this positoxins must succeed on a DC 15 Constitution saving throw or take 10 (3d6) radiant damage and become frightened of every other creature for 1 hour. The frightened creature is blinded.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="cost">500 gp</set>
+      <set name="damage">Positoxin</set>
+    </setters>
+  </element>
+  <element name="Embalming Fire" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_EMBALMING_FIRE">
+    <description>This bitter-smelling liquid must be poured over a corpse and allowed to soak for at least 1 minute before the corpse is animated as a zombie via normal means. Once animated, any creature that touches the zombie or hits it with a melee attack while within 5 feet of it takes 5 (1d10) fire damage.
+
+Spreading embalming fire over a creature's body requires an action. A single flask of the substance is sufficient for a single creature of Medium size or smaller. A Large creature requires two flasks, a Huge creature requires four flasks, and a Gargantuan creature requires eight flasks.</description>
+    <sheet>
+      <description>This bitter-smelling liquid must be poured over a corpse and allowed to soak for at least 1 minute before the corpse is animated as a zombie via normal means. Once animated, any creature that touches the zombie or hits it with a melee attack while within 5 feet of it takes 5 (1d10) fire damage.
+
+Spreading embalming fire over a creature's body requires an action. A single flask of the substance is sufficient for a single creature of Medium size or smaller. A Large creature requires two flasks, a Huge creature requires four flasks, and a Gargantuan creature requires eight flasks.</description>
+    </sheet>
+    <setters>
+      <set name="category">Adventuring Gear</set>
+      <set name="cost">25 gp</set>
+    </setters>
+  </element>
+  <element name="Ghostoil" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_GHOSTOIL">
+    <description>This clear oil has a slight tint of gray, and strange, wispy forms seem to swirl through it. When an action is used to apply it to a weapon, ghostoil allows the weapon to overcome the damage resistances and immunities of any creature with the Incorporeal Movement trait for the next 2 rounds.</description>
+    <sheet>
+      <description>This clear oil has a slight tint of gray, and strange, wispy forms seem to swirl through it. When an action is used to apply it to a weapon, ghostoil allows the weapon to overcome the damage resistances and immunities of any creature with the Incorporeal Movement trait for the next 2 rounds.</description>
+    </sheet>
+    <setters>
+      <set name="category">Adventuring Gear</set>
+      <set name="cost">25 gp</set>
+    </setters>
+  </element>
+  <element name="Liquid Night" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_LIQUID_NIGHT">
+    <description>This dark, sticky fluid provides a light-sensitive creature with temporary protection from the sun's deadly rays. Once applied, the creature can ignore the drawbacks of the Sunlight Sensitivity or Light Sensitivity traits for 1 hour.
+
+Spreading liquid night over a creature's body requires an action. A single flask of the substance is sufficient for a single creature of Medium size or smaller. A Large creature requires two flasks, a Huge creature requires four flasks, and a Gargantuan creature requires eight flasks.</description>
+    <sheet>
+      <description>This dark, sticky fluid provides a light-sensitive creature with temporary protection from the sun's deadly rays. Once applied, the creature can ignore the drawbacks of the Sunlight Sensitivity or Light Sensitivity traits for 1 hour.
+
+Spreading liquid night over a creature's body requires an action. A single flask of the substance is sufficient for a single creature of Medium size or smaller. A Large creature requires two flasks, a Huge creature requires four flasks, and a Gargantuan creature requires eight flasks.</description>
+    </sheet>
+    <setters>
+      <set name="category">Adventuring Gear</set>
+      <set name="cost">50 gp</set>
+    </setters>
+  </element>
+  <element name="Unholy Water" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_UNHOLY_WATER">
+    <description>Unholy water is an evil variant of holy water (flask). It deals necrotic damage instead of radiant damage, and it targets celestials and fey instead of fiends and undead.
+
+Unholy water follows the same creation process as holy water and can be used as a substitute for any item or feature that requires it.
+
+In addition, unholy water can be used to neutralize out an equivalent mass of holy water, causing both to turn into regular water.</description>
+    <sheet>
+      <description>Unholy water is an evil variant of holy water (flask). It deals necrotic damage instead of radiant damage, and it targets celestials and fey instead of fiends and undead.
+
+Unholy water follows the same creation process as holy water and can be used as a substitute for any item or feature that requires it.
+
+In addition, unholy water can be used to neutralize out an equivalent mass of holy water, causing both to turn into regular water.</description>
+    </sheet>
+    <setters>
+      <set name="category">Adventuring Gear</set>
+      <set name="cost">25 gp</set>
+    </setters>
+  </element>
+  <element name="Brittlebone" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_BRITTLEBONE">
+    <description>This unguent must be spread over a set of bones before animation as a skeleton. When the skeleton suffers a critical hit or is reduced to 0 hit points, the ointment causes its bones to splinter and fly apart, sending shards in all directions. Each creature within 5 feet of the skeleton takes piercing damage equal to the number of Hit Dice the skeleton has.
+
+Spreading britlebone over a creature's bones requires an action. A single flask of the substance is sufficient for a single creature of Medium size or smaller. A Large creature requires two flasks, a Huge creature requires four flasks, and a Gargantuan creature requires eight flasks.</description>
+    <sheet>
+      <description>This unguent must be spread over a set of bones before animation as a skeleton. When the skeleton suffers a critical hit or is reduced to 0 hit points, the ointment causes its bones to splinter and fly apart, sending shards in all directions. Each creature within 5 feet of the skeleton takes piercing damage equal to the number of Hit Dice the skeleton has.
+
+Spreading britlebone over a creature's bones requires an action. A single flask of the substance is sufficient for a single creature of Medium size or smaller. A Large creature requires two flasks, a Huge creature requires four flasks, and a Gargantuan creature requires eight flasks.</description>
+    </sheet>
+    <setters>
+      <set name="category">Adventuring Gear</set>
+      <set name="cost">25 gp</set>
+    </setters>
+  </element>
+  <element name="Mummified Eye" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_MUMMIFIED_EYE">
+    <description>This hard, round orb fits into an empty eye socket and looks much like a normal eye at first glance, but it has a distinctly dry appearance and does not move in the socket.
+
+This eye has 4 charges. It regains 1d4 charges daily at dusk.
+
+As a bonus action, you can expend 1 charge and target one creature you can see within 60 feet of you. If the target can see this grafted eye, it must succeed on a DC 11 Wisdom saving throw against this magic or become frightened until the end of your next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration.</description>
+    <sheet>
+      <description>This hard, round orb fits into an empty eye socket and looks much like a normal eye at first glance, but it has a distinctly dry appearance and does not move in the socket.
+
+This eye has 4 charges. It regains 1d4 charges daily at dusk.
+
+As a bonus action, you can expend 1 charge and target one creature you can see within 60 feet of you. If the target can see this grafted eye, it must succeed on a DC 11 Wisdom saving throw against this magic or become frightened until the end of your next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Rare</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+      <set name="damage">Undead Graft</set>
+    </setters>
+  </element>
+  <element name="Mummified Hand" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_MUMMIFIED_HAND">
+    <description>This withered hand is swathed in the remnants of funeral wrappings.
+
+The hand is a natural melee weapon, which you can use to make unarmed strikes. On a hit, you deal bludgeoning or necrotic damage (your choice) equal to 1d4 + your Strength modifier.
+
+In addition, you can use your bonus action to touch one creature within 5 feet of you with this hand. The target must succeed on a DC 12 Constitution saving throw or be cursed with a weaker form of a mummy rot for 1 hour. During this time, the target can't regain hit points, and it has disadvantage on death saving throws and on any ability check or saving throw that uses Strength or Constitution.</description>
+    <sheet>
+      <description>This withered hand is swathed in the remnants of funeral wrappings.
+
+The hand is a natural melee weapon, which you can use to make unarmed strikes. On a hit, you deal bludgeoning or necrotic damage (your choice) equal to 1d4 + your Strength modifier.
+
+In addition, you can use your bonus action to touch one creature within 5 feet of you with this hand. The target must succeed on a DC 12 Constitution saving throw or be cursed with a weaker form of a mummy rot for 1 hour. During this time, the target can't regain hit points, and it has disadvantage on death saving throws and on any ability check or saving throw that uses Strength or Constitution.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Uncommon</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+      <set name="damage">Undead Graft</set>
+    </setters>
+  </element>
+  <element name="Shadow Crus" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_SHADOW_CRUS">
+    <description>This graft replaces your legs with an amorphous mass of shadowy wisps. You gain the following benefits while attuned to this item:
+
+</description>
+    <sheet>
+      <description>This graft replaces your legs with an amorphous mass of shadowy wisps. You gain the following benefits while attuned to this item:
+
+</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Rare</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+      <set name="damage">Undead Graft</set>
+    </setters>
+  </element>
+  <element name="Undead Skin" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_UNDEAD_SKIN">
+    <description>This mottled gray hide protects you against poison that would normally harm the living. You are immune to the poisoned condition and have immunity to poison damage.</description>
+    <sheet>
+      <description>This mottled gray hide protects you against poison that would normally harm the living. You are immune to the poisoned condition and have immunity to poison damage.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Uncommon</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+      <set name="damage">Undead Graft</set>
+    </setters>
+  </element>
+  <element name="Vampiric Fangs" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_VAMPIRIC_FANGS">
+    <description>This set of sharp teeth replaces your existing teeth.
+
+While attuned to these teeth, your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals 1d4 piercing damage on a hit. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite.
+
+In addition, you can use these fangs to drain blood from a humanoid that is grappled, restrained, or incapacitated. As a bonus action, make an unarmed strike against the target using these fangs. On a hit, the target takes an additional 2d6 necrotic damage, and you gain temporary hit points equal to the necrotic damage dealt.</description>
+    <sheet>
+      <description>This set of sharp teeth replaces your existing teeth.
+
+While attuned to these teeth, your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals 1d4 piercing damage on a hit. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite.
+
+In addition, you can use these fangs to drain blood from a humanoid that is grappled, restrained, or incapacitated. As a bonus action, make an unarmed strike against the target using these fangs. On a hit, the target takes an additional 2d6 necrotic damage, and you gain temporary hit points equal to the necrotic damage dealt.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Rare</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+      <set name="damage">Undead Graft</set>
+    </setters>
+  </element>
+  <element name="Zombie Arm" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_ZOMBIE_ARM">
+    <description>A zombie arm is a perpetually rotting limb.
+
+The arm is a natural melee weapon, which you can use to make unarmed strikes. If you hit with it, you deal bludgeoning equal to 1d6 + your Strength modifier.
+
+You also gain a +5 bonus to any Strength check that uses this arm. Additionally, at the start of each of your turns, any creature grappled by this arm takes bludgeoning damage equal to your Strength modifier (minimum of 1).</description>
+    <sheet>
+      <description>A zombie arm is a perpetually rotting limb.
+
+The arm is a natural melee weapon, which you can use to make unarmed strikes. If you hit with it, you deal bludgeoning equal to 1d6 + your Strength modifier.
+
+You also gain a +5 bonus to any Strength check that uses this arm. Additionally, at the start of each of your turns, any creature grappled by this arm takes bludgeoning damage equal to your Strength modifier (minimum of 1).</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Uncommon</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+      <set name="damage">Undead Graft</set>
+    </setters>
+  </element>
+  <element name="Ghostly Arm" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_GHOSTLY_ARM">
+    <description>This gray, incorporeal arm can't be used to manipulate solid objects. However, it grants you the following benefits:
+
+</description>
+    <sheet>
+      <description>This gray, incorporeal arm can't be used to manipulate solid objects. However, it grants you the following benefits:
+
+</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Uncommon</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+      <set name="damage">Undead Graft</set>
+    </setters>
+  </element>
+  <element name="Ghoul Glove" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_GHOUL_GLOVE">
+    <description>This mottled glove replaces the skin on your hand and fuses with your own flesh, making your hand appear gaunt and rotting.
+
+The glove is a natural melee weapon, which you can use to make unarmed strikes. You can add your Dexterity modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this glove. It deals 2d4 slashing damage on a hit.
+
+When you roll a 20 on an attack roll with this glove made against a creature other than an elf or undead, the target must also make a DC 10 Constitution saving throw. On a failed save, the target is paralyzed until the end of its next turn.
+
+In addition, you have a climbing speed equal to your walking speed as long as the hand that this glove is attached to can be used to climb.</description>
+    <sheet>
+      <description>This mottled glove replaces the skin on your hand and fuses with your own flesh, making your hand appear gaunt and rotting.
+
+The glove is a natural melee weapon, which you can use to make unarmed strikes. You can add your Dexterity modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this glove. It deals 2d4 slashing damage on a hit.
+
+When you roll a 20 on an attack roll with this glove made against a creature other than an elf or undead, the target must also make a DC 10 Constitution saving throw. On a failed save, the target is paralyzed until the end of its next turn.
+
+In addition, you have a climbing speed equal to your walking speed as long as the hand that this glove is attached to can be used to climb.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Rare</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+      <set name="damage">Undead Graft</set>
+    </setters>
+  </element>
+  <element name="Insectoid Exoskeleton" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_INSECTOID_EXOSKELETON">
+    <description>This armor replaces most of the skin on your chest and torso with a thick layer of insect-like bone. Spikes of bone protrude from six different locations along the exoskeleton.
+
+You have a +1 bonus to AC while attuned to this exoskeleton.
+
+In addition, you can use your bonus action to cause the spikes of bone on the exoskeleton to extend outwards, becoming 5-foot long appendages that have three joints each. While these appendages are extended, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands and legs free. You also gain a climbing speed equal to your walking speed. You can use this bonus action again on subsequent turns to retract these spikes of bone to their original length.</description>
+    <sheet>
+      <description>This armor replaces most of the skin on your chest and torso with a thick layer of insect-like bone. Spikes of bone protrude from six different locations along the exoskeleton.
+
+You have a +1 bonus to AC while attuned to this exoskeleton.
+
+In addition, you can use your bonus action to cause the spikes of bone on the exoskeleton to extend outwards, becoming 5-foot long appendages that have three joints each. While these appendages are extended, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands and legs free. You also gain a climbing speed equal to your walking speed. You can use this bonus action again on subsequent turns to retract these spikes of bone to their original length.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Very rare</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+      <set name="damage">Undead Graft</set>
+    </setters>
+  </element>
+  <element name="Lich's Brain" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_LICH_S_BRAIN">
+    <description>This detached brain is of a sickly and pale color, and still has bits of a spinal cord hanging off of it.
+
+Unlike other grafts, a lich brain can be attached to your neck or skull, rather than replacing your brain.
+
+While attuned to this brain, you gain the following benefits:
+
+
+
+
+
+
+
+</description>
+    <sheet>
+      <description>This detached brain is of a sickly and pale color, and still has bits of a spinal cord hanging off of it.
+
+Unlike other grafts, a lich brain can be attached to your neck or skull, rather than replacing your brain.
+
+While attuned to this brain, you gain the following benefits:
+
+
+
+
+
+
+
+</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Legendary</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+      <set name="damage">Undead Graft</set>
+    </setters>
+  </element>
+  <element name="Mohrg's Tongue" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_MOHRG_S_TONGUE">
+    <description>This long, cartilaginous tongue bears sharp claws at its tip.
+
+While attuned to this tongue, you can use it as a natural weapon with the finesse and reach properties. The tongue deals slashing damage and has a damage die of 1d8.
+
+When you roll a 20 on an attack roll with this tongue made against a living creature, the target must also make a DC 15 Constitution saving throw. On a failed save, the target is paralyzed until the end of its next turn.
+
+In addition, you can use the tongue to climb or to hold objects. The tongue grants you a climbing speed equal to your walking speed, and you can use it to wield any item that you could normally hold with one hand, other than a weapon or a shield.</description>
+    <sheet>
+      <description>This long, cartilaginous tongue bears sharp claws at its tip.
+
+While attuned to this tongue, you can use it as a natural weapon with the finesse and reach properties. The tongue deals slashing damage and has a damage die of 1d8.
+
+When you roll a 20 on an attack roll with this tongue made against a living creature, the target must also make a DC 15 Constitution saving throw. On a failed save, the target is paralyzed until the end of its next turn.
+
+In addition, you can use the tongue to climb or to hold objects. The tongue grants you a climbing speed equal to your walking speed, and you can use it to wield any item that you could normally hold with one hand, other than a weapon or a shield.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Very rare</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+      <set name="damage">Undead Graft</set>
+    </setters>
+  </element>
+  <element name="Bodak's Eye" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_BODAK_S_EYE">
+    <description>This white, empty eye fits into an empty eye socket and appears to be devoid of any moisture or movement.
+
+This eye has 4 charges. It regains 1d4 charges daily at dusk.
+
+As an action, you can expend 1 charge and target one creature you can see within 30 feet of you. If the target can see this grafted eye and has fewer than 50 hit points, it must succeed on a DC 13 Constitution saving throw or be reduced to 0 hit points, unless it is immune to the frightened condition or has legendary actions.</description>
+    <sheet>
+      <description>This white, empty eye fits into an empty eye socket and appears to be devoid of any moisture or movement.
+
+This eye has 4 charges. It regains 1d4 charges daily at dusk.
+
+As an action, you can expend 1 charge and target one creature you can see within 30 feet of you. If the target can see this grafted eye and has fewer than 50 hit points, it must succeed on a DC 13 Constitution saving throw or be reduced to 0 hit points, unless it is immune to the frightened condition or has legendary actions.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Legendary</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+      <set name="damage">Undead Graft</set>
+    </setters>
+  </element>
+  <element name="Enervating Arm" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_ENERVATING_ARM">
+    <description>An enervating arm is a gaunt limb of desiccated, leathery flesh.
+
+You can use a bonus action to cast the vampiric touch spell (save DC 15) through the arm, no concentration required. Until the spell ends, you can make the attack again on each of your turns as a bonus action.
+
+When you hit a creature with an attack from a vampiric touch spell, you can cause the creature to also suffer one level of exhaustion. Once used, this exhaustion property can't be used again until the next dusk.</description>
+    <sheet>
+      <description>An enervating arm is a gaunt limb of desiccated, leathery flesh.
+
+You can use a bonus action to cast the vampiric touch spell (save DC 15) through the arm, no concentration required. Until the spell ends, you can make the attack again on each of your turns as a bonus action.
+
+When you hit a creature with an attack from a vampiric touch spell, you can cause the creature to also suffer one level of exhaustion. Once used, this exhaustion property can't be used again until the next dusk.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Very rare</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+      <set name="damage">Undead Graft</set>
+    </setters>
+  </element>
+  <element name="Atropal's Umbilical Cord" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_ATROPAL_S_UMBILICAL_CORD">
+    <description>Unlike a normal umbilical cord, this shriveled tube of rotten flesh can replace one of your limbs, your lower jaw, or one of your eyes. The cord extends out from your body and floats in the air, and appears to trail off into nothing.
+
+If you are struck by a vorpal sword, the wielder can cut the umbilical cord instead of dealing damage. If your umbilical cord is cut, your attunement to it ends as normal, and you also take 8d8 necrotic damage, which can't be reduced or prevented in any way.
+
+The cord grants you gain the following benefits:
+
+
+
+</description>
+    <sheet>
+      <description>Unlike a normal umbilical cord, this shriveled tube of rotten flesh can replace one of your limbs, your lower jaw, or one of your eyes. The cord extends out from your body and floats in the air, and appears to trail off into nothing.
+
+If you are struck by a vorpal sword, the wielder can cut the umbilical cord instead of dealing damage. If your umbilical cord is cut, your attunement to it ends as normal, and you also take 8d8 necrotic damage, which can't be reduced or prevented in any way.
+
+The cord grants you gain the following benefits:
+
+
+
+</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Legendary</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+      <set name="damage">Undead Graft</set>
+    </setters>
+  </element>
+  <element name="Unholy Shrouds" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_UNHOLY_SHROUDS">
+    <description>These shrouds look like ordinary funerary wrappings for dead bodies and are often decorated with symbols and icons representing the dead rising.
+
+If you wrap the body of a dead humanoid in the shrouds over the course of 10 minutes, and the command word spoken, it returns as an undead creature, and the shrouds turn to dust. The undead is charmed by you for 24 hours or until you or your companions do anything harmful to it. When the charmed condition ends, the undead chooses whether to remain friendly to you, based on its capacity for intelligent thought and how you treated it while it was charmed.
+
+The type of undead the creature is raised as is determined by the shrouds' rarity, as detailed below.
+
+
+
+
+
+
+
+
+
+
+
+</description>
+    <sheet>
+      <description>These shrouds look like ordinary funerary wrappings for dead bodies and are often decorated with symbols and icons representing the dead rising.
+
+If you wrap the body of a dead humanoid in the shrouds over the course of 10 minutes, and the command word spoken, it returns as an undead creature, and the shrouds turn to dust. The undead is charmed by you for 24 hours or until you or your companions do anything harmful to it. When the charmed condition ends, the undead chooses whether to remain friendly to you, based on its capacity for intelligent thought and how you treated it while it was charmed.
+
+The type of undead the creature is raised as is determined by the shrouds' rarity, as detailed below.
+
+
+
+
+
+
+
+
+
+
+
+</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Varies</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Cloak of Turn Resistance" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_CLOAK_OF_TURN_RESISTANCE">
+    <description>This unholy item surrounds any undead that wears it with a halo of shadows.
+
+While wearing this cloak, you have advantage on saving throws against effects that turn undead.</description>
+    <sheet>
+      <description>This unholy item surrounds any undead that wears it with a halo of shadows.
+
+While wearing this cloak, you have advantage on saving throws against effects that turn undead.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Ectoplasmic Ichor" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_ECTOPLASMIC_ICHOR">
+    <description>This thick, translucent paste emits a soft green glow when held up to the light.
+
+As an action, you can spread this ichor across a Medium or smaller object. For 10 minutes, any creature with the Incorporeal Movement trait can't move through the object, and must interact with it as though it were a corporeal creature.</description>
+    <sheet>
+      <description>This thick, translucent paste emits a soft green glow when held up to the light.
+
+As an action, you can spread this ichor across a Medium or smaller object. For 10 minutes, any creature with the Incorporeal Movement trait can't move through the object, and must interact with it as though it were a corporeal creature.</description>
+    </sheet>
+    <setters>
+      <set name="category">Potion</set>
+      <set name="rarity">Common</set>
+      <set name="type">Potion</set>
+    </setters>
+  </element>
+  <element name="Globe of Sunlight" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_GLOBE_OF_SUNLIGHT">
+    <description>This golden fist-sized orb contains a sphere of pure sunlight at its center.
+
+The globe sheds bright sunlight in a 30-foot radius and dim sunlight for an additional 30 feet.
+
+As an action, the globe can be hurled up to 50 feet. It shatters on impact, releasing a sunburst spell centered on the point of impact (spell save DC 18).</description>
+    <sheet>
+      <description>This golden fist-sized orb contains a sphere of pure sunlight at its center.
+
+The globe sheds bright sunlight in a 30-foot radius and dim sunlight for an additional 30 feet.
+
+As an action, the globe can be hurled up to 50 feet. It shatters on impact, releasing a sunburst spell centered on the point of impact (spell save DC 18).</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Legendary</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Goggles of Day" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_GOGGLES_OF_DAY">
+    <description>The lenses of this item are made of silvered crystal.
+
+While wearing these goggles, you have advantage on saving throws against effects that deal radiant damage or cause you to be blinded.</description>
+    <sheet>
+      <description>The lenses of this item are made of silvered crystal.
+
+While wearing these goggles, you have advantage on saving throws against effects that deal radiant damage or cause you to be blinded.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Goggles of Lifesight" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_GOGGLES_OF_LIFESIGHT">
+    <description>The lenses of this item glow with a soft white light.
+
+While wearing these goggles, you automatically know whether a creature you see within 30 feet of you is alive, dead, undead, or neither alive nor dead (such as a construct).</description>
+    <sheet>
+      <description>The lenses of this item glow with a soft white light.
+
+While wearing these goggles, you automatically know whether a creature you see within 30 feet of you is alive, dead, undead, or neither alive nor dead (such as a construct).</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Husk Globe" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_HUSK_GLOBE">
+    <description>The bodies of humanoid creatures sacrificed according to special rituals of necromancy can be placed in large globes of glass or crystal, so they remain perfectly preserved and on display indefinitely.
+
+You can run a hand across the surface of the globe and command the occupant to speak. If you use the occupant's correct name, the globe activates, and you can ask the occupant up to ten questions.
+
+You receive a brief telepathic answer for each question, which you can understand regardless of the language used. The occupant knows only what it knew in life, but it must answer you truthfully and to the best of its ability. The answer is no more than a sentence or two and might be cryptic.
+
+Instead of asking a question, you can choose to give the occupant new information that it may not have known during life. The occupant remembers this information and can use it to answer questions in the future.
+
+Once all ten questions have been answered, the globe deactivates, and it can't be activated again until 7 days have passed.</description>
+    <sheet>
+      <description>The bodies of humanoid creatures sacrificed according to special rituals of necromancy can be placed in large globes of glass or crystal, so they remain perfectly preserved and on display indefinitely.
+
+You can run a hand across the surface of the globe and command the occupant to speak. If you use the occupant's correct name, the globe activates, and you can ask the occupant up to ten questions.
+
+You receive a brief telepathic answer for each question, which you can understand regardless of the language used. The occupant knows only what it knew in life, but it must answer you truthfully and to the best of its ability. The answer is no more than a sentence or two and might be cryptic.
+
+Instead of asking a question, you can choose to give the occupant new information that it may not have known during life. The occupant remembers this information and can use it to answer questions in the future.
+
+Once all ten questions have been answered, the globe deactivates, and it can't be activated again until 7 days have passed.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Very rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Instrument of the Damned" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_INSTRUMENT_OF_THE_DAMNED">
+    <description>When played, this instrument helps to bolster undead against harmful effects.
+
+You can use an action to play this instrument and to target any number of undead you can see within 60 feet of you. If the undead can hear you, they gain advantage on all saving throws until the end of your next turn.</description>
+    <sheet>
+      <description>When played, this instrument helps to bolster undead against harmful effects.
+
+You can use an action to play this instrument and to target any number of undead you can see within 60 feet of you. If the undead can hear you, they gain advantage on all saving throws until the end of your next turn.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Rare</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Instrument of the Restful Soul" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_INSTRUMENT_OF_THE_RESTFUL_SOUL">
+    <description>When played, this instrument weakens the ability of undead creatures to resist harmful effects.
+
+You can use an action to play this instrument and to target any number of undead you can see within 60 feet of you. If the undead can hear you, they suffer disadvantage on all saving throws until the end of your next turn.</description>
+    <sheet>
+      <description>When played, this instrument weakens the ability of undead creatures to resist harmful effects.
+
+You can use an action to play this instrument and to target any number of undead you can see within 60 feet of you. If the undead can hear you, they suffer disadvantage on all saving throws until the end of your next turn.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Very rare</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Nycoptic Manuscripts" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_NYCOPTIC_MANUSCRIPTS">
+    <description>These twin papyrus scrolls are inscribed with ancient tales and cryptic prophecies by an anonymous, almost-certainly insane author. Despite their dubious accuracy, the manuscripts contain many useful descriptions of magic associated with the school of necromancy.
+
+You can reference the manuscripts whenever you make an Intelligence check to recall information about death or necromancy. When you do so, double your proficiency bonus on that check.
+
+In addition, you can use the manuscripts as a spellcasting focus. When you cast a damaging spell, you can use these manuscripts to change the damage type to necrotic damage.</description>
+    <sheet>
+      <description>These twin papyrus scrolls are inscribed with ancient tales and cryptic prophecies by an anonymous, almost-certainly insane author. Despite their dubious accuracy, the manuscripts contain many useful descriptions of magic associated with the school of necromancy.
+
+You can reference the manuscripts whenever you make an Intelligence check to recall information about death or necromancy. When you do so, double your proficiency bonus on that check.
+
+In addition, you can use the manuscripts as a spellcasting focus. When you cast a damaging spell, you can use these manuscripts to change the damage type to necrotic damage.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Sunlight Lamp" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_SUNLIGHT_LAMP">
+    <description>A sunlight lamp is a special bullseye lantern that emits undead-harming sunlight.
+
+A sunlight lamp casts Vision and Light in a 60-foot cone and Vision and Light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.
+
+The light emitted by the lamp is sunlight. Additionally, undead that end their turn within the lamp's Vision and Light suffer disadvantage on all attack rolls and ability checks until the end of their next turn.
+
+In addition, you can use the lamp as a spellcasting focus. When you cast a damaging spell, you can use the sunlight lamp to change the damage type to radiant damage.</description>
+    <sheet>
+      <description>A sunlight lamp is a special bullseye lantern that emits undead-harming sunlight.
+
+A sunlight lamp casts Vision and Light in a 60-foot cone and Vision and Light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.
+
+The light emitted by the lamp is sunlight. Additionally, undead that end their turn within the lamp's Vision and Light suffer disadvantage on all attack rolls and ability checks until the end of their next turn.
+
+In addition, you can use the lamp as a spellcasting focus. When you cast a damaging spell, you can use the sunlight lamp to change the damage type to radiant damage.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Von Zarovich Family Sword" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_VON_ZAROVICH_FAMILY_SWORD">
+    <description>Commissioned by Count Strahd, this weapon is the family sword of the von Zarovich clan, symbol of its sovereign rule over Barovia.
+
+Long ago, the vampire lord Count Strahd von Zarovich commissioned a weapon from a crafter known only as the Alchemist. Impatient with the work, the count infected the Alchemist with vampirism to give him the proper strength, endurance, and insight with which to create a sword fit for the von Zarovich family.
+
+Strahd found the sword so perfect that he used it to decapitate the Alchemist—the man would never again create a work of its equal. The Alchemist's life force was infused into the Sword. Far more than a mere weapon, it became an entity unto itself.
+
+Strahd might have placed the Sword in the tomb of his brother Sergei as repayment for his murder, or perhaps he gave it to Tatyana, his unrequited love. However it came to be, at some point the Sword left the land of Barovia.
+
+The Sword is well aware of its heritage and the powerful icon it represents for both the von Zarovich clan and Barovia as a nation. The weapon draws strength from its own vampiric nature, equating its hunger with a need to spread the family's honor. It demands an owner who respects these needs.
+
+The Sword is a magic, sentient longsword that grants a +3 bonus to attack and damage rolls made with it. It scores a critical hit on a roll of 19 or 20, and deals an extra 2d10 slashing damage to celestials, clerics, paladins, and other divine servants.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</description>
+    <sheet>
+      <description>Commissioned by Count Strahd, this weapon is the family sword of the von Zarovich clan, symbol of its sovereign rule over Barovia.
+
+Long ago, the vampire lord Count Strahd von Zarovich commissioned a weapon from a crafter known only as the Alchemist. Impatient with the work, the count infected the Alchemist with vampirism to give him the proper strength, endurance, and insight with which to create a sword fit for the von Zarovich family.
+
+Strahd found the sword so perfect that he used it to decapitate the Alchemist—the man would never again create a work of its equal. The Alchemist's life force was infused into the Sword. Far more than a mere weapon, it became an entity unto itself.
+
+Strahd might have placed the Sword in the tomb of his brother Sergei as repayment for his murder, or perhaps he gave it to Tatyana, his unrequited love. However it came to be, at some point the Sword left the land of Barovia.
+
+The Sword is well aware of its heritage and the powerful icon it represents for both the von Zarovich clan and Barovia as a nation. The weapon draws strength from its own vampiric nature, equating its hunger with a need to spread the family's honor. It demands an owner who respects these needs.
+
+The Sword is a magic, sentient longsword that grants a +3 bonus to attack and damage rolls made with it. It scores a critical hit on a roll of 19 or 20, and deals an extra 2d10 slashing damage to celestials, clerics, paladins, and other divine servants.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="weight">3 lb.</set>
+      <set name="rarity">Artifact</set>
+      <set name="attunement">true</set>
+      <set name="damage">1d8</set>
+      <set name="damage-type">S</set>
+      <set name="properties">V</set>
+    </setters>
+  </element>
+  <element name="Tome of Shadow" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_TOME_OF_SHADOW">
+    <description>This thick volume is bound in a dark hide etched with elaborate silver symbols. The stretched-skin pages and tightly scrawled writing are bathed in shadow, even under the brightest light.
+
+Maikedhon was a mage living in the Shadowfell during the time of the secret pact between the worshipers of Vecna and Zehir (see the Mirror of Secrets item). He created a number of artifacts related to shadows and shadow creatures, the most important of which was a great magic tome. The battle between the sects of the secret pact that swallowed Trebarra Kan also opened a portal to Maikedhon's tower, sucking his items into the world.
+
+Maikedhon's items came into the possession of some survivors from the pact who were obsessed by shadow. They eventually met up with the shadowmage, returning his book in exchange for being tutored in shadow magic. Together, the arcanists tested the limits of the medium, exploring the depths of the Shadowfell. The students of shadow were eventually lost in a deep abyss in the Shadowfell, but the book was later discovered near the opening of the chasm. It did not last long in the hands of its new owner, however; the book finds ways to get rid of a wielder who does not meet its expectations. Over the years, it has appeared intermittently in the hands of a gnome merchant, a drow battle mage, and a human princess, but now it is once again lost.
+
+
+
+
+
+
+
+
+
+
+
+
+
+</description>
+    <sheet>
+      <description>This thick volume is bound in a dark hide etched with elaborate silver symbols. The stretched-skin pages and tightly scrawled writing are bathed in shadow, even under the brightest light.
+
+Maikedhon was a mage living in the Shadowfell during the time of the secret pact between the worshipers of Vecna and Zehir (see the Mirror of Secrets item). He created a number of artifacts related to shadows and shadow creatures, the most important of which was a great magic tome. The battle between the sects of the secret pact that swallowed Trebarra Kan also opened a portal to Maikedhon's tower, sucking his items into the world.
+
+Maikedhon's items came into the possession of some survivors from the pact who were obsessed by shadow. They eventually met up with the shadowmage, returning his book in exchange for being tutored in shadow magic. Together, the arcanists tested the limits of the medium, exploring the depths of the Shadowfell. The students of shadow were eventually lost in a deep abyss in the Shadowfell, but the book was later discovered near the opening of the chasm. It did not last long in the hands of its new owner, however; the book finds ways to get rid of a wielder who does not meet its expectations. Over the years, it has appeared intermittently in the hands of a gnome merchant, a drow battle mage, and a human princess, but now it is once again lost.
+
+
+
+
+
+
+
+
+
+
+
+
+
+</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Artifact</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Soul Sword" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_SOUL_SWORD">
+    <description>This artifact is a flawlessly crafted, weighty two-handed weapon that shines with its own internal light. The opal pommel stone shines or grows dull depending on the sword's mood.
+
+Thousands of years ago, the empire of Kortaja stood as a beacon of the divine. Toward the end of that civilization, the glass citadel and its deific armies were besieged by primordial forces. Kortaja's secret weapon was a set of seven fabled swords forged by the dwarf kings and wielded by the empire's seven greatest generals. In the last battle, six of the seven swords were shattered by the blast from a magic, primordial trumpet. The seventh weapon was lost in time. Deific servants have been searching for it for millennia.
+
+The Sword is a magic, sentient greatsword that grants a +3 bonus to attack and damage rolls made with it. It scores a critical hit on a roll of 19 or 20, and deals an extra 2d10 radiant damage to fiends and undead.
+
+
+
+
+
+
+
+
+
+
+
+</description>
+    <sheet>
+      <description>This artifact is a flawlessly crafted, weighty two-handed weapon that shines with its own internal light. The opal pommel stone shines or grows dull depending on the sword's mood.
+
+Thousands of years ago, the empire of Kortaja stood as a beacon of the divine. Toward the end of that civilization, the glass citadel and its deific armies were besieged by primordial forces. Kortaja's secret weapon was a set of seven fabled swords forged by the dwarf kings and wielded by the empire's seven greatest generals. In the last battle, six of the seven swords were shattered by the blast from a magic, primordial trumpet. The seventh weapon was lost in time. Deific servants have been searching for it for millennia.
+
+The Sword is a magic, sentient greatsword that grants a +3 bonus to attack and damage rolls made with it. It scores a critical hit on a roll of 19 or 20, and deals an extra 2d10 radiant damage to fiends and undead.
+
+
+
+
+
+
+
+
+
+
+
+</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="weight">6 lb.</set>
+      <set name="rarity">Artifact</set>
+      <set name="attunement">true</set>
+      <set name="damage">2d6</set>
+      <set name="damage-type">S</set>
+      <set name="properties">H, 2H</set>
+    </setters>
+  </element>
+  <element name="Silver Mask of Kas" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_SILVER_MASK_OF_KAS">
+    <description>This solid silver mask is fashioned in the form of a fanged skull. It was originally forged for the exarch Kas by his overlord Vecna.
+
+In a time long past, Vecna corrupted the blood of a deva and used it to craft a powerful mask that could aid Kas in his duties as the Bloody Handed. Imbued with a powerful sentience, the Mask was made to compliment Kas's martial prowess by supplementing his diplomatic and tactical skills. However, the Mask also had a secondary purpose: it enabled Vecna to magically scry Kas and see through the Mask's eyes, allowing him to personally view his warlord's battles and conquests. One apocryphal tale claims that Vecna also used this scrying function to watch for any signs of betrayal, and that Kas's discovery of this ability helped convince him to betray his master and take the throne for himself.
+
+In any case, Kas abandoned the Mask and placed it an unknown vault some time before his fateful battle with Vecna. If found, its sentience still serves the will of Kas, but the scrying magic that remains in still allows The Whispered One to spy on its wielder wherever it goes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+</description>
+    <sheet>
+      <description>This solid silver mask is fashioned in the form of a fanged skull. It was originally forged for the exarch Kas by his overlord Vecna.
+
+In a time long past, Vecna corrupted the blood of a deva and used it to craft a powerful mask that could aid Kas in his duties as the Bloody Handed. Imbued with a powerful sentience, the Mask was made to compliment Kas's martial prowess by supplementing his diplomatic and tactical skills. However, the Mask also had a secondary purpose: it enabled Vecna to magically scry Kas and see through the Mask's eyes, allowing him to personally view his warlord's battles and conquests. One apocryphal tale claims that Vecna also used this scrying function to watch for any signs of betrayal, and that Kas's discovery of this ability helped convince him to betray his master and take the throne for himself.
+
+In any case, Kas abandoned the Mask and placed it an unknown vault some time before his fateful battle with Vecna. If found, its sentience still serves the will of Kas, but the scrying magic that remains in still allows The Whispered One to spy on its wielder wherever it goes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Artifact</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Orb of Light" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_ORB_OF_LIGHT">
+    <description>The Orb of Light appears to be a large and faintly glowing white pearl. A closer look reveals the faint wisps of an angelic figure in an unknown land.
+
+The Orb of Light is the last remnant of a dead god slain by Tenebrous. Annihilated by the undead god using the power of the Last Word, this deity shed their divine spark at the last moment and entrusted their last remaining followers to keep it safe. Sealed within a magical sphere and embued with the ability to communicate, this newly created Orb of Light is now the best defense against Orcus and his minions, as well as the unliving celestial abomination created from this deity's corpse that now roams and terrorizes the planes.
+
+
+
+
+
+
+
+
+
+
+
+</description>
+    <sheet>
+      <description>The Orb of Light appears to be a large and faintly glowing white pearl. A closer look reveals the faint wisps of an angelic figure in an unknown land.
+
+The Orb of Light is the last remnant of a dead god slain by Tenebrous. Annihilated by the undead god using the power of the Last Word, this deity shed their divine spark at the last moment and entrusted their last remaining followers to keep it safe. Sealed within a magical sphere and embued with the ability to communicate, this newly created Orb of Light is now the best defense against Orcus and his minions, as well as the unliving celestial abomination created from this deity's corpse that now roams and terrorizes the planes.
+
+
+
+
+
+
+
+
+
+
+
+</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Artifact</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Mirror of Secrets" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_MIRROR_OF_SECRETS">
+    <description>This large platinum hand mirror is inlaid with jade and onyx.
+
+In a rare show of unity, the worshipers of the deities Vecna and Zehir formed a secret pact. The combined group was the idea of its leader Trebarra Kan, a powerful priest who, by adeptly leading a double life, managed to become ordained by the temples of both deities. The revelation of his twin loyalties drew faithful from both sides, and the pact between them became both powerful and wideranging. Power brought discord, however, and a competition for allegiances followed. As his careful plans began unraveling, Trebarra Kan attempted to create a magic mirror that would bend insurgents to his will and drive others mad. At a particularly delicate stage of the item's creation, open warfare broke out between the factions. The mix of magical forces sparked a conflagration that enveloped Trebarra Kan and trapped him forever inside his creation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+</description>
+    <sheet>
+      <description>This large platinum hand mirror is inlaid with jade and onyx.
+
+In a rare show of unity, the worshipers of the deities Vecna and Zehir formed a secret pact. The combined group was the idea of its leader Trebarra Kan, a powerful priest who, by adeptly leading a double life, managed to become ordained by the temples of both deities. The revelation of his twin loyalties drew faithful from both sides, and the pact between them became both powerful and wideranging. Power brought discord, however, and a competition for allegiances followed. As his careful plans began unraveling, Trebarra Kan attempted to create a magic mirror that would bend insurgents to his will and drive others mad. At a particularly delicate stage of the item's creation, open warfare broke out between the factions. The mix of magical forces sparked a conflagration that enveloped Trebarra Kan and trapped him forever inside his creation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Artifact</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Jet Black Ioun Stone" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_JET_BLACK_IOUN_STONE">
+    <description>A unique and powerful Ioun stone, this artifact appears as a pure black void, forever traveling in a slow, patient orbit.
+
+For the most part, Ioun stones are not unique in their nature—any number of dark blue, pale aquamarine, moss green, and other colored stones proliferate throughout the world. Their creator Ioun seeks to distribute knowledge in all its forms.
+
+Still, even deities are responsible for items they wish they could unmake. A unique and powerful powerful Ioun stone without copy or sibling, the Jet Black Ioun Stone appears as a pure black void, forever traveling in a slow, patient orbit. It is thought that Ioun crafted it at the behest of Zehir, deity of darkness, poison, and assassins. The lord of knowledge might have felt compelled to create the Stone so that Zehir could use it in the pursuit of understanding—even if that learning involved better ways to find and kill his victims. In truth, the Stone proved a powerful tool, often bestowed directly by Zehir upon a worthy follower to aid in a particularly dangerous assassination attempt.
+
+Invested with a sizable portion of Ioun's magical energy, the Stone gained a semblance of self-awareness. After years of aiding in the murder of so many, the Stone has seen its personality become twisted and darkened. Its reputation has grown as well. It has become—however dangerous it might be to possess—a compelling prize for assassins.
+
+When you use an action to toss the stone into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.
+
+The stone cannot be damaged or destroyed by conventional means. It is considered to be an object that is being worn while it orbits your head.
+
+While the stone orbits your head, you gain the following benefits.
+
+
+
+
+
+
+
+
+
+
+
+
+
+</description>
+    <sheet>
+      <description>A unique and powerful Ioun stone, this artifact appears as a pure black void, forever traveling in a slow, patient orbit.
+
+For the most part, Ioun stones are not unique in their nature—any number of dark blue, pale aquamarine, moss green, and other colored stones proliferate throughout the world. Their creator Ioun seeks to distribute knowledge in all its forms.
+
+Still, even deities are responsible for items they wish they could unmake. A unique and powerful powerful Ioun stone without copy or sibling, the Jet Black Ioun Stone appears as a pure black void, forever traveling in a slow, patient orbit. It is thought that Ioun crafted it at the behest of Zehir, deity of darkness, poison, and assassins. The lord of knowledge might have felt compelled to create the Stone so that Zehir could use it in the pursuit of understanding—even if that learning involved better ways to find and kill his victims. In truth, the Stone proved a powerful tool, often bestowed directly by Zehir upon a worthy follower to aid in a particularly dangerous assassination attempt.
+
+Invested with a sizable portion of Ioun's magical energy, the Stone gained a semblance of self-awareness. After years of aiding in the murder of so many, the Stone has seen its personality become twisted and darkened. Its reputation has grown as well. It has become—however dangerous it might be to possess—a compelling prize for assassins.
+
+When you use an action to toss the stone into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.
+
+The stone cannot be damaged or destroyed by conventional means. It is considered to be an object that is being worn while it orbits your head.
+
+While the stone orbits your hea</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Artifact</set>
+      <set name="attunement">true</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Vampire Killer" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_VAMPIRE_KILLER">
+    <description>The Vampire Killer, also known as the Morning Star in some forms, is a magical whip created and wielded by a long line of vampire hunters. While the whip is most potent against vampires, its magic makes it a deadly weapon against other forms of evil as well.
+
+The Vampire Killer is a magic whip that grants a +3 bonus to attack and damage rolls made with it. It scores a critical hit on a roll of 19 or 20 on the d20.
+
+
+
+
+
+
+
+
+
+</description>
+    <sheet>
+      <description>The Vampire Killer, also known as the Morning Star in some forms, is a magical whip created and wielded by a long line of vampire hunters. While the whip is most potent against vampires, its magic makes it a deadly weapon against other forms of evil as well.
+
+The Vampire Killer is a magic whip that grants a +3 bonus to attack and damage rolls made with it. It scores a critical hit on a roll of 19 or 20 on the d20.
+
+
+
+
+
+
+
+
+
+</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="weight">3 lb.</set>
+      <set name="rarity">Artifact</set>
+      <set name="attunement">true</set>
+      <set name="damage">1d4</set>
+      <set name="damage-type">S</set>
+      <set name="properties">F, R</set>
+    </setters>
+  </element>
+  <element name="Nightstick" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_NIGHTSTICK">
+    <description>This black rod carved of darkly stained wood is inset with religious symbols of various deities.
+
+When you use your Channel Divinity to Turn Undead, the range of the ability increases to 60 feet.</description>
+    <sheet>
+      <description>This black rod carved of darkly stained wood is inset with religious symbols of various deities.
+
+When you use your Channel Divinity to Turn Undead, the range of the ability increases to 60 feet.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Rare</set>
+      <set name="attunement">true</set>
+    </setters>
+  </element>
+  <element name="Rod of Defiance" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_ROD_OF_DEFIANCE">
+    <description>This white cudgel-like rod is covered in magical runes that glow with a holy light.
+
+The rod emits Vision and Light in a 30-foot radius. Undead in this area have disadvantage on saving throws against effects that turn undead.</description>
+    <sheet>
+      <description>This white cudgel-like rod is covered in magical runes that glow with a holy light.
+
+The rod emits Vision and Light in a 30-foot radius. Undead in this area have disadvantage on saving throws against effects that turn undead.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Uncommon</set>
+      <set name="attunement">true</set>
+    </setters>
+  </element>
+  <element name="Rod of Undead Mastery" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_ROD_OF_UNDEAD_MASTERY">
+    <description>This metal rod is carved to resemble a stack of miniature skulls.
+
+The rod has 8 charges, and it regains 1d6 + 2 expended charges daily at dusk. As an action, you can spend 1 charge to reassert control over one undead you have animated.</description>
+    <sheet>
+      <description>This metal rod is carved to resemble a stack of miniature skulls.
+
+The rod has 8 charges, and it regains 1d6 + 2 expended charges daily at dusk. As an action, you can spend 1 charge to reassert control over one undead you have animated.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Rare</set>
+      <set name="attunement">true</set>
+    </setters>
+  </element>
+  <element name="Scepter of the Netherworld" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_SCEPTER_OF_THE_NETHERWORLD">
+    <description>This plain steel baton contains several glyphs incised along its length that promise power over the undead.
+
+While holding the rod, you know the exact location and type of all undead within 1,000 feet of you. You can telepathically communicate with an undead within range, or you can broadcast your thoughts to all undead within range. The undead receiving your broadcasted thoughts have no special means of replying to them.
+
+The rod has 3 charges. As an action, you can expend 1 charge to cast dominate monster (save DC 21), which affects undead only. (The spell fails and the charge is wasted if you target any creature that's not undead.) If an undead can see you when you cast this spell on it, the undead knows you tried to charm it. The rod regains all its charges 24 hours after its last charge is expended.
+
+If you are not undead, using the rod's dominate monster property in the Shadowfell has a 10 chance of attracting a death knight, which arrives on the back of a nightmare mount in 1d4 hours. The death knight tries to recover the rod, killing you if necessary to obtain it. If it gets the rod, the death knight tries to deliver it to its master.</description>
+    <sheet>
+      <description>This plain steel baton contains several glyphs incised along its length that promise power over the undead.
+
+While holding the rod, you know the exact location and type of all undead within 1,000 feet of you. You can telepathically communicate with an undead within range, or you can broadcast your thoughts to all undead within range. The undead receiving your broadcasted thoughts have no special means of replying to them.
+
+The rod has 3 charges. As an action, you can expend 1 charge to cast dominate monster (save DC 21), which affects undead only. (The spell fails and the charge is wasted if you target any creature that's not undead.) If an undead can see you when you cast this spell on it, the undead knows you tried to charm it. The rod regains all its charges 24 hours after its last charge is expended.
+
+If you are not undead, using the rod's dominate monster property in the Shadowfell has a 10 chance of attracting a death knight, which arrives on the back of a nightmare mount in 1d4 hours. The death knight tries to recover the rod, killing you if necessary to obtain it. If it gets the rod, the death knight tries to deliver it to its master.</description>
+    </sheet>
+    <setters>
+      <set name="category">Other</set>
+      <set name="rarity">Very rare</set>
+      <set name="attunement">true</set>
+    </setters>
+  </element>
+  <element name="Wight Shield" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_WIGHT_SHIELD">
+    <description>A wight shield is a buckler covered in the undead hide of a wight.
+
+When you succeed on a check made to shove a creature using this shield, the creature also suffers disadvantage on the next Strength, Constitution, or death saving throw it makes before the end of your next turn.</description>
+    <sheet>
+      <description>A wight shield is a buckler covered in the undead hide of a wight.
+
+When you succeed on a check made to shove a creature using this shield, the creature also suffers disadvantage on the next Strength, Constitution, or death saving throw it makes before the end of your next turn.</description>
+    </sheet>
+    <setters>
+      <set name="category">Shield</set>
+      <set name="weight">6 lb.</set>
+      <set name="rarity">Rare</set>
+      <set name="attunement">true</set>
+      <set name="ac">2</set>
+    </setters>
+  </element>
+  <element name="Wrapped Tower" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_WRAPPED_TOWER">
+    <description>A wrapped tower is a large shield wrapped in the funerary wrappings of an undead mummy.
+
+The shield has 6 charges, and it regains 1d4 + 2 expended charges daily at dusk. While holding it, you can use an action to expend some of its charges to cast one of the following spells from it (spell save DC 13, +5 to hit with spell attacks): bestow curse (3 charges), blight (4 charges), fear (3 charges), inflict wounds (1 charge), ray of enfeeblement (2 charges).</description>
+    <sheet>
+      <description>A wrapped tower is a large shield wrapped in the funerary wrappings of an undead mummy.
+
+The shield has 6 charges, and it regains 1d4 + 2 expended charges daily at dusk. While holding it, you can use an action to expend some of its charges to cast one of the following spells from it (spell save DC 13, +5 to hit with spell attacks): bestow curse (3 charges), blight (4 charges), fear (3 charges), inflict wounds (1 charge), ray of enfeeblement (2 charges).</description>
+    </sheet>
+    <setters>
+      <set name="category">Shield</set>
+      <set name="weight">6 lb.</set>
+      <set name="rarity">Rare</set>
+      <set name="attunement">true</set>
+      <set name="ac">2</set>
+    </setters>
+  </element>
+  <element name="Bonemail" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_BONEMAIL">
+    <description>Bonemail is spiked armor crafted from interlocking bones and shards of bone extracted from an undead skeleton.
+
+While wearing this armor, when you use the Attack action to shove a creature, the target takes 6 piercing damage if your check succeeds, and it can be pushed up to 5 feet away from you in a straight line.</description>
+    <sheet>
+      <description>Bonemail is spiked armor crafted from interlocking bones and shards of bone extracted from an undead skeleton.
+
+While wearing this armor, when you use the Attack action to shove a creature, the target takes 6 piercing damage if your check succeeds, and it can be pushed up to 5 feet away from you in a straight line.</description>
+    </sheet>
+    <setters>
+      <set name="category">Medium Armor</set>
+      <set name="weight">45 lb.</set>
+      <set name="rarity">Rare</set>
+      <set name="attunement">true</set>
+      <set name="ac">14</set>
+      <set name="stealth">Disadvantage</set>
+    </setters>
+  </element>
+</elements>
