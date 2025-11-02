@@ -4,8 +4,8 @@
     <name>Libris Mortis</name>
     <description>Custom content index for Libris Mortis (LM).</description>
     <author>badooga</author>
-    <!-- required by Aurora -->
     <update version="1.0.1">
+      <!-- self-reference lets Aurora auto-check for updates -->
       <file name="libris-mortis.index" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/libris-mortis.index" />
     </update>
   </info>
