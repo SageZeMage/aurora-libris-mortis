@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <info>
+    <name>Libris Mortis – Notes</name>
+    <update version="1.0.1"/>
+    <author>badooga</author>
+  </info>
+  <content>
+    <element name="Libris Mortis Overview" type="Generic" source="LM">
+      <description>
+        <text>This pack declares the source <b>Libris Mortis (LM)</b>. Add more files (e.g., monsters.xml, spells.xml) and include them in the .index.</text>
+      </description>
+    </element>
+  </content>
+</elements>

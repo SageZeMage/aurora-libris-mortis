@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <info>
+    <name>Libris Mortis</name>
+    <update version="1.0.1"/>
+    <author url="https://drive.google.com/file/d/1zjoJTguCOkJYNU_MKa0osyunoH2fU4DP/view">badooga</author>
+  </info>
+  <content>
+    <!-- Source declaration used by other content files via source="LM" -->
+    <source id="LM" name="Libris Mortis" abbreviation="LM" url="https://drive.google.com/file/d/1zjoJTguCOkJYNU_MKa0osyunoH2fU4DP/view" group="Homebrew" />
+  </content>
+</elements>

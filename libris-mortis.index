@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+  <info>
+    <name>Libris Mortis</name>
+    <description>Custom content index for Libris Mortis (LM).</description>
+    <author>badooga</author>
+    <version>1.0.1</version>
+  </info>
+  <files>
+    <file name="source.xml" url="https://REPLACE_ME_WITH_YOUR_HOST/aurora/libris-mortis/source.xml" />
+    <file name="notes.xml"  url="https://REPLACE_ME_WITH_YOUR_HOST/aurora/libris-mortis/notes.xml" />
+    <!-- Add more files here, e.g.:
+         <file name="monsters_01.xml" url="https://REPLACE_ME_WITH_YOUR_HOST/aurora/libris-mortis/monsters_01.xml" />
+         <file name="spells.xml"      url="https://REPLACE_ME_WITH_YOUR_HOST/aurora/libris-mortis/spells.xml" /> -->
+  </files>
+</index>
