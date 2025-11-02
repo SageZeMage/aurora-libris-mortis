@@ -16,6 +16,7 @@
     <file name="lm-classes.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/lm-classes.xml" />
     <file name="lm-subclasses.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/lm-subclasses.xml" />
     <file name="items.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/items.xml" />
+    <file name="magicvariants.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/magicvariants.xml" />
 
   </files>
 </index>
