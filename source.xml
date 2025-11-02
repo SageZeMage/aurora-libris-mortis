@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <elements>
   <info>
-    <name>Libris Mortis</name>
-    <author url="https://example.com">badooga</author>
-    <update version="1.0.1">
+    <name>Source</name>
+    <description>Declares the Libris Mortis source so elements can reference it.</description>
+    <update version="1.0.0">
       <file name="source.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/source.xml" />
     </update>
   </info>
-  <content>
-    <source id="LM" name="Libris Mortis" abbreviation="LM" url="https://example.com" group="Homebrew" />
-  </content>
+  <element name="Libris Mortis" type="Source" id="ID_CUSTOM_LM_SOURCE" source="Libris Mortis">
+    <description>Libris Mortis</description>
+  </element>
 </elements>
