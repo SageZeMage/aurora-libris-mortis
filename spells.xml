@@ -1,0 +1,594 @@
+<?xml version='1.0' encoding='utf-8'?>
+<elements>
+  <info>
+    <name>Spells</name>
+    <description>Spells from Libris Mortis converted from 5etools JSON into Aurora format.</description>
+    <update version="1.0.0">
+      <file name="spells.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/spells.xml" />
+    </update>
+  </info>
+  <element name="Animate Crawling Claw" type="Spell" id="ID_CUSTOM_LM_SPELL_ANIMATE_CRAWLING_CLAW" source="Libris Mortis">
+    <description>This spell binds the life force of a murderer to its severed hand, haunting and animating it. Choose a severed hand you can see within range. The hand must have been severed from the body of a humanoid murderer within the last seven days. If the murderer is dead and its spirit already manifests as another undead creature, or if its dead spirit has long passed on to another plane, the spell fails.
+
+The target hand becomes a crawling claw. It is under your control for 24 hours, after which the hand becomes inactive and can't be animated again. On each of your turns, you can use a bonus action to mentally command the crawling claw. You decide what action the creature will take and where it will move during its next turn, or you can issue a general command for it to follow to the best of its understanding. If you issue no commands, the claw follows its last command to the best of its ability. Once given an order, the claw continues to follow it until its task is complete.
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 2nd level or higher, the crawling claw remains active for an additional 24 hours for every slot level above 1st. When cast using a spell slot of 6th level or higher, the crawling claw remains active until slain.</description>
+    <setters>
+      <set name="level">1</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 minute</set>
+      <set name="range">10 feet</set>
+      <set name="components">V, S, M (a butcher's knife)</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Animate Greater Undead" type="Spell" id="ID_CUSTOM_LM_SPELL_ANIMATE_GREATER_UNDEAD" source="Libris Mortis">
+    <description>This spell creates an undead servant. Choose a pile of bones or a corpse of a Huge or smaller creature within range. The creature must have been a beast, dragon, giant, or plant of CR 5 or lower. Your spell imbues the target with a foul mimicry of life, raising it as an undead creature. The target retains the statistics that it had in life, except for the following modifications:
+
+On each of your turns, you can use a bonus action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.
+
+The creature is under your control for 24 hours, after which it stops obeying any command you've given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over one undead of CR 5 or lower that you have animated with this spell, rather than animating a new one.
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 7th level or higher, the maximum challenge rating of creatures you can animate or reassert control over increases by 1 for each slot level above 6th.</description>
+    <setters>
+      <set name="level">6</set>
+      <set name="school">Necromancy</set>
+      <set name="time">10 minute</set>
+      <set name="range">10 feet</set>
+      <set name="components">V, S, M (one clay pot filled with grave dirt, one clay pot filled with brackish water, and one black onyx stone worth 300 gp)</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Avascular Mass" type="Spell" id="ID_CUSTOM_LM_SPELL_AVASCULAR_MASS" source="Libris Mortis">
+    <description>You shoot a ray of necromantic energy from your outstretched hand, causing one creature of your choice within range to violently purge blood vessels through its skin. Constructs and undead are not affected by this spell. The target must make a Constitution saving throw, taking 8d10 necrotic damage on a failed save, or half as much damage on a successful one.
+
+On a failed save, the target's purged blood vessels are magically animated, creating a many-layered mass of magically strong, adhesive tissue that trap those caught in them. The avascular mass instantaneously erupts in a 20-foot radius sphere centered on the target. The avascular mass is difficult terrain and lightly obscures their area.
+
+If the avascular mass isn't anchored between two solid masses (such as walls or trees) or layered across a floor, wall, or ceiling, it collapses on itself, and the spell ends at the start of your next turn.
+
+Each creature that starts its turn in the avascular mass or that enters it during its turn must make a Dexterity saving throw. The original target of the spell automatically fails this saving throw. On a failed save, a creature is restrained as long as it remains in the avascular mass or until it breaks free.
+
+A creature restrained by the avascular mass can use its action to make a Strength check against your spell save DC. If it succeeds, it is no longer restrained.
+
+Any 5-foot cube of avascular mass that takes more than 10 radiant damage on a single turn disintegrates. When the spell ends, the blood vessel mass becomes a small layer of limp, decaying tissue.</description>
+    <setters>
+      <set name="level">5</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="range">60 feet</set>
+      <set name="components">V, S</set>
+      <set name="duration">Concentration, up to 10 minute</set>
+      <set name="classes">Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Awaken Undead" type="Spell" id="ID_CUSTOM_LM_SPELL_AWAKEN_UNDEAD" source="Libris Mortis">
+    <description>This spell grants intelligence to mindless undead such as skeletons and zombies with an Intelligence score of 6 or lower. Choose up to ten undead within range that fit this criteria. The targets must be within range for the entire casting of the spell. At the completion of the casting, the targets regain the memories, the languages, and the Intelligence, Wisdom, and Charisma scores that they had in life. They also regain the weapon and armor proficiencies they had in life (if any), and they gain advantage on saving throws against effects that turn undead.</description>
+    <setters>
+      <set name="level">7</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 hour</set>
+      <set name="range">120 feet</set>
+      <set name="components">V, S, M (a humanoid fingerbone)</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Warlock</set>
+    </setters>
+  </element>
+  <element name="Bite of the King" type="Spell" id="ID_CUSTOM_LM_SPELL_BITE_OF_THE_KING" source="Libris Mortis">
+    <description>Your maw suddenly opens many times its normal size as it attempts to swallow your victim whole. After the attempt, it immediately returns to its normal size.
+
+Make a melee spell attack against a creature you can reach. On a hit, the target takes 6d12 piercing damage, and it must make a Dexterity saving throw. On a failed save, the target is immediately banished to the "stomach dimension" for the duration.
+
+The stomach dimension is a demiplane that adjusts its size to squeeze the largest creature that is currently inside of it. While in the stomach dimension, a creature is blinded and restrained, and it takes 4d6 acid damage plus 4d6 bludgeoning damage at the start of each of your turns. To escape, a creature must deal 35 damage to the walls of the stomach dimension on a single turn. The walls of the stomach dimension have an AC of 21 and are immune to acid, necrotic, poison, and psychic damage.
+
+A creature that successfully exits the stomach dimension or is still alive at the end of the duration appears next to you in the nearest unoccupied space, seemingly being expelled through a rip between dimensions that originates from your stomach.
+
+Each caster of this spell has a personal stomach dimension that this spell links to. If a creature dies while in your stomach dimension, you can choose to eject its corpse and the items it had on its person, or you can let it remain as a warning for future victims of this spell.</description>
+    <setters>
+      <set name="level">8</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="range">Self</set>
+      <set name="components">V</set>
+      <set name="duration">1 minute</set>
+      <set name="classes">Cleric, Sorcerer</set>
+    </setters>
+  </element>
+  <element name="Clutch of Orcus" type="Spell" id="ID_CUSTOM_LM_SPELL_CLUTCH_OF_ORCUS" source="Libris Mortis">
+    <description>One humanoid of your choice that you can see within range begins to suffer a magic-induced heart attack. The target must succeed on a Constitution saving throw or take 3d8 necrotic damage and be stunned for the duration. At the end of each of its turns, the target repeats the saving throw. It takes 3d8 necrotic damage on a failed save, and the spell ends on the target on a successful one.</description>
+    <setters>
+      <set name="level">3</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="range">60 feet</set>
+      <set name="components">V, S</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="classes">Cleric, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Command Horde" type="Spell" id="ID_CUSTOM_LM_SPELL_COMMAND_HORDE" source="Libris Mortis">
+    <description>When you cast this spell, and as an action on each of your turns for the duration, you can command up to four undead that you can see within range that are under your control. You give the same command to each target. You choose from one of the following commands each time you use this effect:
+
+**Advance**
+
+Each target can use its reaction to move up to its speed.
+
+**Apprehend**
+
+Each target can use its reaction to attempt to grapple one creature within its reach. The undead can all grapple the same target or can split their grapples between different targets.
+
+**Attack**
+
+Each target can use its reaction to make one attack against a creature they can see. The undead can all attack the same target or can split their attacks between different targets.
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 4th level or higher, you can target two additional undead for each slot level above 3rd.</description>
+    <setters>
+      <set name="level">3</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="range">120 feet</set>
+      <set name="components">V, S</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="classes">Cleric, Wizard</set>
+    </setters>
+  </element>
+  <element name="Consumptive Field" type="Spell" id="ID_CUSTOM_LM_SPELL_CONSUMPTIVE_FIELD" source="Libris Mortis">
+    <description>A consumptive death field radiates from you in an aura with a 15-foot radius. Until the spell ends, the aura moves with you, centered on you. When a hostile creature enters the aura for the first time on a turn or starts its turn there, it must make a Constitution saving throw. On a failed save, the creature takes 2d6 necrotic damage, and you regain hit points equal to half the necrotic damage dealt. Undead are unaffected by this spell.
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d6 for each slot level above 4th.</description>
+    <setters>
+      <set name="level">4</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="range">15 feet radius</set>
+      <set name="components">V</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="classes">Blackguard, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Energy Ebb" type="Spell" id="ID_CUSTOM_LM_SPELL_ENERGY_EBB" source="Libris Mortis">
+    <description>You point your finger and utter a foul incantation, releasing a black needle of crackling negative energy that assaults the life force of living creatures. When you cast this spell, and as an action on each of your turns until the spell ends, you can target one creature you can see within range. If the target isn't undead, it must succeed on a Constitution saving throw or take 4d8 necrotic damage and suffer one level of exhaustion. If the target is undead, you instead roll 4d8. The target gains half the total as temporary hit points.
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 5th level or higher, the damage and temporary hit point dice increase by 1d8 for each slot level above 4th.</description>
+    <setters>
+      <set name="level">4</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="range">60 feet</set>
+      <set name="components">V, S</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="classes">Cleric, Sorcerer, Wizard</set>
+    </setters>
+  </element>
+  <element name="Field of Ghouls" type="Spell" id="ID_CUSTOM_LM_SPELL_FIELD_OF_GHOULS" source="Libris Mortis">
+    <description>You transform the ebbing life force of all nearby badly wounded creatures and use it to create ghouls. Each living creature within 30 feet of you is poisoned until the end of your next turn. Targets with 30 hit points or fewer must also make a Charisma saving throw. If a target has 0 hit points, it automatically fails this saving throw. On a failed save, a target dies.
+
+A humanoid killed by this spell rises at the start of your next turn as a ghoul that is under your command, following your verbal orders to the best of its ability. Any ghoul created by this spell melts into a pile of flesh and is destroyed after 24 hours.</description>
+    <setters>
+      <set name="level">7</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="range">30 feet radius</set>
+      <set name="components">V</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Cleric, Sorcerer, Warlock</set>
+    </setters>
+  </element>
+  <element name="Flesh Puppet" type="Spell" id="ID_CUSTOM_LM_SPELL_FLESH_PUPPET" source="Libris Mortis">
+    <description>You create a Tiny construct made of flesh and bone, a puppet that obeys your telepathic commands, in a space within range. It has no thoughts of its own, but it can telepathically communicate what it senses to you. Once on each of your turns, you can telepathically command the construct to walk up to 30 feet and interact with objects. The puppet can't attack, activate magic items, or carry more than 10 pounds, but it can perform simple tasks that require no actions such as pushing, pulling, or lifting objects.
+
+The puppet has AC 10, 1 hit point, and a Strength of 2. If it drops to 0 hit points, if it is ever more than 60 feet away from you, or if you cast this spell again, the puppet crumbles into a pile of bones and flesh and the spell ends.
+
+Additionally, as an action, you can see through your puppet's eyes and hear what it hears until the start of your next turn, using its normal senses instead of your own. During this time, you are deafened and blinded with regard to your own senses.</description>
+    <setters>
+      <set name="level">1</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="range">10 feet</set>
+      <set name="components">V, S, M (a piece of a corpse worth at least 1 sp)</set>
+      <set name="duration">1 hour</set>
+      <set name="classes">Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Ghastly Stench" type="Spell" id="ID_CUSTOM_LM_SPELL_GHASTLY_STENCH" source="Libris Mortis">
+    <description>You emanate the putrid stench of a ghast. For the duration, each creature that starts its turn within 15 feet of you must succeed on a Constitution saving throw or be poisoned until the start of its next turn.
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 3rd level or higher, you can increase the radius of this spell by 5 feet for each slot level above 2nd.</description>
+    <setters>
+      <set name="level">2</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="range">15 feet radius</set>
+      <set name="components">V, S</set>
+      <set name="duration">Concentration, up to 10 minute</set>
+      <set name="classes">Bard, Blackguard, Cleric, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Ghoul Gauntlet" type="Spell" id="ID_CUSTOM_LM_SPELL_GHOUL_GAUNTLET" source="Libris Mortis">
+    <description>Your touch gradually transforms a living victim into a ravening, flesh-eating ghoul. The transformation process begins at the limb or extremity (usually the hand or arm) touched, and spreads outwards as the target's body slowly dies and is transformed into a ghoul's cold, undying flesh.
+
+Make a melee spell attack against a humanoid within your reach. On a hit, the target is poisoned.
+
+At the end of each of the target's turns, it must make a Constitution saving throw. On a failed save, the target takes 4d6 necrotic damage. If the target succeeds on three of these saves, it is no longer poisoned, and the spell ends. The spell can also be ended early by the greater restoration, heal, and remove curse spells.
+
+If the target is reduced to 0 hit points while poisoned by this spell, it dies and rises at the start of your next turn as a ghoul that is under your command, following your verbal orders to the best of its ability. The ghoul melts into a pile of flesh and is destroyed after 24 hours.</description>
+    <setters>
+      <set name="level">5</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="range">Self</set>
+      <set name="components">V, S</set>
+      <set name="duration">1 minute</set>
+      <set name="classes">Cleric, Sorcerer, Wizard</set>
+    </setters>
+  </element>
+  <element name="Ghoul Light" type="Spell" id="ID_CUSTOM_LM_SPELL_GHOUL_LIGHT" source="Libris Mortis">
+    <description>A sickly green flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, except for its green hue, but it creates no heat and doesn't use oxygen. The flame can be covered and hidden, but not smothered or quenched.
+
+Undead within 30 feet of this light have advantage on saving throws against effects that turn undead. If an undead already had advantage on such saving throws before entering the area, it instead gains immunity to effects that turn undead while within the area.
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 3rd level or higher, the effect persists until it is dispelled.</description>
+    <setters>
+      <set name="level">1</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="range">Self</set>
+      <set name="components">V, S, M (a bit of rendered fat)</set>
+      <set name="duration">8 hour</set>
+      <set name="classes">Cleric, Sorcerer, Wizard</set>
+    </setters>
+  </element>
+  <element name="Grave Bolt" type="Spell" id="ID_CUSTOM_LM_SPELL_GRAVE_BOLT" source="Libris Mortis">
+    <description>You launch a bolt of negative energy at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 necrotic damage. If this attack hits a tree, a plant creature, or some other form of vegetation, the target instead takes 1d12 damage.
+
+The spell's damage increases by one die when you reach 5th level (2d10 or 2d12), 11th level (3d10 or 3d12), and 17th level (4d10 or 4d12).</description>
+    <setters>
+      <set name="level">0</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="range">120 feet</set>
+      <set name="components">V, S</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Gravesight" type="Spell" id="ID_CUSTOM_LM_SPELL_GRAVESIGHT" source="Libris Mortis">
+    <description>You touch an undead creature that is under your control. For the duration of the spell, you can use your action to see through the undead's eyes and hear what it hears, and continue to do so until you use your action to return to your normal senses. While perceiving through the target's senses, you gain the benefits of any special senses possessed by that target, though you are blinded and deafened to your own surroundings.</description>
+    <setters>
+      <set name="level">2</set>
+      <set name="school">Divination</set>
+      <set name="time">1 action</set>
+      <set name="range">Self</set>
+      <set name="components">S</set>
+      <set name="duration">Concentration, up to 1 hour</set>
+      <set name="classes">Cleric, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Kiss of the Vampire" type="Spell" id="ID_CUSTOM_LM_SPELL_KISS_OF_THE_VAMPIRE" source="Libris Mortis">
+    <description>You target one living creature you can see within 30 feet of you. If the target can see you, it must succeed on a Wisdom saving throw or be charmed by you for the duration. The charmed target regards you as a trusted friend to be heeded and protected. Although the target isn't under your direct control, it takes your requests or actions in the most favorable way it can.
+
+The charmed target can repeat the saving throw at the end of each of its turns. It takes 3d6 psychic damage on a failed save, and the spell ends for it on a successful one.
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 4th level or higher, you can target one additional humanoid for each slot level above 3rd.</description>
+    <setters>
+      <set name="level">3</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="range">30 feet</set>
+      <set name="components">V, S, M (a black onyx worth at least 50 gp that has been carved with the image of a fang-mouthed face)</set>
+      <set name="duration">1 minute</set>
+      <set name="classes">Bard, Cleric, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Lay Waste" type="Spell" id="ID_CUSTOM_LM_SPELL_LAY_WASTE" source="Libris Mortis">
+    <description>You create six tiny orbs of negative energy in your space. They float in the air and orbit you for the spell's duration. When you cast the spell—and as a bonus action on each of your turns thereafter—you can expend one or two of the orbs, sending them streaking toward a point or points you choose within 120 feet of you. Once a orb reaches its destination or impacts against a solid surface, the orb explodes. Each creature within 5 feet of the point where the orb explodes must make a Constitution saving throw. A creature takes 2d6 necrotic damage on a failed save, or half as much damage on a successful one.
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 4th level or higher, the number of orbs created increases by two for each slot level above 3rd.</description>
+    <setters>
+      <set name="level">3</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="range">Self</set>
+      <set name="components">V, S</set>
+      <set name="duration">Concentration, up to 10 minute</set>
+      <set name="classes">Blackguard, Cleric, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Manipulate Corpse" type="Spell" id="ID_CUSTOM_LM_SPELL_MANIPULATE_CORPSE" source="Libris Mortis">
+    <description>You manipulate the corpse of one creature you can see within range, creating up to two of the following effects:</description>
+    <setters>
+      <set name="level">0</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="range">60 feet</set>
+      <set name="components">V, S, M (strings to control a marionette with)</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Mourning Mist" type="Spell" id="ID_CUSTOM_LM_SPELL_MOURNING_MIST" source="Libris Mortis">
+    <description>You hurl a globule of black mist at a point within range. Each living creature in a 20-foot-radius sphere centered on that point must make a Constitution saving throw. On a failed save, a creature takes 4d10 necrotic damage, and each undead ally of your choice has advantage on attacks against the creature until the end of your next turn.</description>
+    <setters>
+      <set name="level">3</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="range">120 feet</set>
+      <set name="components">V, S, M (a bottle of black ichor)</set>
+      <set name="duration">1 rounds</set>
+      <set name="classes">Cleric, Sorcerer, Wizard</set>
+    </setters>
+  </element>
+  <element name="Necrotic Cyst" type="Spell" id="ID_CUSTOM_LM_SPELL_NECROTIC_CYST" source="Libris Mortis">
+    <description>Make a melee spell attack against a creature within your reach. On a hit, the target develops an internal spherical sac that contains fluid or semisolid necrotic flesh, unless it is a construct or undead. The internal cyst is noticeable as a slight bulge on the target's arm, abdomen, or face (wherever you chose to touch the target), and is buried deeply enough in its flesh that it is not easily identifiable without a successful Wisdom (Medicine) check against your spell save DC.
+
+While the target possesses a necrotic cyst, it suffers from the poisoned condition, and it can't magically regain hit points or benefit from resistance to necrotic damage. Additionally, whenever the target takes damage, it must make a Constitution saving throw. On a failed save, the target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.
+
+A protection from evil and good spell prevents the necrotic cyst from forming, but once a necrotic cyst is implanted, it can only be removed can be removed only by heal or another disease-curing spell of 6th level or higher. The target may also elect to have some well-meaning chirurgeon remove it surgically. The procedure is a bloody, painful process that has a chance to kill the target if done improperly. The procedure takes 1 hour, and the chirurgeon must make a Wisdom (Medicine) check against your spell save DC. On a success, the cyst is removed safely, and the target suffers one level of exhaustion. On a failure, the target dies.</description>
+    <setters>
+      <set name="level">5</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="range">Self</set>
+      <set name="components">V, S</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Cleric, Sorcerer, Wizard</set>
+    </setters>
+  </element>
+  <element name="Negative Energy Burst" type="Spell" id="ID_CUSTOM_LM_SPELL_NEGATIVE_ENERGY_BURST" source="Libris Mortis">
+    <description>A wave of negative energy washes out from a point of your choice within range. Each living creature in a 15-foot-radius sphere centered on that point must make a Constitution saving throw, taking 5d12 necrotic damage on a failed save, or half as much damage on a successful one. A humanoid killed by this damage rises up as a zombie at the start of your next turn. The zombie pursues whatever living creature it can see that is closest to it.
+
+Undead in the area of the spell don't make a saving throws. Instead, each undead in the area gains half the total damage roll as temporary hit points.</description>
+    <setters>
+      <set name="level">7</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="range">120 feet</set>
+      <set name="components">V, M (a broken bone and a square of black silk)</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Plague of Undead" type="Spell" id="ID_CUSTOM_LM_SPELL_PLAGUE_OF_UNDEAD" source="Libris Mortis">
+    <description>Great necromantic power causes any number of Small or Medium corpses you can see within range to animate. Each corpse immediately stands up and becomes undead. You decide whether a corpse becomes a zombie or a skeleton. These undead are permanently under your command and follow your verbal orders to the best of its ability. They also gain a bonus to their attack and damage rolls equal to your spellcasting ability modifier for the next 24 hours.</description>
+    <setters>
+      <set name="level">9</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="range">60 feet</set>
+      <set name="components">V, S, M (one or more black sapphires whose total value equals or exceeds 10,000 gp)</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Cleric, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Protection from Life and Death" type="Spell" id="ID_CUSTOM_LM_SPELL_PROTECTION_FROM_LIFE_AND_DEATH" source="Libris Mortis">
+    <description>For the duration, the willing creature you touch has resistance to necrotic and radiant damage.</description>
+    <setters>
+      <set name="level">3</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 action</set>
+      <set name="range">Self</set>
+      <set name="components">V, S</set>
+      <set name="duration">Concentration, up to 1 hour</set>
+      <set name="classes">Artificer, Cleric, Druid, Ranger, Sorcerer, Wizard</set>
+    </setters>
+  </element>
+  <element name="Revive Undead" type="Spell" id="ID_CUSTOM_LM_SPELL_REVIVE_UNDEAD" source="Libris Mortis">
+    <description>Your restore animation to the remains of an undead creature you touch. The target reanimates with all of its hit points, but it it is under no compulsion to behave in any particular way unless it was under your control before it was destroyed. This spell fails if the target was destroyed by a Turn Undead effect, or if its body was otherwise completely obliterated by a spell or other effect. The undead must have been inactive for no more than a week, and its Challenge Rating must be equal to or less than your character level (or Challenge Rating, if you don't have a class level).</description>
+    <setters>
+      <set name="level">6</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 minute</set>
+      <set name="range">Self</set>
+      <set name="components">V, S, M (a black pearl worth at least 500 gp)</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Cleric, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Sheltered Vitality" type="Spell" id="ID_CUSTOM_LM_SPELL_SHELTERED_VITALITY" source="Libris Mortis">
+    <description>One willing creature you touch gains advantage on saving throws against the following effects for the duration:</description>
+    <setters>
+      <set name="level">6</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 action</set>
+      <set name="range">Self</set>
+      <set name="components">V, S, M (a diamond worth at least 500 gp)</set>
+      <set name="duration">1 hour</set>
+      <set name="classes">Bard, Cleric, Druid, Warlock</set>
+    </setters>
+  </element>
+  <element name="Tenebrous Phantasm" type="Spell" id="ID_CUSTOM_LM_SPELL_TENEBROUS_PHANTASM" source="Libris Mortis">
+    <description>Drawing energy from the Shadowfell, you create up to four shadowy phantasms within range that persist for the duration. These phantasms can be of any creature or object you are familiar with. The phantasms appear to be real and animate, but also translucent. Their AC equals your spellcasting ability, they fail all Strength, Dexterity, and Constitution saves, and they pass all Intelligence, Wisdom, and Charisma saves.
+
+As a bonus action on your turn, you can direct each phantasm to move up to 30 feet and perform one of the following actions:
+
+**Grapple or Shove**
+
+The phantasm attempts to grapple or shove one creature within 5 feet of it. The target must succeed on a Strength or Dexterity saving throw (its choice) or be grappled by the phantasm, knocked prone, or pushed up to 5 feet away.
+
+**Fear**
+
+The phantasm attempts to induce fear in one creature within 5 feet of it. The target must succeed on a Wisdom saving throw or be frightened until the end of your next turn.
+
+**Manipulate Object**
+
+The phantasm takes the Use an Object action. The phantasm can't activate magic items or carry more than 50 pounds.
+
+**Shadow Touch**
+
+The phantasm touches one creature within 5 feet of it. The target must succeed on a Wisdom saving throw or take 2d6 necrotic or psychic damage (your choice).
+
+If a phantasm takes damage or is ever more than 60 feet away from you, it is destroyed. If a creature succeeds on an Intelligence (Investigation) or Intelligence (Arcana) check against your spell save DC, it realizes the phantasms are illusions that can be destroyed. When a phantasm is destroyed, any creature within 5 feet of it that doesn't realize it's an illusion must make a Wisdom saving throw or be frightened until the end of its next turn.</description>
+    <setters>
+      <set name="level">4</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 action</set>
+      <set name="range">60 feet</set>
+      <set name="components">V, S, M (a pinch of powder or a small crystal)</set>
+      <set name="duration">Concentration, up to 10 minute</set>
+      <set name="classes">Bard, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Unholy Crusade" type="Spell" id="ID_CUSTOM_LM_SPELL_UNHOLY_CRUSADE" source="Libris Mortis">
+    <description>Unholy power radiates from you in an aura with a 30-foot radius, infusing your allies' weapons with negative energy. Until the spell ends, the aura moves with you, centered on you. While in the aura, each nonhostile creature in the aura (including you) deals an extra 1d4 necrotic damage when it hits with a weapon attack.</description>
+    <setters>
+      <set name="level">3</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="range">30 feet radius</set>
+      <set name="components">V</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="classes">Blackguard, Warlock</set>
+    </setters>
+  </element>
+  <element name="Unholy Union" type="Spell" id="ID_CUSTOM_LM_SPELL_UNHOLY_UNION" source="Libris Mortis">
+    <description>You create an unholy union between a living creature and an undead. The first target is an undead creature that must be willing or magically compelled into agreeing with the spell. The second target is a willing living creature, or the corpse of a living creature that has been dead for no longer than one week whose soul is willing, which be fused with the undead. Both creatures must be within 5 feet of you for the full casting time.
+
+When the casting is complete, the living creature fuses with the undead, its soul entering the combined body and turning it into a new creature. The new creature's game statistics are the same as the undead, though it also gains the traits, abilities, proficiencies, class features, and feats of the living creature. The new creature can use the ability scores and proficiency bonus of either target, choosing from whichever is higher for each.
+
+The new creature possesses the memories of both targets, but its personality is either that of the undead, the living creature, or a combination of both (your choice). Its appearance is some combination of the two targets' appearances of your choice.</description>
+    <setters>
+      <set name="level">9</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 hour</set>
+      <set name="range">Self</set>
+      <set name="components">V, S, M (a black onyx worth at least 5,000 gp, which the spell consumes)</set>
+      <set name="duration">Instantaneous</set>
+      <set name="classes">Warlock</set>
+    </setters>
+  </element>
+  <element name="Vampiric Smite" type="Spell" id="ID_CUSTOM_LM_SPELL_VAMPIRIC_SMITE" source="Libris Mortis">
+    <description>The next time you hit a creature with a weapon attack before this spell ends, you siphon away some of the target's life force. The attack deals an extra 3d6 necrotic damage to the target, and you regain hit points equal to half the amount of necrotic damage dealt.
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</description>
+    <setters>
+      <set name="level">3</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 bonus action</set>
+      <set name="range">Self</set>
+      <set name="components">V</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="classes">Blackguard, Paladin</set>
+    </setters>
+  </element>
+  <element name="Veil of Undeath" type="Spell" id="ID_CUSTOM_LM_SPELL_VEIL_OF_UNDEATH" source="Libris Mortis">
+    <description>You gain many of the traits common to undead creatures. You gain the following benefits for the duration:</description>
+    <setters>
+      <set name="level">6</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="range">Self</set>
+      <set name="components">V, S, M (a black sapphire worth 1,000 gp)</set>
+      <set name="duration">1 hour</set>
+      <set name="classes">Cleric, Sorcerer, Warlock</set>
+    </setters>
+  </element>
+  <element name="Venomous Smite" type="Spell" id="ID_CUSTOM_LM_SPELL_VENOMOUS_SMITE" source="Libris Mortis">
+    <description>The next time you hit a creature with a melee weapon attack during the spell's duration, your attack deals an extra 1d6 poison damage. Additionally, the target must make a Constitution saving throw or be poisoned until the spell ends. As an action, the creature can make a Constitution check against your spell save DC to overcome the poison and end this spell.</description>
+    <setters>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 bonus action</set>
+      <set name="range">Self</set>
+      <set name="components">V</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="classes">Blackguard, Paladin</set>
+    </setters>
+  </element>
+  <element name="Wall of Pain" type="Spell" id="ID_CUSTOM_LM_SPELL_WALL_OF_PAIN" source="Libris Mortis">
+    <description>You create a wall of negative energy on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration.
+
+When the wall appears, each living creature within its area must make a Constitution saving throw. On a failed save, a creature takes 4d8 necrotic damage and has its speed halved until the end of their next turn. On a successful save, it takes half as much damage and does not have its speed halved.
+
+A living creature makes the same save when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall is harmless.
+
+An undead that passes through either side of the wall has its speed increased by 10 feet until the end of your next turn.
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</description>
+    <setters>
+      <set name="level">5</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="range">120 feet</set>
+      <set name="components">V, S</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="classes">Blackguard, Cleric, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Weakening Aura" type="Spell" id="ID_CUSTOM_LM_SPELL_WEAKENING_AURA" source="Libris Mortis">
+    <description>You create an aura of negative energy that weakens the life force of nearby creatures. Creatures within 15 feet of you can't regain hit points and have disadvantage on death saving throws, saving throws against exhaustion, and saving throws against effects that would reduce their hit point maximum.
+
+On each of your turns before the spell ends, you can use your bonus action to temporarily disable the field until the start of your next turn.</description>
+    <setters>
+      <set name="level">2</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 bonus action</set>
+      <set name="range">30 feet radius</set>
+      <set name="components">V, S</set>
+      <set name="duration">1 minute</set>
+      <set name="classes">Bard, Blackguard, Cleric</set>
+    </setters>
+  </element>
+  <element name="Wither Limb" type="Spell" id="ID_CUSTOM_LM_SPELL_WITHER_LIMB" source="Libris Mortis">
+    <description>Choose one creature that you can see within range to make a Constitution saving throw. On a failed save, you can choose to wither one of its limbs or appendages, preventing it from using it for the duration.
+
+For example, if you wither a leg, the target can't use that leg and may fall prone for the duration, and withering a wing may cause it to fall if it is flying. If you wither an arm, the target drops any item it is holding with that arm, and until the spell ends, it can't use that arm to use or hold items, to make attacks, or to perform somatic components for spells.
+
+The target can repeat the save at the end of each of its turns, ending the spell on itself on a success.
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd.</description>
+    <setters>
+      <set name="level">2</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="range">30 feet</set>
+      <set name="components">V, S</set>
+      <set name="duration">1 minute</set>
+      <set name="classes">Bard, Blackguard, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+  <element name="Withering Curse" type="Spell" id="ID_CUSTOM_LM_SPELL_WITHERING_CURSE" source="Libris Mortis">
+    <description>You unleash a curse on one creature you can see within range. The target must make a Charisma saving throw, taking 2d8 necrotic damage on a failed save, or half as much damage on a successful one. On a failed save, the target also becomes cursed for the duration of the spell or until a remove curse spell is cast on it.
+
+While cursed, the target can't regain hit points, and it must repeat the saving throw at the end of each of its turns. It takes 1d6 necrotic damage on a failed save, and the curse ends on the target on a successful one.
+
+If the target dies while cursed by this spell, it crumbles into a cloud of dust.
+
+At Higher Levels.
+
+When you cast this spell using a spell slot of 3rd level or higher, the initial damage increases by 1d8 for each slot level above 2nd.</description>
+    <setters>
+      <set name="level">2</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="range">60 feet</set>
+      <set name="components">V, S</set>
+      <set name="duration">1 minute</set>
+      <set name="classes">Cleric, Sorcerer, Warlock, Wizard</set>
+    </setters>
+  </element>
+</elements>
