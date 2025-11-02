@@ -4,13 +4,14 @@
     <name>Libris Mortis</name>
     <description>Custom content index for Libris Mortis (LM).</description>
     <author>badooga</author>
-    <version>1.0.1</version>
+    <!-- required by Aurora -->
+    <update version="1.0.1">
+      <file name="libris-mortis.index" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/libris-mortis.index" />
+    </update>
   </info>
+
   <files>
     <file name="source.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/source.xml" />
     <file name="notes.xml"  url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/notes.xml" />
-    <!-- Add more files here, e.g.:
-         <file name="monsters_01.xml" url="https://REPLACE_ME_WITH_YOUR_HOST/aurora/libris-mortis/monsters_01.xml" />
-         <file name="spells.xml"      url="https://REPLACE_ME_WITH_YOUR_HOST/aurora/libris-mortis/spells.xml" /> -->
   </files>
 </index>
