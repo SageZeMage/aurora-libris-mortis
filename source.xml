@@ -11,6 +11,7 @@
     <description>Libris Mortis</description>
     <setters>
       <set name="url">https://drive.google.com/file/d/1zjoJTguCOkJYNU_MKa0osyunoH2fU4DP/view</set>
+      <set name="abbreviation">LM</set>
     </setters>
   </element>
 </elements>
