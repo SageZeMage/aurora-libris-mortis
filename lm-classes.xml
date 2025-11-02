@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <elements>
   <info>
     <name>Classes (Libris Mortis)</name>
     <description>Base classes and features from LM.</description>
     <update version="1.0.0">
-      <file name="classes.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/classes.xml"/>
+      <file name="classes.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/classes.xml" />
     </update>
   </info>
   <element name="Blackguard" type="Class" source="Libris Mortis" id="ID_CUSTOM_LM_CLASS_BLACKGUARD">
@@ -38,30 +38,30 @@ Blackguards and Paladins
 
 When a paladin actively breaks their oath and falls down the path of darkness, the DM may choose to replace their paladin levels with blackguard levels, rather than using the paladin in the Dungeon Master's Guide. Similarly, if a blackguard completes some sort of quest for atonement, they may be able to make a sacred oath that allows them to replace their blackguard levels with paladin levels.</description>
     <rules>
-      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_SHROUD_OF_SHADOW" level="1"/>
-      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_UNHOLY_VIGOR" level="1"/>
-      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_DREAD_SMITE" level="2"/>
-      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_FIGHTING_STYLE" level="2"/>
-      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_SPELLCASTING" level="2"/>
-      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_INURED_TO_DECAY" level="3"/>
-      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_BLACKGUARD_VICE" level="3"/>
-      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_ABILITY_SCORE_IMPROVEMENT" level="4"/>
-      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_MARTIAL_VERSATILITY" level="4"/>
-      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_EXTRA_ATTACK" level="5"/>
-      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_DARK_BLESSING" level="6"/>
-      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_BLACKGUARD_VICE_FEATURE" level="7"/>
-      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_ABILITY_SCORE_IMPROVEMENT" level="8"/>
-      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_AURA_OF_HATE" level="10"/>
-      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_IMPROVED_DREAD_SMITE" level="11"/>
-      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_ABILITY_SCORE_IMPROVEMENT" level="12"/>
-      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_VILE_TOUCH" level="14"/>
-      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_BLACKGUARD_VICE_FEATURE" level="15"/>
-      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_ABILITY_SCORE_IMPROVEMENT" level="16"/>
-      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_AURA_IMPROVEMENTS" level="18"/>
-      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_ABILITY_SCORE_IMPROVEMENT" level="19"/>
-      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_BLACKGUARD_VICE_FEATURE" level="20"/>
+      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_SHROUD_OF_SHADOW" level="1" />
+      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_UNHOLY_VIGOR" level="1" />
+      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_DREAD_SMITE" level="2" />
+      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_FIGHTING_STYLE" level="2" />
+      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_SPELLCASTING" level="2" />
+      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_INURED_TO_DECAY" level="3" />
+      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_BLACKGUARD_VICE" level="3" />
+      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_ABILITY_SCORE_IMPROVEMENT" level="4" />
+      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_MARTIAL_VERSATILITY" level="4" />
+      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_EXTRA_ATTACK" level="5" />
+      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_DARK_BLESSING" level="6" />
+      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_BLACKGUARD_VICE_FEATURE" level="7" />
+      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_ABILITY_SCORE_IMPROVEMENT" level="8" />
+      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_AURA_OF_HATE" level="10" />
+      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_IMPROVED_DREAD_SMITE" level="11" />
+      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_ABILITY_SCORE_IMPROVEMENT" level="12" />
+      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_VILE_TOUCH" level="14" />
+      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_BLACKGUARD_VICE_FEATURE" level="15" />
+      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_ABILITY_SCORE_IMPROVEMENT" level="16" />
+      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_AURA_IMPROVEMENTS" level="18" />
+      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_ABILITY_SCORE_IMPROVEMENT" level="19" />
+      <grant type="Class Feature" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_BLACKGUARD_VICE_FEATURE" level="20" />
     </rules>
-  </element>
+  <setters><set name="hd">d10</set></setters></element>
   <element name="Shroud of Shadow" type="Class Feature" source="Libris Mortis" id="ID_CUSTOM_LM_CLASS_FEATURE_BLACKGUARD_SHROUD_OF_SHADOW">
     <description>1st-level blackguard feature
 
