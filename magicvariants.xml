@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='utf-8'?>
+<elements>
+  <info>
+    <name>Magic Item Variants (Libris Mortis)</name>
+    <description>Generic variant magic items derived from LM magicvariant records; apply to the required base item type.</description>
+    <update version="1.0.0">
+      <file name="magicvariants.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/magicvariants.xml" />
+    </update>
+  </info>
+  <element name="Necrotic Focus" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_VARIANT_NECROTIC_FOCUS">
+    <description>Requirements: Weapon
+
+This magic weapon serves as a channel for negative energy.
+
+While you are wielding the weapon, you can use it as a spellcasting focus. When you deal damage with an attack or spell while holding this focus, you can change the damage type to necrotic damage.</description>
+    <sheet>
+      <description>Requirements: Weapon
+
+This magic weapon serves as a channel for negative energy.
+
+While you are wielding the weapon, you can use it as a spellcasting focus. When you deal damage with an attack or spell while holding this focus, you can change the damage type to necrotic damage.</description>
+    </sheet>
+    <setters>
+      <set name="rarity">Uncommon</set>
+      <set name="category">Weapon</set>
+      <set name="type">Weapon</set>
+    </setters>
+  </element>
+  <element name="Day Armor" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_VARIANT_DAY_ARMOR">
+    <description>Requirements: Item or Item
+
+Typically used by vampires and other intelligent undead, day armor is a special item that prevents light or sunlight from harming the wearer during combat.
+
+While wearing this armor, you ignore the effects of traits such as Light Sensitivity, Sunlight Sensitivity, and Sunlight Hypersensitivity that harm you while you are in light or sunlight. Additionally, you gain resistance to radiant damage, and you have advantage on saving throws against being blinded.</description>
+    <sheet>
+      <description>Requirements: Item or Item
+
+Typically used by vampires and other intelligent undead, day armor is a special item that prevents light or sunlight from harming the wearer during combat.
+
+While wearing this armor, you ignore the effects of traits such as Light Sensitivity, Sunlight Sensitivity, and Sunlight Hypersensitivity that harm you while you are in light or sunlight. Additionally, you gain resistance to radiant damage, and you have advantage on saving throws against being blinded.</description>
+    </sheet>
+    <setters>
+      <set name="rarity">Very rare</set>
+      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Ghoul Shell" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_VARIANT_GHOUL_SHELL">
+    <description>Requirements: Item or Item or Item
+
+A suit of ghoul shell armor consists of shaped and fitted sections of ghoul hide sewn and interlocked to cover the entire body, save for head, hands, and feet. Necromantic residue remaining in the ghoul shell keeps the armor pliant and responsive.
+
+While wearing this armor, you can use your action to target the corpse of a creature that is within 5 feet of you, has been dead for no longer than 1 minute, died violently, and isn't a construct. When you do so, the armor consumes the corpse and grants you a bonus to AC: +1 if the corpse is Medium or smaller, +2 if it is Large or Huge, or +3 if it is Gargantuan or larger. This bonus to AC lasts for 1 hour or until you use this action again.</description>
+    <sheet>
+      <description>Requirements: Item or Item or Item
+
+A suit of ghoul shell armor consists of shaped and fitted sections of ghoul hide sewn and interlocked to cover the entire body, save for head, hands, and feet. Necromantic residue remaining in the ghoul shell keeps the armor pliant and responsive.
+
+While wearing this armor, you can use your action to target the corpse of a creature that is within 5 feet of you, has been dead for no longer than 1 minute, died violently, and isn't a construct. When you do so, the armor consumes the corpse and grants you a bonus to AC: +1 if the corpse is Medium or smaller, +2 if it is Large or Huge, or +3 if it is Gargantuan or larger. This bonus to AC lasts for 1 hour or until you use this action again.</description>
+    </sheet>
+    <setters>
+      <set name="rarity">Very rare</set>
+      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Ghost Ward" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_VARIANT_GHOST_WARD">
+    <description>Requirements: Item or Item or Item
+
+This armor is infused with positive energy that protects its wearer from attacks made by incorporeal undead.
+
+While wearing this armor, you have advantage on saving throws against effects that would possess you, reduce your hit point maximum, or cause you to be frightened.
+
+In addition, you take half damage from attacks made by creatures with the Incorporeal Movement trait. If you are hit by such an attack, the armor creates a backlash of positive energy that deals 2d6 radiant damage to the attacker.</description>
+    <sheet>
+      <description>Requirements: Item or Item or Item
+
+This armor is infused with positive energy that protects its wearer from attacks made by incorporeal undead.
+
+While wearing this armor, you have advantage on saving throws against effects that would possess you, reduce your hit point maximum, or cause you to be frightened.
+
+In addition, you take half damage from attacks made by creatures with the Incorporeal Movement trait. If you are hit by such an attack, the armor creates a backlash of positive energy that deals 2d6 radiant damage to the attacker.</description>
+    </sheet>
+    <setters>
+      <set name="rarity">Rare</set>
+      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Ghost Shroud" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_VARIANT_GHOST_SHROUD">
+    <description>Requirements: Item or Item
+
+A ghost shroud appears as a winding cloth in which the body is wrapped, as if for burial. The shroud sometimes appears, appropriately enough, ghostly and partially translucent.
+
+When you take the Dash action while wearing this armor, you can also choose to become incorporeal until the end of the turn. During this time, you can move through other creatures and objects as if they were difficult terrain, but you can't end your movement there. If you do so, you are ejected to the nearest unoccupied space, and you can't use this property again for 1 hour.</description>
+    <sheet>
+      <description>Requirements: Item or Item
+
+A ghost shroud appears as a winding cloth in which the body is wrapped, as if for burial. The shroud sometimes appears, appropriately enough, ghostly and partially translucent.
+
+When you take the Dash action while wearing this armor, you can also choose to become incorporeal until the end of the turn. During this time, you can move through other creatures and objects as if they were difficult terrain, but you can't end your movement there. If you do so, you are ejected to the nearest unoccupied space, and you can't use this property again for 1 hour.</description>
+    </sheet>
+    <setters>
+      <set name="rarity">Rare</set>
+      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Shadow Veil" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_VARIANT_SHADOW_VEIL">
+    <description>Requirements: Item or Item
+
+A shadow veil appears as a indistinct, enveloping covering of darkness.
+
+While wearing this armor, the shadows emanating from it cause you to be Vision and Light to others. In addition, while you are in Vision and Light or darkness, you have advantage on Dexterity (Stealth) checks made to hide, and your speed is increased by 20 feet.</description>
+    <sheet>
+      <description>Requirements: Item or Item
+
+A shadow veil appears as a indistinct, enveloping covering of darkness.
+
+While wearing this armor, the shadows emanating from it cause you to be Vision and Light to others. In addition, while you are in Vision and Light or darkness, you have advantage on Dexterity (Stealth) checks made to hide, and your speed is increased by 20 feet.</description>
+    </sheet>
+    <setters>
+      <set name="rarity">Rare</set>
+      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+  <element name="Weapon of Ghost Striking (of Ghost Striking)" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_VARIANT_WEAPON_OF_GHOST_STRIKING_OF_GHOST_STRIKING_">
+    <description>Requirements: Weapon
+
+A weapon of ghost striking is surrounded by the soft glow of ectoplasmic residue.
+
+Attacks made with this weapon deal radiant damage to creatures with the Incorporeal Movement trait, instead of its normal damage type. Furthermore, any creature with the Incorporeal Movement trait can't move through the weapon (e.g. a net), and must interact with it as though it were a corporeal creature.</description>
+    <sheet>
+      <description>Requirements: Weapon
+
+A weapon of ghost striking is surrounded by the soft glow of ectoplasmic residue.
+
+Attacks made with this weapon deal radiant damage to creatures with the Incorporeal Movement trait, instead of its normal damage type. Furthermore, any creature with the Incorporeal Movement trait can't move through the weapon (e.g. a net), and must interact with it as though it were a corporeal creature.</description>
+    </sheet>
+    <setters>
+      <set name="rarity">Uncommon</set>
+      <set name="category">Weapon</set>
+      <set name="type">Weapon</set>
+    </setters>
+  </element>
+  <element name="Profane Weapon" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_VARIANT_PROFANE_WEAPON">
+    <description>Requirements: Weapon
+
+While you are wielding the weapon, it deals an extra 2d6 necrotic damage to any target it hits.</description>
+    <sheet>
+      <description>Requirements: Weapon
+
+While you are wielding the weapon, it deals an extra 2d6 necrotic damage to any target it hits.</description>
+    </sheet>
+    <setters>
+      <set name="rarity">Rare</set>
+      <set name="category">Weapon</set>
+      <set name="type">Weapon</set>
+    </setters>
+  </element>
+  <element name="Sacred Weapon" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_VARIANT_SACRED_WEAPON">
+    <description>Requirements: Weapon
+
+A sacred weapon is sheathed in luminous positive energy.
+
+While you are wielding the weapon, it deals an extra 2d6 radiant damage to any target it hits.</description>
+    <sheet>
+      <description>Requirements: Weapon
+
+A sacred weapon is sheathed in luminous positive energy.
+
+While you are wielding the weapon, it deals an extra 2d6 radiant damage to any target it hits.</description>
+    </sheet>
+    <setters>
+      <set name="rarity">Rare</set>
+      <set name="category">Weapon</set>
+      <set name="type">Weapon</set>
+    </setters>
+  </element>
+  <element name="Vampire Hide" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_VARIANT_VAMPIRE_HIDE">
+    <description>Requirements: Item or Item
+
+This armor is prepared from a single layer of vampire skin. Necromantic residue remaining in the cloak keeps the armor pliant and responsive.
+
+While wearing the cloak, you gain the following benefits:</description>
+    <sheet>
+      <description>Requirements: Item or Item
+
+This armor is prepared from a single layer of vampire skin. Necromantic residue remaining in the cloak keeps the armor pliant and responsive.
+
+While wearing the cloak, you gain the following benefits:</description>
+    </sheet>
+    <setters>
+      <set name="rarity">Very rare</set>
+      <set name="category">Magic Item</set>
+      <set name="type">Wondrous Item</set>
+    </setters>
+  </element>
+</elements>
