@@ -37,7 +37,7 @@ When this maul is used to hit a creature, one use can be expended to release som
 When this maul is used to hit a creature, one use can be expended to release some of the holy water inside of it (no action required). If the target is a fiend or undead, it takes 1d6 radiant damage.</description>
     </sheet>
     <setters>
-      <set name="category">Weapon</set>
+      <set name="category">Weapons</set>
       <set name="cost">50 gp</set>
       <set name="weight">10 lb.</set>
       <set name="damage">2d6</set>
@@ -77,7 +77,7 @@ A slayer's crossbow is a martial ranged weapon. It deals 1d6 piercing damage on 
 </description>
     </sheet>
     <setters>
-      <set name="category">Weapon</set>
+      <set name="category">Weapons</set>
       <set name="cost">250 gp</set>
       <set name="weight">3 lb.</set>
       <set name="damage">1d6</set>
