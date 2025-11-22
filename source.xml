@@ -1,17 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <elements>
   <info>
-    <name>Source</name>
-    <description>Declares the Libris Mortis source so elements can reference it.</description>
+    <name>Libris Mortis — Source</name>
+    <description>Source definition for Libris Mortis (LM) converted for Aurora.</description>
+    <author>Nassim Guetiteni</author>
     <update version="1.0.0">
       <file name="source.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/source.xml" />
     </update>
   </info>
-  <element name="Libris Mortis" type="Source" id="ID_CUSTOM_LM_SOURCE" source="Libris Mortis">
-    <description>Libris Mortis</description>
+
+  <element name="Libris Mortis"
+           type="Source"
+           source="Libris Mortis"
+           id="ID_LM_SOURCE_LIBRIS_MORTIS">
+    <description>
+      <![CDATA[
+Libris Mortis is an undead-themed sourcebook, adapted here as 5e player options for Aurora.
+      ]]>
+    </description>
     <setters>
-      <set name="url">https://drive.google.com/file/d/1zjoJTguCOkJYNU_MKa0osyunoH2fU4DP/view</set>
       <set name="abbreviation">LM</set>
+      <set name="url">https://drive.google.com/file/d/1zjoJTguCOkJYNU_MKa0osyunoH2fU4DP/view</set>
+      <set name="author">badooga</set>
     </setters>
   </element>
 </elements>
