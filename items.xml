@@ -633,7 +633,7 @@ As an action, you can spread this ichor across a Medium or smaller object. For 1
 As an action, you can spread this ichor across a Medium or smaller object. For 10 minutes, any creature with the Incorporeal Movement trait can't move through the object, and must interact with it as though it were a corporeal creature.</description>
     </sheet>
     <setters>
-      <set name="category">Potion</set>
+      <set name="category">Potions</set>
       <set name="rarity">Common</set>
       <set name="type">Potion</set>
     </setters>
@@ -1246,10 +1246,11 @@ When you succeed on a check made to shove a creature using this shield, the crea
 When you succeed on a check made to shove a creature using this shield, the creature also suffers disadvantage on the next Strength, Constitution, or death saving throw it makes before the end of your next turn.</description>
     </sheet>
     <setters>
-      <set name="category">Shield</set>
+      <set name="category">Armor</set>
       <set name="weight">6 lb.</set>
       <set name="rarity">Rare</set>
       <set name="attunement">true</set>
+      <set name="type" addition="shield">Armor</set>
       <set name="ac">2</set>
     </setters>
   </element>
@@ -1263,10 +1264,11 @@ The shield has 6 charges, and it regains 1d4 + 2 expended charges daily at dusk.
 The shield has 6 charges, and it regains 1d4 + 2 expended charges daily at dusk. While holding it, you can use an action to expend some of its charges to cast one of the following spells from it (spell save DC 13, +5 to hit with spell attacks): bestow curse (3 charges), blight (4 charges), fear (3 charges), inflict wounds (1 charge), ray of enfeeblement (2 charges).</description>
     </sheet>
     <setters>
-      <set name="category">Shield</set>
+      <set name="category">Armor</set>
       <set name="weight">6 lb.</set>
       <set name="rarity">Rare</set>
       <set name="attunement">true</set>
+      <set name="type" addition="shield">Armor</set>
       <set name="ac">2</set>
     </setters>
   </element>
@@ -1280,7 +1282,7 @@ While wearing this armor, when you use the Attack action to shove a creature, th
 While wearing this armor, when you use the Attack action to shove a creature, the target takes 6 piercing damage if your check succeeds, and it can be pushed up to 5 feet away from you in a straight line.</description>
     </sheet>
     <setters>
-      <set name="category">Medium Armor</set>
+      <set name="category">Armor</set>
       <set name="weight">45 lb.</set>
       <set name="rarity">Rare</set>
       <set name="attunement">true</set>
