@@ -994,7 +994,7 @@ When you use your Channel Divinity to Turn Undead, the range of the ability incr
 When you use your Channel Divinity to Turn Undead, the range of the ability increases to 60 feet.</description>
     </sheet>
     <setters>
-      <set name="category">Rod</set>
+      <set name="category">Rods</set>
       <set name="rarity">Rare</set>
       <set name="attunement">true</set>
       <set name="type">Rod</set>
@@ -1010,7 +1010,7 @@ The rod emits Vision and Light in a 30-foot radius. Undead in this area have dis
 The rod emits Vision and Light in a 30-foot radius. Undead in this area have disadvantage on saving throws against effects that turn undead.</description>
     </sheet>
     <setters>
-      <set name="category">Rod</set>
+      <set name="category">Rods</set>
       <set name="rarity">Uncommon</set>
       <set name="attunement">true</set>
       <set name="type">Rod</set>
@@ -1026,7 +1026,7 @@ The rod has 8 charges, and it regains 1d6 + 2 expended charges daily at dusk. As
 The rod has 8 charges, and it regains 1d6 + 2 expended charges daily at dusk. As an action, you can spend 1 charge to reassert control over one undead you have animated.</description>
     </sheet>
     <setters>
-      <set name="category">Rod</set>
+      <set name="category">Rods</set>
       <set name="rarity">Rare</set>
       <set name="attunement">true</set>
       <set name="type">Rod</set>
@@ -1050,7 +1050,7 @@ The rod has 3 charges. As an action, you can expend 1 charge to cast dominate mo
 If you are not undead, using the rod's dominate monster property in the Shadowfell has a 10 chance of attracting a death knight, which arrives on the back of a nightmare mount in 1d4 hours. The death knight tries to recover the rod, killing you if necessary to obtain it. If it gets the rod, the death knight tries to deliver it to its master.</description>
     </sheet>
     <setters>
-      <set name="category">Rod</set>
+      <set name="category">Rods</set>
       <set name="rarity">Very rare</set>
       <set name="attunement">true</set>
       <set name="type">Rod</set>
