@@ -60,8 +60,6 @@ Slayer's crossbows (and the knowledge to craft them) can only usually be acquire
 
 A slayer's crossbow is a martial ranged weapon. It deals 1d6 piercing damage on a hit and has the ammunition (30/120 ft.) and loading properties. It also has the following special properties:
 
-
-
 </description>
     <sheet>
       <description>A slayer's crossbow is a special weapon that combines the properties of a hand crossbow, light crossbow, and climber's kit into one ultimate multi-tool. Its name comes the use of these crossbows, alongside silvered bullets and other special equipment, by monster slayers to raid vampire dens and lairs.
@@ -69,8 +67,6 @@ A slayer's crossbow is a martial ranged weapon. It deals 1d6 piercing damage on 
 Slayer's crossbows (and the knowledge to craft them) can only usually be acquired from the reclusive monster hunters that are known for wielding them. The ability to purchase them or their crafting formula should generally only be unlocked after the party completes a short adventure of the slayers' choosing.
 
 A slayer's crossbow is a martial ranged weapon. It deals 1d6 piercing damage on a hit and has the ammunition (30/120 ft.) and loading properties. It also has the following special properties:
-
-
 
 </description>
     </sheet>
@@ -443,14 +439,6 @@ Unlike other grafts, a lich brain can be attached to your neck or skull, rather 
 
 While attuned to this brain, you gain the following benefits:
 
-
-
-
-
-
-
-
-
 </description>
     <sheet>
       <description>This detached brain is of a sickly and pale color, and still has bits of a spinal cord hanging off of it.
@@ -458,15 +446,7 @@ While attuned to this brain, you gain the following benefits:
 Unlike other grafts, a lich brain can be attached to your neck or skull, rather than replacing your brain.
 
 While attuned to this brain, you gain the following benefits:
-
-
-
-
-
-
-
-
-
+        
 </description>
     </sheet>
     <setters>
@@ -581,13 +561,6 @@ If you wrap the body of a dead humanoid in the shrouds over the course of 10 min
 The type of undead the creature is raised as is determined by the shrouds' rarity, as detailed below.
 
 
-
-
-
-
-
-
-
 </description>
     <sheet>
       <description>These shrouds look like ordinary funerary wrappings for dead bodies and are often decorated with symbols and icons representing the dead rising.
@@ -595,14 +568,6 @@ The type of undead the creature is raised as is determined by the shrouds' rarit
 If you wrap the body of a dead humanoid in the shrouds over the course of 10 minutes, and the command word spoken, it returns as an undead creature, and the shrouds turn to dust. The undead is charmed by you for 24 hours or until you or your companions do anything harmful to it. When the charmed condition ends, the undead chooses whether to remain friendly to you, based on its capacity for intelligent thought and how you treated it while it was charmed.
 
 The type of undead the creature is raised as is determined by the shrouds' rarity, as detailed below.
-
-
-
-
-
-
-
-
 
 </description>
     </sheet>
@@ -806,17 +771,6 @@ The Sword is well aware of its heritage and the powerful icon it represents for 
 The Sword is a magic, sentient longsword that grants a +3 bonus to attack and damage rolls made with it. It scores a critical hit on a roll of 19 or 20, and deals an extra 2d10 slashing damage to celestials, clerics, paladins, and other divine servants.
 
 
-
-
-
-
-
-
-
-
-
-
-
 </description>
     <sheet>
       <description>Commissioned by Count Strahd, this weapon is the family sword of the von Zarovich clan, symbol of its sovereign rule over Barovia.
@@ -830,18 +784,6 @@ Strahd might have placed the Sword in the tomb of his brother Sergei as repaymen
 The Sword is well aware of its heritage and the powerful icon it represents for both the von Zarovich clan and Barovia as a nation. The weapon draws strength from its own vampiric nature, equating its hunger with a need to spread the family's honor. It demands an owner who respects these needs.
 
 The Sword is a magic, sentient longsword that grants a +3 bonus to attack and damage rolls made with it. It scores a critical hit on a roll of 19 or 20, and deals an extra 2d10 slashing damage to celestials, clerics, paladins, and other divine servants.
-
-
-
-
-
-
-
-
-
-
-
-
 
 </description>
     </sheet>
@@ -863,15 +805,6 @@ Maikedhon was a mage living in the Shadowfell during the time of the secret pact
 Maikedhon's items came into the possession of some survivors from the pact who were obsessed by shadow. They eventually met up with the shadowmage, returning his book in exchange for being tutored in shadow magic. Together, the arcanists tested the limits of the medium, exploring the depths of the Shadowfell. The students of shadow were eventually lost in a deep abyss in the Shadowfell, but the book was later discovered near the opening of the chasm. It did not last long in the hands of its new owner, however; the book finds ways to get rid of a wielder who does not meet its expectations. Over the years, it has appeared intermittently in the hands of a gnome merchant, a drow battle mage, and a human princess, but now it is once again lost.
 
 
-
-
-
-
-
-
-
-
-
 </description>
     <sheet>
       <description>This thick volume is bound in a dark hide etched with elaborate silver symbols. The stretched-skin pages and tightly scrawled writing are bathed in shadow, even under the brightest light.
@@ -879,15 +812,6 @@ Maikedhon's items came into the possession of some survivors from the pact who w
 Maikedhon was a mage living in the Shadowfell during the time of the secret pact between the worshipers of Vecna and Zehir (see the Mirror of Secrets item). He created a number of artifacts related to shadows and shadow creatures, the most important of which was a great magic tome. The battle between the sects of the secret pact that swallowed Trebarra Kan also opened a portal to Maikedhon's tower, sucking his items into the world.
 
 Maikedhon's items came into the possession of some survivors from the pact who were obsessed by shadow. They eventually met up with the shadowmage, returning his book in exchange for being tutored in shadow magic. Together, the arcanists tested the limits of the medium, exploring the depths of the Shadowfell. The students of shadow were eventually lost in a deep abyss in the Shadowfell, but the book was later discovered near the opening of the chasm. It did not last long in the hands of its new owner, however; the book finds ways to get rid of a wielder who does not meet its expectations. Over the years, it has appeared intermittently in the hands of a gnome merchant, a drow battle mage, and a human princess, but now it is once again lost.
-
-
-
-
-
-
-
-
-
 
 
 </description>
@@ -907,15 +831,6 @@ Thousands of years ago, the empire of Kortaja stood as a beacon of the divine. T
 The Sword is a magic, sentient greatsword that grants a +3 bonus to attack and damage rolls made with it. It scores a critical hit on a roll of 19 or 20, and deals an extra 2d10 radiant damage to fiends and undead.
 
 
-
-
-
-
-
-
-
-
-
 </description>
     <sheet>
       <description>This artifact is a flawlessly crafted, weighty two-handed weapon that shines with its own internal light. The opal pommel stone shines or grows dull depending on the sword's mood.
@@ -923,15 +838,6 @@ The Sword is a magic, sentient greatsword that grants a +3 bonus to attack and d
 Thousands of years ago, the empire of Kortaja stood as a beacon of the divine. Toward the end of that civilization, the glass citadel and its deific armies were besieged by primordial forces. Kortaja's secret weapon was a set of seven fabled swords forged by the dwarf kings and wielded by the empire's seven greatest generals. In the last battle, six of the seven swords were shattered by the blast from a magic, primordial trumpet. The seventh weapon was lost in time. Deific servants have been searching for it for millennia.
 
 The Sword is a magic, sentient greatsword that grants a +3 bonus to attack and damage rolls made with it. It scores a critical hit on a roll of 19 or 20, and deals an extra 2d10 radiant damage to fiends and undead.
-
-
-
-
-
-
-
-
-
 
 
 </description>
@@ -954,15 +860,6 @@ In a time long past, Vecna corrupted the blood of a deva and used it to craft a 
 In any case, Kas abandoned the Mask and placed it an unknown vault some time before his fateful battle with Vecna. If found, its sentience still serves the will of Kas, but the scrying magic that remains in still allows The Whispered One to spy on its wielder wherever it goes.
 
 
-
-
-
-
-
-
-
-
-
 </description>
     <sheet>
       <description>This solid silver mask is fashioned in the form of a fanged skull. It was originally forged for the exarch Kas by his overlord Vecna.
@@ -970,15 +867,6 @@ In any case, Kas abandoned the Mask and placed it an unknown vault some time bef
 In a time long past, Vecna corrupted the blood of a deva and used it to craft a powerful mask that could aid Kas in his duties as the Bloody Handed. Imbued with a powerful sentience, the Mask was made to compliment Kas's martial prowess by supplementing his diplomatic and tactical skills. However, the Mask also had a secondary purpose: it enabled Vecna to magically scry Kas and see through the Mask's eyes, allowing him to personally view his warlord's battles and conquests. One apocryphal tale claims that Vecna also used this scrying function to watch for any signs of betrayal, and that Kas's discovery of this ability helped convince him to betray his master and take the throne for himself.
 
 In any case, Kas abandoned the Mask and placed it an unknown vault some time before his fateful battle with Vecna. If found, its sentience still serves the will of Kas, but the scrying magic that remains in still allows The Whispered One to spy on its wielder wherever it goes.
-
-
-
-
-
-
-
-
-
 
 
 </description>
@@ -995,30 +883,11 @@ In any case, Kas abandoned the Mask and placed it an unknown vault some time bef
 
 The Orb of Light is the last remnant of a dead god slain by Tenebrous. Annihilated by the undead god using the power of the Last Word, this deity shed their divine spark at the last moment and entrusted their last remaining followers to keep it safe. Sealed within a magical sphere and embued with the ability to communicate, this newly created Orb of Light is now the best defense against Orcus and his minions, as well as the unliving celestial abomination created from this deity's corpse that now roams and terrorizes the planes.
 
-
-
-
-
-
-
-
-
-
-
 </description>
     <sheet>
       <description>The Orb of Light appears to be a large and faintly glowing white pearl. A closer look reveals the faint wisps of an angelic figure in an unknown land.
 
 The Orb of Light is the last remnant of a dead god slain by Tenebrous. Annihilated by the undead god using the power of the Last Word, this deity shed their divine spark at the last moment and entrusted their last remaining followers to keep it safe. Sealed within a magical sphere and embued with the ability to communicate, this newly created Orb of Light is now the best defense against Orcus and his minions, as well as the unliving celestial abomination created from this deity's corpse that now roams and terrorizes the planes.
-
-
-
-
-
-
-
-
-
 
 
 </description>
@@ -1035,30 +904,11 @@ The Orb of Light is the last remnant of a dead god slain by Tenebrous. Annihilat
 
 In a rare show of unity, the worshipers of the deities Vecna and Zehir formed a secret pact. The combined group was the idea of its leader Trebarra Kan, a powerful priest who, by adeptly leading a double life, managed to become ordained by the temples of both deities. The revelation of his twin loyalties drew faithful from both sides, and the pact between them became both powerful and wideranging. Power brought discord, however, and a competition for allegiances followed. As his careful plans began unraveling, Trebarra Kan attempted to create a magic mirror that would bend insurgents to his will and drive others mad. At a particularly delicate stage of the item's creation, open warfare broke out between the factions. The mix of magical forces sparked a conflagration that enveloped Trebarra Kan and trapped him forever inside his creation.
 
-
-
-
-
-
-
-
-
-
-
 </description>
     <sheet>
       <description>This large platinum hand mirror is inlaid with jade and onyx.
 
 In a rare show of unity, the worshipers of the deities Vecna and Zehir formed a secret pact. The combined group was the idea of its leader Trebarra Kan, a powerful priest who, by adeptly leading a double life, managed to become ordained by the temples of both deities. The revelation of his twin loyalties drew faithful from both sides, and the pact between them became both powerful and wideranging. Power brought discord, however, and a competition for allegiances followed. As his careful plans began unraveling, Trebarra Kan attempted to create a magic mirror that would bend insurgents to his will and drive others mad. At a particularly delicate stage of the item's creation, open warfare broke out between the factions. The mix of magical forces sparked a conflagration that enveloped Trebarra Kan and trapped him forever inside his creation.
-
-
-
-
-
-
-
-
-
 
 
 </description>
@@ -1084,15 +934,6 @@ When you use an action to toss the stone into the air, the stone orbits your hea
 The stone cannot be damaged or destroyed by conventional means. It is considered to be an object that is being worn while it orbits your head.
 
 While the stone orbits your head, you gain the following benefits.
-
-
-
-
-
-
-
-
-
 
 
 </description>
@@ -1124,23 +965,11 @@ While the stone orbits your hea</description>
 The Vampire Killer is a magic whip that grants a +3 bonus to attack and damage rolls made with it. It scores a critical hit on a roll of 19 or 20 on the d20.
 
 
-
-
-
-
-
-
 </description>
     <sheet>
       <description>The Vampire Killer, also known as the Morning Star in some forms, is a magical whip created and wielded by a long line of vampire hunters. While the whip is most potent against vampires, its magic makes it a deadly weapon against other forms of evil as well.
 
 The Vampire Killer is a magic whip that grants a +3 bonus to attack and damage rolls made with it. It scores a critical hit on a roll of 19 or 20 on the d20.
-
-
-
-
-
-
 
 
 </description>
