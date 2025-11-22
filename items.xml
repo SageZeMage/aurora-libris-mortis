@@ -792,10 +792,12 @@ The Sword is a magic, sentient longsword that grants a +3 bonus to attack and da
 </description>
     </sheet>
     <setters>
-      <set name="category">Weapon</set>
+      <set name="keywords">longsword</set>
+      <set name="category">Magic Weapons</set>
       <set name="weight">3 lb.</set>
       <set name="rarity">Artifact</set>
       <set name="attunement">true</set>
+      <set name="magic">3</set>
       <set name="damage">1d8</set>
       <set name="damage-type">S</set>
       <set name="properties">V</set>
@@ -847,10 +849,14 @@ The Sword is a magic, sentient greatsword that grants a +3 bonus to attack and d
 </description>
     </sheet>
     <setters>
-      <set name="category">Weapon</set>
+      <set name="keywords">greatsword</set>
+      <set name="category">Magic Weapons</set>
       <set name="weight">6 lb.</set>
       <set name="rarity">Artifact</set>
       <set name="attunement">true</set>
+      <set name="type" addition="greatsword">Weapon</set>
+      <set name="weapon">Greatsword</set>
+      <set name="magic">3</set>
       <set name="damage">2d6</set>
       <set name="damage-type">S</set>
       <set name="properties">H, 2H</set>
@@ -979,10 +985,14 @@ The Vampire Killer is a magic whip that grants a +3 bonus to attack and damage r
 </description>
     </sheet>
     <setters>
-      <set name="category">Weapon</set>
+      <set name="keywords">whip</set>
+      <set name="category">Magic Weapons</set>
       <set name="weight">3 lb.</set>
       <set name="rarity">Artifact</set>
       <set name="attunement">true</set>
+      <set name="type" addition="whip">Weapon</set>
+      <set name="weapon">Whip</set>
+      <set name="magic">3</set>
       <set name="damage">1d4</set>
       <set name="damage-type">S</set>
       <set name="properties">F, R</set>
