@@ -602,7 +602,7 @@ As an action, you can spread this ichor across a Medium or smaller object. For 1
 As an action, you can spread this ichor across a Medium or smaller object. For 10 minutes, any creature with the Incorporeal Movement trait can't move through the object, and must interact with it as though it were a corporeal creature.</description>
     </sheet>
     <setters>
-      <set name="category">Potion</set>
+      <set name="category">Potions</set>
       <set name="rarity">Common</set>
       <set name="type">Potion</set>
     </setters>
