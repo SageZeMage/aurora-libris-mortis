@@ -37,7 +37,7 @@ When this maul is used to hit a creature, one use can be expended to release som
 When this maul is used to hit a creature, one use can be expended to release some of the holy water inside of it (no action required). If the target is a fiend or undead, it takes 1d6 radiant damage.</description>
     </sheet>
     <setters>
-      <set name="category">Weapons</set>
+      <set name="category">Magic Weapons</set>
       <set name="cost">50 gp</set>
       <set name="weight">10 lb.</set>
       <set name="damage">2d6</set>
@@ -1135,7 +1135,7 @@ When you succeed on a check made to shove a creature using this shield, the crea
 When you succeed on a check made to shove a creature using this shield, the creature also suffers disadvantage on the next Strength, Constitution, or death saving throw it makes before the end of your next turn.</description>
     </sheet>
     <setters>
-      <set name="category">Armor</set>
+      <set name="category">Magic Armor</set>
       <set name="weight">6 lb.</set>
       <set name="rarity">Rare</set>
       <set name="attunement">true</set>
@@ -1154,7 +1154,7 @@ The shield has 6 charges, and it regains 1d4 + 2 expended charges daily at dusk.
 The shield has 6 charges, and it regains 1d4 + 2 expended charges daily at dusk. While holding it, you can use an action to expend some of its charges to cast one of the following spells from it (spell save DC 13, +5 to hit with spell attacks): bestow curse (3 charges), blight (4 charges), fear (3 charges), inflict wounds (1 charge), ray of enfeeblement (2 charges).</description>
     </sheet>
     <setters>
-      <set name="category">Armor</set>
+      <set name="category">Magic Armor</set>
       <set name="weight">6 lb.</set>
       <set name="rarity">Rare</set>
       <set name="attunement">true</set>
