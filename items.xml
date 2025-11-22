@@ -269,7 +269,7 @@ This eye has 4 charges. It regains 1d4 charges daily at dusk.
 As a bonus action, you can expend 1 charge and target one creature you can see within 60 feet of you. If the target can see this grafted eye, it must succeed on a DC 11 Wisdom saving throw against this magic or become frightened until the end of your next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -290,7 +290,7 @@ The hand is a natural melee weapon, which you can use to make unarmed strikes. O
 In addition, you can use your bonus action to touch one creature within 5 feet of you with this hand. The target must succeed on a DC 12 Constitution saving throw or be cursed with a weaker form of a mummy rot for 1 hour. During this time, the target can't regain hit points, and it has disadvantage on death saving throws and on any ability check or saving throw that uses Strength or Constitution.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -307,7 +307,7 @@ In addition, you can use your bonus action to touch one creature within 5 feet o
 </description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -320,7 +320,7 @@ In addition, you can use your bonus action to touch one creature within 5 feet o
       <description>This mottled gray hide protects you against poison that would normally harm the living. You are immune to the poisoned condition and have immunity to poison damage.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -341,7 +341,7 @@ While attuned to these teeth, your fanged bite is a natural weapon, which counts
 In addition, you can use these fangs to drain blood from a humanoid that is grappled, restrained, or incapacitated. As a bonus action, make an unarmed strike against the target using these fangs. On a hit, the target takes an additional 2d6 necrotic damage, and you gain temporary hit points equal to the necrotic damage dealt.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -362,7 +362,7 @@ The arm is a natural melee weapon, which you can use to make unarmed strikes. If
 You also gain a +5 bonus to any Strength check that uses this arm. Additionally, at the start of each of your turns, any creature grappled by this arm takes bludgeoning damage equal to your Strength modifier (minimum of 1).</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -379,7 +379,7 @@ You also gain a +5 bonus to any Strength check that uses this arm. Additionally,
 </description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -404,7 +404,7 @@ When you roll a 20 on an attack roll with this glove made against a creature oth
 In addition, you have a climbing speed equal to your walking speed as long as the hand that this glove is attached to can be used to climb.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -425,7 +425,7 @@ You have a +1 bonus to AC while attuned to this exoskeleton.
 In addition, you can use your bonus action to cause the spikes of bone on the exoskeleton to extend outwards, becoming 5-foot long appendages that have three joints each. While these appendages are extended, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands and legs free. You also gain a climbing speed equal to your walking speed. You can use this bonus action again on subsequent turns to retract these spikes of bone to their original length.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Very rare</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -450,7 +450,7 @@ While attuned to this brain, you gain the following benefits:
 </description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Legendary</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -475,7 +475,7 @@ When you roll a 20 on an attack roll with this tongue made against a living crea
 In addition, you can use the tongue to climb or to hold objects. The tongue grants you a climbing speed equal to your walking speed, and you can use it to wield any item that you could normally hold with one hand, other than a weapon or a shield.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Very rare</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -496,7 +496,7 @@ This eye has 4 charges. It regains 1d4 charges daily at dusk.
 As an action, you can expend 1 charge and target one creature you can see within 30 feet of you. If the target can see this grafted eye and has fewer than 50 hit points, it must succeed on a DC 13 Constitution saving throw or be reduced to 0 hit points, unless it is immune to the frightened condition or has legendary actions.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Legendary</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -517,7 +517,7 @@ You can use a bonus action to cast the vampiric touch spell (save DC 15) through
 When you hit a creature with an attack from a vampiric touch spell, you can cause the creature to also suffer one level of exhaustion. Once used, this exhaustion property can't be used again until the next dusk.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Very rare</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -546,7 +546,7 @@ The cord grants you gain the following benefits:
 </description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Legendary</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -572,7 +572,7 @@ The type of undead the creature is raised as is determined by the shrouds' rarit
 </description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Varies</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -587,7 +587,7 @@ While wearing this cloak, you have advantage on saving throws against effects th
 While wearing this cloak, you have advantage on saving throws against effects that turn undead.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -621,7 +621,7 @@ The globe sheds bright sunlight in a 30-foot radius and dim sunlight for an addi
 As an action, the globe can be hurled up to 50 feet. It shatters on impact, releasing a sunburst spell centered on the point of impact (spell save DC 18).</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Legendary</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -636,7 +636,7 @@ While wearing these goggles, you have advantage on saving throws against effects
 While wearing these goggles, you have advantage on saving throws against effects that deal radiant damage or cause you to be blinded.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -651,7 +651,7 @@ While wearing these goggles, you automatically know whether a creature you see w
 While wearing these goggles, you automatically know whether a creature you see within 30 feet of you is alive, dead, undead, or neither alive nor dead (such as a construct).</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -678,7 +678,7 @@ Instead of asking a question, you can choose to give the occupant new informatio
 Once all ten questions have been answered, the globe deactivates, and it can't be activated again until 7 days have passed.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Very rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -693,7 +693,7 @@ You can use an action to play this instrument and to target any number of undead
 You can use an action to play this instrument and to target any number of undead you can see within 60 feet of you. If the undead can hear you, they gain advantage on all saving throws until the end of your next turn.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -709,7 +709,7 @@ You can use an action to play this instrument and to target any number of undead
 You can use an action to play this instrument and to target any number of undead you can see within 60 feet of you. If the undead can hear you, they suffer disadvantage on all saving throws until the end of your next turn.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Very rare</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -729,7 +729,7 @@ You can reference the manuscripts whenever you make an Intelligence check to rec
 In addition, you can use the manuscripts as a spellcasting focus. When you cast a damaging spell, you can use these manuscripts to change the damage type to necrotic damage.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -752,7 +752,7 @@ The light emitted by the lamp is sunlight. Additionally, undead that end their t
 In addition, you can use the lamp as a spellcasting focus. When you cast a damaging spell, you can use the sunlight lamp to change the damage type to radiant damage.</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -817,7 +817,7 @@ Maikedhon's items came into the possession of some survivors from the pact who w
 </description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Artifact</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -872,7 +872,7 @@ In any case, Kas abandoned the Mask and placed it an unknown vault some time bef
 </description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Artifact</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -893,7 +893,7 @@ The Orb of Light is the last remnant of a dead god slain by Tenebrous. Annihilat
 </description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Artifact</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -914,7 +914,7 @@ In a rare show of unity, the worshipers of the deities Vecna and Zehir formed a 
 </description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Artifact</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -953,7 +953,7 @@ The stone cannot be damaged or destroyed by conventional means. It is considered
 While the stone orbits your hea</description>
     </sheet>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="rarity">Artifact</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
