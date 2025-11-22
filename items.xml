@@ -7,6 +7,7 @@
       <file name="items.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-libris-mortis/main/items.xml" />
     </update>
   </info>
+
   <element name="Holy Lamp" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_HOLY_LAMP">
     <description>A holy lamp is a special hooded lantern that is fueled by holy water instead of oil, allowing it to reveal the presence of nearby undead.
 
@@ -57,6 +58,7 @@ When this maul is used to hit a creature, one use can be expended to release som
       <set name="cost">12 gp</set>
     </setters>
   </element>
+
   <element name="Slayer's Crossbow" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_SLAYER_S_CROSSBOW">
     <description>A slayer's crossbow is a special weapon that combines the properties of a hand crossbow, light crossbow, and climber's kit into one ultimate multi-tool. Its name comes the use of these crossbows, alongside silvered bullets and other special equipment, by monster slayers to raid vampire dens and lairs.
 
@@ -84,6 +86,7 @@ A slayer's crossbow is a martial ranged weapon. It deals 1d6 piercing damage on 
       <set name="range">30/120 or 80/320</set>
     </setters>
   </element>
+
   <element name="Gravedust" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_GRAVEDUST">
     <description>This gray-brown powder derives its name from its resemblance to the grime common to tombs and other long-enclosed areas.
 
@@ -99,6 +102,7 @@ A fiend or undead subjected to this positoxins must make a DC 10 Constitution sa
       <set name="damage">Positoxin</set>
     </setters>
   </element>
+
   <element name="Lichbane" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_LICHBANE">
     <description>This bone-white unguent is dangerous to intelligent fiends and undead, such as liches and other spellcasters.
 
@@ -114,6 +118,7 @@ A fiend or undead subjected to this positoxins must succeed on a DC 15 Constitut
       <set name="damage">Positoxin</set>
     </setters>
   </element>
+
   <element name="Liquid Mortality" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_LIQUID_MORTALITY">
     <description>This potent oil is thought by most undead creatures to be mere myth.
 
@@ -129,6 +134,7 @@ A fiend or undead subjected to this positoxins must make a DC 19 Constitution sa
       <set name="damage">Positoxin</set>
     </setters>
   </element>
+
   <element name="Sunlight Oil" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_SUNLIGHT_OIL">
     <description>This thin, slippery liquid seems to emit a soft glow, even in the absence of a light source.
 
@@ -144,6 +150,7 @@ A fiend or undead subjected to this positoxins must make a DC 15 Constitution sa
       <set name="damage">Positoxin</set>
     </setters>
   </element>
+
   <element name="Bloodwine" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_BLOODWINE">
     <description>This thick, crimson positoxin includes garlic in its creation, making it particularly harmful to vampires and other undead that are weak to garlic. Such creatures have disadvantage on saving throws against this positoxin.
 
@@ -159,6 +166,7 @@ A fiend or undead subjected to this positoxins must succeed on a DC 16 Constitut
       <set name="damage">Positoxin</set>
     </setters>
   </element>
+
   <element name="Boneshard Paste" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_BONESHARD_PASTE">
     <description>This positoxin includes bone fragments in its recipe, giving it a pale color.
 
@@ -174,6 +182,7 @@ A fiend or undead subjected to this positoxins must succeed on a DC 13 Constitut
       <set name="damage">Positoxin</set>
     </setters>
   </element>
+
   <element name="Celestial Essence" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_CELESTIAL_ESSENCE">
     <description>This viscous golden substance seems almost to shine with an inner radiance.
 
@@ -189,6 +198,7 @@ A fiend or undead subjected to this positoxins must succeed on a DC 15 Constitut
       <set name="damage">Positoxin</set>
     </setters>
   </element>
+
   <element name="Embalming Fire" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_EMBALMING_FIRE">
     <description>This bitter-smelling liquid must be poured over a corpse and allowed to soak for at least 1 minute before the corpse is animated as a zombie via normal means. Once animated, any creature that touches the zombie or hits it with a melee attack while within 5 feet of it takes 5 (1d10) fire damage.
 
@@ -203,6 +213,7 @@ Spreading embalming fire over a creature's body requires an action. A single fla
       <set name="cost">25 gp</set>
     </setters>
   </element>
+
   <element name="Ghostoil" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_GHOSTOIL">
     <description>This clear oil has a slight tint of gray, and strange, wispy forms seem to swirl through it. When an action is used to apply it to a weapon, ghostoil allows the weapon to overcome the damage resistances and immunities of any creature with the Incorporeal Movement trait for the next 2 rounds.</description>
     <sheet>
@@ -213,6 +224,7 @@ Spreading embalming fire over a creature's body requires an action. A single fla
       <set name="cost">25 gp</set>
     </setters>
   </element>
+
   <element name="Liquid Night" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_LIQUID_NIGHT">
     <description>This dark, sticky fluid provides a light-sensitive creature with temporary protection from the sun's deadly rays. Once applied, the creature can ignore the drawbacks of the Sunlight Sensitivity or Light Sensitivity traits for 1 hour.
 
@@ -227,6 +239,7 @@ Spreading liquid night over a creature's body requires an action. A single flask
       <set name="cost">50 gp</set>
     </setters>
   </element>
+
   <element name="Unholy Water" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_UNHOLY_WATER">
     <description>Unholy water is an evil variant of holy water (flask). It deals necrotic damage instead of radiant damage, and it targets celestials and fey instead of fiends and undead.
 
@@ -245,6 +258,7 @@ In addition, unholy water can be used to neutralize out an equivalent mass of ho
       <set name="cost">25 gp</set>
     </setters>
   </element>
+
   <element name="Brittlebone" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_BRITTLEBONE">
     <description>This unguent must be spread over a set of bones before animation as a skeleton. When the skeleton suffers a critical hit or is reduced to 0 hit points, the ointment causes its bones to splinter and fly apart, sending shards in all directions. Each creature within 5 feet of the skeleton takes piercing damage equal to the number of Hit Dice the skeleton has.
 
@@ -259,6 +273,7 @@ Spreading britlebone over a creature's bones requires an action. A single flask 
       <set name="cost">25 gp</set>
     </setters>
   </element>
+
   <element name="Mummified Eye" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_MUMMIFIED_EYE">
     <description>This hard, round orb fits into an empty eye socket and looks much like a normal eye at first glance, but it has a distinctly dry appearance and does not move in the socket.
 
@@ -280,6 +295,7 @@ As a bonus action, you can expend 1 charge and target one creature you can see w
       <set name="damage">Undead Graft</set>
     </setters>
   </element>
+
   <element name="Mummified Hand" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_MUMMIFIED_HAND">
     <description>This withered hand is swathed in the remnants of funeral wrappings.
 
@@ -301,6 +317,7 @@ In addition, you can use your bonus action to touch one creature within 5 feet o
       <set name="damage">Undead Graft</set>
     </setters>
   </element>
+
   <element name="Shadow Crus" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_SHADOW_CRUS">
     <description>This graft replaces your legs with an amorphous mass of shadowy wisps. You gain the following benefits while attuned to this item:
 
@@ -318,6 +335,7 @@ In addition, you can use your bonus action to touch one creature within 5 feet o
       <set name="damage">Undead Graft</set>
     </setters>
   </element>
+
   <element name="Undead Skin" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_UNDEAD_SKIN">
     <description>This mottled gray hide protects you against poison that would normally harm the living. You are immune to the poisoned condition and have immunity to poison damage.</description>
     <sheet>
@@ -331,6 +349,7 @@ In addition, you can use your bonus action to touch one creature within 5 feet o
       <set name="damage">Undead Graft</set>
     </setters>
   </element>
+
   <element name="Vampiric Fangs" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_VAMPIRIC_FANGS">
     <description>This set of sharp teeth replaces your existing teeth.
 
@@ -352,6 +371,7 @@ In addition, you can use these fangs to drain blood from a humanoid that is grap
       <set name="damage">Undead Graft</set>
     </setters>
   </element>
+
   <element name="Zombie Arm" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_ZOMBIE_ARM">
     <description>A zombie arm is a perpetually rotting limb.
 
@@ -373,6 +393,7 @@ You also gain a +5 bonus to any Strength check that uses this arm. Additionally,
       <set name="damage">Undead Graft</set>
     </setters>
   </element>
+
   <element name="Ghostly Arm" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_GHOSTLY_ARM">
     <description>This gray, incorporeal arm can't be used to manipulate solid objects. However, it grants you the following benefits:
 
@@ -390,6 +411,7 @@ You also gain a +5 bonus to any Strength check that uses this arm. Additionally,
       <set name="damage">Undead Graft</set>
     </setters>
   </element>
+
   <element name="Ghoul Glove" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_GHOUL_GLOVE">
     <description>This mottled glove replaces the skin on your hand and fuses with your own flesh, making your hand appear gaunt and rotting.
 
@@ -415,6 +437,7 @@ In addition, you have a climbing speed equal to your walking speed as long as th
       <set name="damage">Undead Graft</set>
     </setters>
   </element>
+
   <element name="Insectoid Exoskeleton" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_INSECTOID_EXOSKELETON">
     <description>This armor replaces most of the skin on your chest and torso with a thick layer of insect-like bone. Spikes of bone protrude from six different locations along the exoskeleton.
 
@@ -436,6 +459,7 @@ In addition, you can use your bonus action to cause the spikes of bone on the ex
       <set name="damage">Undead Graft</set>
     </setters>
   </element>
+
   <element name="Lich's Brain" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_LICH_S_BRAIN">
     <description>This detached brain is of a sickly and pale color, and still has bits of a spinal cord hanging off of it.
 
@@ -461,6 +485,7 @@ While attuned to this brain, you gain the following benefits:
       <set name="damage">Undead Graft</set>
     </setters>
   </element>
+
   <element name="Mohrg's Tongue" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_MOHRG_S_TONGUE">
     <description>This long, cartilaginous tongue bears sharp claws at its tip.
 
@@ -486,6 +511,7 @@ In addition, you can use the tongue to climb or to hold objects. The tongue gran
       <set name="damage">Undead Graft</set>
     </setters>
   </element>
+
   <element name="Bodak's Eye" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_BODAK_S_EYE">
     <description>This white, empty eye fits into an empty eye socket and appears to be devoid of any moisture or movement.
 
@@ -507,6 +533,7 @@ As an action, you can expend 1 charge and target one creature you can see within
       <set name="damage">Undead Graft</set>
     </setters>
   </element>
+
   <element name="Enervating Arm" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_ENERVATING_ARM">
     <description>An enervating arm is a gaunt limb of desiccated, leathery flesh.
 
@@ -528,6 +555,7 @@ When you hit a creature with an attack from a vampiric touch spell, you can caus
       <set name="damage">Undead Graft</set>
     </setters>
   </element>
+
   <element name="Atropal's Umbilical Cord" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_ATROPAL_S_UMBILICAL_CORD">
     <description>Unlike a normal umbilical cord, this shriveled tube of rotten flesh can replace one of your limbs, your lower jaw, or one of your eyes. The cord extends out from your body and floats in the air, and appears to trail off into nothing.
 
@@ -557,6 +585,7 @@ The cord grants you gain the following benefits:
       <set name="damage">Undead Graft</set>
     </setters>
   </element>
+
   <element name="Unholy Shrouds" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_UNHOLY_SHROUDS">
     <description>These shrouds look like ordinary funerary wrappings for dead bodies and are often decorated with symbols and icons representing the dead rising.
 
@@ -581,6 +610,7 @@ The type of undead the creature is raised as is determined by the shrouds' rarit
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Cloak of Turn Resistance" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_CLOAK_OF_TURN_RESISTANCE">
     <description>This unholy item surrounds any undead that wears it with a halo of shadows.
 
@@ -596,6 +626,7 @@ While wearing this cloak, you have advantage on saving throws against effects th
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Ectoplasmic Ichor" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_ECTOPLASMIC_ICHOR">
     <description>This thick, translucent paste emits a soft green glow when held up to the light.
 
@@ -611,6 +642,7 @@ As an action, you can spread this ichor across a Medium or smaller object. For 1
       <set name="type">Potion</set>
     </setters>
   </element>
+
   <element name="Globe of Sunlight" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_GLOBE_OF_SUNLIGHT">
     <description>This golden fist-sized orb contains a sphere of pure sunlight at its center.
 
@@ -630,6 +662,7 @@ As an action, the globe can be hurled up to 50 feet. It shatters on impact, rele
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Goggles of Day" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_GOGGLES_OF_DAY">
     <description>The lenses of this item are made of silvered crystal.
 
@@ -645,6 +678,7 @@ While wearing these goggles, you have advantage on saving throws against effects
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Goggles of Lifesight" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_GOGGLES_OF_LIFESIGHT">
     <description>The lenses of this item glow with a soft white light.
 
@@ -660,6 +694,7 @@ While wearing these goggles, you automatically know whether a creature you see w
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Husk Globe" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_HUSK_GLOBE">
     <description>The bodies of humanoid creatures sacrificed according to special rituals of necromancy can be placed in large globes of glass or crystal, so they remain perfectly preserved and on display indefinitely.
 
@@ -687,6 +722,7 @@ Once all ten questions have been answered, the globe deactivates, and it can't b
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Instrument of the Damned" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_INSTRUMENT_OF_THE_DAMNED">
     <description>When played, this instrument helps to bolster undead against harmful effects.
 
@@ -703,6 +739,7 @@ You can use an action to play this instrument and to target any number of undead
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Instrument of the Restful Soul" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_INSTRUMENT_OF_THE_RESTFUL_SOUL">
     <description>When played, this instrument weakens the ability of undead creatures to resist harmful effects.
 
@@ -719,6 +756,7 @@ You can use an action to play this instrument and to target any number of undead
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Nycoptic Manuscripts" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_NYCOPTIC_MANUSCRIPTS">
     <description>These twin papyrus scrolls are inscribed with ancient tales and cryptic prophecies by an anonymous, almost-certainly insane author. Despite their dubious accuracy, the manuscripts contain many useful descriptions of magic associated with the school of necromancy.
 
@@ -738,6 +776,7 @@ In addition, you can use the manuscripts as a spellcasting focus. When you cast 
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Sunlight Lamp" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_SUNLIGHT_LAMP">
     <description>A sunlight lamp is a special bullseye lantern that emits undead-harming sunlight.
 
@@ -761,6 +800,7 @@ In addition, you can use the lamp as a spellcasting focus. When you cast a damag
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Von Zarovich Family Sword" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_VON_ZAROVICH_FAMILY_SWORD">
     <description>Commissioned by Count Strahd, this weapon is the family sword of the von Zarovich clan, symbol of its sovereign rule over Barovia.
 
@@ -789,20 +829,20 @@ The Sword is well aware of its heritage and the powerful icon it represents for 
 
 The Sword is a magic, sentient longsword that grants a +3 bonus to attack and damage rolls made with it. It scores a critical hit on a roll of 19 or 20, and deals an extra 2d10 slashing damage to celestials, clerics, paladins, and other divine servants.
 
+
 </description>
     </sheet>
     <setters>
-      <set name="keywords">longsword</set>
-      <set name="category">Magic Weapons</set>
+      <set name="category">Weapon</set>
       <set name="weight">3 lb.</set>
       <set name="rarity">Artifact</set>
       <set name="attunement">true</set>
-      <set name="magic">3</set>
       <set name="damage">1d8</set>
       <set name="damage-type">S</set>
       <set name="properties">V</set>
     </setters>
   </element>
+
   <element name="Tome of Shadow" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_TOME_OF_SHADOW">
     <description>This thick volume is bound in a dark hide etched with elaborate silver symbols. The stretched-skin pages and tightly scrawled writing are bathed in shadow, even under the brightest light.
 
@@ -829,6 +869,7 @@ Maikedhon's items came into the possession of some survivors from the pact who w
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Soul Sword" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_SOUL_SWORD">
     <description>This artifact is a flawlessly crafted, weighty two-handed weapon that shines with its own internal light. The opal pommel stone shines or grows dull depending on the sword's mood.
 
@@ -849,19 +890,16 @@ The Sword is a magic, sentient greatsword that grants a +3 bonus to attack and d
 </description>
     </sheet>
     <setters>
-      <set name="keywords">greatsword</set>
-      <set name="category">Magic Weapons</set>
+      <set name="category">Weapon</set>
       <set name="weight">6 lb.</set>
       <set name="rarity">Artifact</set>
       <set name="attunement">true</set>
-      <set name="type" addition="greatsword">Weapon</set>
-      <set name="weapon">Greatsword</set>
-      <set name="magic">3</set>
       <set name="damage">2d6</set>
       <set name="damage-type">S</set>
       <set name="properties">H, 2H</set>
     </setters>
   </element>
+
   <element name="Silver Mask of Kas" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_SILVER_MASK_OF_KAS">
     <description>This solid silver mask is fashioned in the form of a fanged skull. It was originally forged for the exarch Kas by his overlord Vecna.
 
@@ -888,10 +926,12 @@ In any case, Kas abandoned the Mask and placed it an unknown vault some time bef
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Orb of Light" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_ORB_OF_LIGHT">
     <description>The Orb of Light appears to be a large and faintly glowing white pearl. A closer look reveals the faint wisps of an angelic figure in an unknown land.
 
 The Orb of Light is the last remnant of a dead god slain by Tenebrous. Annihilated by the undead god using the power of the Last Word, this deity shed their divine spark at the last moment and entrusted their last remaining followers to keep it safe. Sealed within a magical sphere and embued with the ability to communicate, this newly created Orb of Light is now the best defense against Orcus and his minions, as well as the unliving celestial abomination created from this deity's corpse that now roams and terrorizes the planes.
+
 
 </description>
     <sheet>
@@ -909,10 +949,12 @@ The Orb of Light is the last remnant of a dead god slain by Tenebrous. Annihilat
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Mirror of Secrets" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_MIRROR_OF_SECRETS">
     <description>This large platinum hand mirror is inlaid with jade and onyx.
 
 In a rare show of unity, the worshipers of the deities Vecna and Zehir formed a secret pact. The combined group was the idea of its leader Trebarra Kan, a powerful priest who, by adeptly leading a double life, managed to become ordained by the temples of both deities. The revelation of his twin loyalties drew faithful from both sides, and the pact between them became both powerful and wideranging. Power brought discord, however, and a competition for allegiances followed. As his careful plans began unraveling, Trebarra Kan attempted to create a magic mirror that would bend insurgents to his will and drive others mad. At a particularly delicate stage of the item's creation, open warfare broke out between the factions. The mix of magical forces sparked a conflagration that enveloped Trebarra Kan and trapped him forever inside his creation.
+
 
 </description>
     <sheet>
@@ -930,6 +972,7 @@ In a rare show of unity, the worshipers of the deities Vecna and Zehir formed a 
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Jet Black Ioun Stone" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_JET_BLACK_IOUN_STONE">
     <description>A unique and powerful Ioun stone, this artifact appears as a pure black void, forever traveling in a slow, patient orbit.
 
@@ -969,6 +1012,7 @@ While the stone orbits your hea</description>
       <set name="type">Wondrous Item</set>
     </setters>
   </element>
+
   <element name="Vampire Killer" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_VAMPIRE_KILLER">
     <description>The Vampire Killer, also known as the Morning Star in some forms, is a magical whip created and wielded by a long line of vampire hunters. While the whip is most potent against vampires, its magic makes it a deadly weapon against other forms of evil as well.
 
@@ -985,19 +1029,16 @@ The Vampire Killer is a magic whip that grants a +3 bonus to attack and damage r
 </description>
     </sheet>
     <setters>
-      <set name="keywords">whip</set>
-      <set name="category">Magic Weapons</set>
+      <set name="category">Weapon</set>
       <set name="weight">3 lb.</set>
       <set name="rarity">Artifact</set>
       <set name="attunement">true</set>
-      <set name="type" addition="whip">Weapon</set>
-      <set name="weapon">Whip</set>
-      <set name="magic">3</set>
       <set name="damage">1d4</set>
       <set name="damage-type">S</set>
       <set name="properties">F, R</set>
     </setters>
   </element>
+
   <element name="Nightstick" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_NIGHTSTICK">
     <description>This black rod carved of darkly stained wood is inset with religious symbols of various deities.
 
@@ -1014,6 +1055,7 @@ When you use your Channel Divinity to Turn Undead, the range of the ability incr
       <set name="type">Rod</set>
     </setters>
   </element>
+
   <element name="Rod of Defiance" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_ROD_OF_DEFIANCE">
     <description>This white cudgel-like rod is covered in magical runes that glow with a holy light.
 
@@ -1030,6 +1072,7 @@ The rod emits Vision and Light in a 30-foot radius. Undead in this area have dis
       <set name="type">Rod</set>
     </setters>
   </element>
+
   <element name="Rod of Undead Mastery" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_ROD_OF_UNDEAD_MASTERY">
     <description>This metal rod is carved to resemble a stack of miniature skulls.
 
@@ -1046,6 +1089,7 @@ The rod has 8 charges, and it regains 1d6 + 2 expended charges daily at dusk. As
       <set name="type">Rod</set>
     </setters>
   </element>
+
   <element name="Scepter of the Netherworld" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_SCEPTER_OF_THE_NETHERWORLD">
     <description>This plain steel baton contains several glyphs incised along its length that promise power over the undead.
 
@@ -1070,6 +1114,7 @@ If you are not undead, using the rod's dominate monster property in the Shadowfe
       <set name="type">Rod</set>
     </setters>
   </element>
+
   <element name="Wight Shield" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_WIGHT_SHIELD">
     <description>A wight shield is a buckler covered in the undead hide of a wight.
 
@@ -1088,6 +1133,7 @@ When you succeed on a check made to shove a creature using this shield, the crea
       <set name="ac">2</set>
     </setters>
   </element>
+
   <element name="Wrapped Tower" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_WRAPPED_TOWER">
     <description>A wrapped tower is a large shield wrapped in the funerary wrappings of an undead mummy.
 
@@ -1106,6 +1152,7 @@ The shield has 6 charges, and it regains 1d4 + 2 expended charges daily at dusk.
       <set name="ac">2</set>
     </setters>
   </element>
+
   <element name="Bonemail" type="Magic Item" source="Libris Mortis" id="ID_CUSTOM_LM_MAGIC_ITEM_BONEMAIL">
     <description>Bonemail is spiked armor crafted from interlocking bones and shards of bone extracted from an undead skeleton.
 
@@ -1124,4 +1171,5 @@ While wearing this armor, when you use the Attack action to shove a creature, th
       <set name="stealth">Disadvantage</set>
     </setters>
   </element>
+
 </elements>
