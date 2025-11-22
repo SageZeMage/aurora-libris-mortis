@@ -94,7 +94,7 @@ A fiend or undead subjected to this positoxins must make a DC 10 Constitution sa
 A fiend or undead subjected to this positoxins must make a DC 10 Constitution saving throw, taking 9 (2d8) radiant damage on a failed save, or half as much damage on a successful one.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Adventuring Gear</set>
       <set name="cost">100 gp</set>
       <set name="damage">Positoxin</set>
     </setters>
@@ -109,7 +109,7 @@ A fiend or undead subjected to this positoxins must succeed on a DC 15 Constitut
 A fiend or undead subjected to this positoxins must succeed on a DC 15 Constitution saving throw or suffer disadvantage on ability checks and saving throws that use Intelligence, Wisdom, and Charisma for 1 hour.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Adventuring Gear</set>
       <set name="cost">1000 gp</set>
       <set name="damage">Positoxin</set>
     </setters>
@@ -124,7 +124,7 @@ A fiend or undead subjected to this positoxins must make a DC 19 Constitution sa
 A fiend or undead subjected to this positoxins must make a DC 19 Constitution saving throw, taking 49 (14d6) radiant damage on a failed save, or half as much damage on a successful one. If this damage leaves the creature with 30 hit points or fewer, the creature is immediately destroyed.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Adventuring Gear</set>
       <set name="cost">4000 gp</set>
       <set name="damage">Positoxin</set>
     </setters>
@@ -139,7 +139,7 @@ A fiend or undead subjected to this positoxins must make a DC 15 Constitution sa
 A fiend or undead subjected to this positoxins must make a DC 15 Constitution saving throw, taking 24 (7d6) radiant damage on a failed save, or half as much damage on a successful one. On a failed save, the target also becomes more sensitive to light for 1 hour. During this time, all light sources are treated as sunlight for the purpose of Sunlight Sensitivity and similar traits possessed by the target. If the creature has the Light Sensitivity trait, it is instead blinded and incapacitated for the same duration.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Adventuring Gear</set>
       <set name="cost">2000 gp</set>
       <set name="damage">Positoxin</set>
     </setters>
@@ -154,7 +154,7 @@ A fiend or undead subjected to this positoxins must succeed on a DC 16 Constitut
 A fiend or undead subjected to this positoxins must succeed on a DC 16 Constitution saving throw or take 3 (1d6) radiant damage and become frightened of every other creature. The frightened creature must repeat the saving throw every 24 hours, taking 3 (1d6) radiant damage on a failed save. Until this effect ends, the damage the positoxin deals can't be healed by any means. After seven successful saving throws, the effect ends and the creature can heal normally.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Adventuring Gear</set>
       <set name="cost">400 gp</set>
       <set name="damage">Positoxin</set>
     </setters>
@@ -169,7 +169,7 @@ A fiend or undead subjected to this positoxins must succeed on a DC 13 Constitut
 A fiend or undead subjected to this positoxins must succeed on a DC 13 Constitution saving throw or be frightened of every other creature for 1 minute. The frightened creature is stunned. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Adventuring Gear</set>
       <set name="cost">300 gp</set>
       <set name="damage">Positoxin</set>
     </setters>
@@ -184,7 +184,7 @@ A fiend or undead subjected to this positoxins must succeed on a DC 15 Constitut
 A fiend or undead subjected to this positoxins must succeed on a DC 15 Constitution saving throw or take 10 (3d6) radiant damage and become frightened of every other creature for 1 hour. The frightened creature is blinded.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Adventuring Gear</set>
       <set name="cost">500 gp</set>
       <set name="damage">Positoxin</set>
     </setters>
@@ -273,7 +273,7 @@ This eye has 4 charges. It regains 1d4 charges daily at dusk.
 As a bonus action, you can expend 1 charge and target one creature you can see within 60 feet of you. If the target can see this grafted eye, it must succeed on a DC 11 Wisdom saving throw against this magic or become frightened until the end of your next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Rare</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -294,7 +294,7 @@ The hand is a natural melee weapon, which you can use to make unarmed strikes. O
 In addition, you can use your bonus action to touch one creature within 5 feet of you with this hand. The target must succeed on a DC 12 Constitution saving throw or be cursed with a weaker form of a mummy rot for 1 hour. During this time, the target can't regain hit points, and it has disadvantage on death saving throws and on any ability check or saving throw that uses Strength or Constitution.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Uncommon</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -311,7 +311,7 @@ In addition, you can use your bonus action to touch one creature within 5 feet o
 </description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Rare</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -324,7 +324,7 @@ In addition, you can use your bonus action to touch one creature within 5 feet o
       <description>This mottled gray hide protects you against poison that would normally harm the living. You are immune to the poisoned condition and have immunity to poison damage.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Uncommon</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -345,7 +345,7 @@ While attuned to these teeth, your fanged bite is a natural weapon, which counts
 In addition, you can use these fangs to drain blood from a humanoid that is grappled, restrained, or incapacitated. As a bonus action, make an unarmed strike against the target using these fangs. On a hit, the target takes an additional 2d6 necrotic damage, and you gain temporary hit points equal to the necrotic damage dealt.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Rare</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -366,7 +366,7 @@ The arm is a natural melee weapon, which you can use to make unarmed strikes. If
 You also gain a +5 bonus to any Strength check that uses this arm. Additionally, at the start of each of your turns, any creature grappled by this arm takes bludgeoning damage equal to your Strength modifier (minimum of 1).</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Uncommon</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -383,7 +383,7 @@ You also gain a +5 bonus to any Strength check that uses this arm. Additionally,
 </description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Uncommon</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -408,7 +408,7 @@ When you roll a 20 on an attack roll with this glove made against a creature oth
 In addition, you have a climbing speed equal to your walking speed as long as the hand that this glove is attached to can be used to climb.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Rare</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -429,7 +429,7 @@ You have a +1 bonus to AC while attuned to this exoskeleton.
 In addition, you can use your bonus action to cause the spikes of bone on the exoskeleton to extend outwards, becoming 5-foot long appendages that have three joints each. While these appendages are extended, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands and legs free. You also gain a climbing speed equal to your walking speed. You can use this bonus action again on subsequent turns to retract these spikes of bone to their original length.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Very rare</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -442,6 +442,8 @@ In addition, you can use your bonus action to cause the spikes of bone on the ex
 Unlike other grafts, a lich brain can be attached to your neck or skull, rather than replacing your brain.
 
 While attuned to this brain, you gain the following benefits:
+
+
 
 
 
@@ -463,10 +465,12 @@ While attuned to this brain, you gain the following benefits:
 
 
 
+
+
 </description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Legendary</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -491,7 +495,7 @@ When you roll a 20 on an attack roll with this tongue made against a living crea
 In addition, you can use the tongue to climb or to hold objects. The tongue grants you a climbing speed equal to your walking speed, and you can use it to wield any item that you could normally hold with one hand, other than a weapon or a shield.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Very rare</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -512,7 +516,7 @@ This eye has 4 charges. It regains 1d4 charges daily at dusk.
 As an action, you can expend 1 charge and target one creature you can see within 30 feet of you. If the target can see this grafted eye and has fewer than 50 hit points, it must succeed on a DC 13 Constitution saving throw or be reduced to 0 hit points, unless it is immune to the frightened condition or has legendary actions.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Legendary</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -533,7 +537,7 @@ You can use a bonus action to cast the vampiric touch spell (save DC 15) through
 When you hit a creature with an attack from a vampiric touch spell, you can cause the creature to also suffer one level of exhaustion. Once used, this exhaustion property can't be used again until the next dusk.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Very rare</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -562,7 +566,7 @@ The cord grants you gain the following benefits:
 </description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Legendary</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -603,7 +607,7 @@ The type of undead the creature is raised as is determined by the shrouds' rarit
 </description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Varies</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -618,7 +622,7 @@ While wearing this cloak, you have advantage on saving throws against effects th
 While wearing this cloak, you have advantage on saving throws against effects that turn undead.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -652,7 +656,7 @@ The globe sheds bright sunlight in a 30-foot radius and dim sunlight for an addi
 As an action, the globe can be hurled up to 50 feet. It shatters on impact, releasing a sunburst spell centered on the point of impact (spell save DC 18).</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Legendary</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -667,7 +671,7 @@ While wearing these goggles, you have advantage on saving throws against effects
 While wearing these goggles, you have advantage on saving throws against effects that deal radiant damage or cause you to be blinded.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -682,7 +686,7 @@ While wearing these goggles, you automatically know whether a creature you see w
 While wearing these goggles, you automatically know whether a creature you see within 30 feet of you is alive, dead, undead, or neither alive nor dead (such as a construct).</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Uncommon</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -709,7 +713,7 @@ Instead of asking a question, you can choose to give the occupant new informatio
 Once all ten questions have been answered, the globe deactivates, and it can't be activated again until 7 days have passed.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Very rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -724,7 +728,7 @@ You can use an action to play this instrument and to target any number of undead
 You can use an action to play this instrument and to target any number of undead you can see within 60 feet of you. If the undead can hear you, they gain advantage on all saving throws until the end of your next turn.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Rare</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -740,7 +744,7 @@ You can use an action to play this instrument and to target any number of undead
 You can use an action to play this instrument and to target any number of undead you can see within 60 feet of you. If the undead can hear you, they suffer disadvantage on all saving throws until the end of your next turn.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Very rare</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -760,7 +764,7 @@ You can reference the manuscripts whenever you make an Intelligence check to rec
 In addition, you can use the manuscripts as a spellcasting focus. When you cast a damaging spell, you can use these manuscripts to change the damage type to necrotic damage.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -783,7 +787,7 @@ The light emitted by the lamp is sunlight. Additionally, undead that end their t
 In addition, you can use the lamp as a spellcasting focus. When you cast a damaging spell, you can use the sunlight lamp to change the damage type to radiant damage.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Rare</set>
       <set name="type">Wondrous Item</set>
     </setters>
@@ -800,7 +804,6 @@ Strahd might have placed the Sword in the tomb of his brother Sergei as repaymen
 The Sword is well aware of its heritage and the powerful icon it represents for both the von Zarovich clan and Barovia as a nation. The weapon draws strength from its own vampiric nature, equating its hunger with a need to spread the family's honor. It demands an owner who respects these needs.
 
 The Sword is a magic, sentient longsword that grants a +3 bonus to attack and damage rolls made with it. It scores a critical hit on a roll of 19 or 20, and deals an extra 2d10 slashing damage to celestials, clerics, paladins, and other divine servants.
-
 
 
 
@@ -840,11 +843,10 @@ The Sword is a magic, sentient longsword that grants a +3 bonus to attack and da
 
 
 
-
 </description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Weapon</set>
       <set name="weight">3 lb.</set>
       <set name="rarity">Artifact</set>
       <set name="attunement">true</set>
@@ -859,7 +861,6 @@ The Sword is a magic, sentient longsword that grants a +3 bonus to attack and da
 Maikedhon was a mage living in the Shadowfell during the time of the secret pact between the worshipers of Vecna and Zehir (see the Mirror of Secrets item). He created a number of artifacts related to shadows and shadow creatures, the most important of which was a great magic tome. The battle between the sects of the secret pact that swallowed Trebarra Kan also opened a portal to Maikedhon's tower, sucking his items into the world.
 
 Maikedhon's items came into the possession of some survivors from the pact who were obsessed by shadow. They eventually met up with the shadowmage, returning his book in exchange for being tutored in shadow magic. Together, the arcanists tested the limits of the medium, exploring the depths of the Shadowfell. The students of shadow were eventually lost in a deep abyss in the Shadowfell, but the book was later discovered near the opening of the chasm. It did not last long in the hands of its new owner, however; the book finds ways to get rid of a wielder who does not meet its expectations. Over the years, it has appeared intermittently in the hands of a gnome merchant, a drow battle mage, and a human princess, but now it is once again lost.
-
 
 
 
@@ -889,11 +890,10 @@ Maikedhon's items came into the possession of some survivors from the pact who w
 
 
 
-
 </description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Artifact</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -905,7 +905,6 @@ Maikedhon's items came into the possession of some survivors from the pact who w
 Thousands of years ago, the empire of Kortaja stood as a beacon of the divine. Toward the end of that civilization, the glass citadel and its deific armies were besieged by primordial forces. Kortaja's secret weapon was a set of seven fabled swords forged by the dwarf kings and wielded by the empire's seven greatest generals. In the last battle, six of the seven swords were shattered by the blast from a magic, primordial trumpet. The seventh weapon was lost in time. Deific servants have been searching for it for millennia.
 
 The Sword is a magic, sentient greatsword that grants a +3 bonus to attack and damage rolls made with it. It scores a critical hit on a roll of 19 or 20, and deals an extra 2d10 radiant damage to fiends and undead.
-
 
 
 
@@ -935,11 +934,10 @@ The Sword is a magic, sentient greatsword that grants a +3 bonus to attack and d
 
 
 
-
 </description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Weapon</set>
       <set name="weight">6 lb.</set>
       <set name="rarity">Artifact</set>
       <set name="attunement">true</set>
@@ -954,7 +952,6 @@ The Sword is a magic, sentient greatsword that grants a +3 bonus to attack and d
 In a time long past, Vecna corrupted the blood of a deva and used it to craft a powerful mask that could aid Kas in his duties as the Bloody Handed. Imbued with a powerful sentience, the Mask was made to compliment Kas's martial prowess by supplementing his diplomatic and tactical skills. However, the Mask also had a secondary purpose: it enabled Vecna to magically scry Kas and see through the Mask's eyes, allowing him to personally view his warlord's battles and conquests. One apocryphal tale claims that Vecna also used this scrying function to watch for any signs of betrayal, and that Kas's discovery of this ability helped convince him to betray his master and take the throne for himself.
 
 In any case, Kas abandoned the Mask and placed it an unknown vault some time before his fateful battle with Vecna. If found, its sentience still serves the will of Kas, but the scrying magic that remains in still allows The Whispered One to spy on its wielder wherever it goes.
-
 
 
 
@@ -984,11 +981,10 @@ In any case, Kas abandoned the Mask and placed it an unknown vault some time bef
 
 
 
-
 </description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Artifact</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -998,7 +994,6 @@ In any case, Kas abandoned the Mask and placed it an unknown vault some time bef
     <description>The Orb of Light appears to be a large and faintly glowing white pearl. A closer look reveals the faint wisps of an angelic figure in an unknown land.
 
 The Orb of Light is the last remnant of a dead god slain by Tenebrous. Annihilated by the undead god using the power of the Last Word, this deity shed their divine spark at the last moment and entrusted their last remaining followers to keep it safe. Sealed within a magical sphere and embued with the ability to communicate, this newly created Orb of Light is now the best defense against Orcus and his minions, as well as the unliving celestial abomination created from this deity's corpse that now roams and terrorizes the planes.
-
 
 
 
@@ -1026,11 +1021,10 @@ The Orb of Light is the last remnant of a dead god slain by Tenebrous. Annihilat
 
 
 
-
 </description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Artifact</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -1040,7 +1034,6 @@ The Orb of Light is the last remnant of a dead god slain by Tenebrous. Annihilat
     <description>This large platinum hand mirror is inlaid with jade and onyx.
 
 In a rare show of unity, the worshipers of the deities Vecna and Zehir formed a secret pact. The combined group was the idea of its leader Trebarra Kan, a powerful priest who, by adeptly leading a double life, managed to become ordained by the temples of both deities. The revelation of his twin loyalties drew faithful from both sides, and the pact between them became both powerful and wideranging. Power brought discord, however, and a competition for allegiances followed. As his careful plans began unraveling, Trebarra Kan attempted to create a magic mirror that would bend insurgents to his will and drive others mad. At a particularly delicate stage of the item's creation, open warfare broke out between the factions. The mix of magical forces sparked a conflagration that enveloped Trebarra Kan and trapped him forever inside his creation.
-
 
 
 
@@ -1068,11 +1061,10 @@ In a rare show of unity, the worshipers of the deities Vecna and Zehir formed a 
 
 
 
-
 </description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Artifact</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -1103,7 +1095,6 @@ While the stone orbits your head, you gain the following benefits.
 
 
 
-
 </description>
     <sheet>
       <description>A unique and powerful Ioun stone, this artifact appears as a pure black void, forever traveling in a slow, patient orbit.
@@ -1121,7 +1112,7 @@ The stone cannot be damaged or destroyed by conventional means. It is considered
 While the stone orbits your hea</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Wondrous Item</set>
       <set name="rarity">Artifact</set>
       <set name="attunement">true</set>
       <set name="type">Wondrous Item</set>
@@ -1155,7 +1146,7 @@ The Vampire Killer is a magic whip that grants a +3 bonus to attack and damage r
 </description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Weapon</set>
       <set name="weight">3 lb.</set>
       <set name="rarity">Artifact</set>
       <set name="attunement">true</set>
@@ -1174,7 +1165,7 @@ When you use your Channel Divinity to Turn Undead, the range of the ability incr
 When you use your Channel Divinity to Turn Undead, the range of the ability increases to 60 feet.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Rod</set>
       <set name="rarity">Rare</set>
       <set name="attunement">true</set>
       <set name="type">Rod</set>
@@ -1190,7 +1181,7 @@ The rod emits Vision and Light in a 30-foot radius. Undead in this area have dis
 The rod emits Vision and Light in a 30-foot radius. Undead in this area have disadvantage on saving throws against effects that turn undead.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Rod</set>
       <set name="rarity">Uncommon</set>
       <set name="attunement">true</set>
       <set name="type">Rod</set>
@@ -1206,7 +1197,7 @@ The rod has 8 charges, and it regains 1d6 + 2 expended charges daily at dusk. As
 The rod has 8 charges, and it regains 1d6 + 2 expended charges daily at dusk. As an action, you can spend 1 charge to reassert control over one undead you have animated.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Rod</set>
       <set name="rarity">Rare</set>
       <set name="attunement">true</set>
       <set name="type">Rod</set>
@@ -1230,7 +1221,7 @@ The rod has 3 charges. As an action, you can expend 1 charge to cast dominate mo
 If you are not undead, using the rod's dominate monster property in the Shadowfell has a 10 chance of attracting a death knight, which arrives on the back of a nightmare mount in 1d4 hours. The death knight tries to recover the rod, killing you if necessary to obtain it. If it gets the rod, the death knight tries to deliver it to its master.</description>
     </sheet>
     <setters>
-      <set name="category">Other</set>
+      <set name="category">Rod</set>
       <set name="rarity">Very rare</set>
       <set name="attunement">true</set>
       <set name="type">Rod</set>
