@@ -25,6 +25,7 @@ Within the range of the lamp's Vision and Light, undead can't benefit from being
       <set name="cost">100 gp</set>
     </setters>
   </element>
+  
   <element name="Holy Water Sprinkler" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_HOLY_WATER_SPRINKLER">
     <description>The oversized, hollow head of this heavy maul is actually a reservoir that can hold the contents of four flasks of holy water (flask). When full, the reservoir has eight uses. Filling the reservoir requires an action.
 
@@ -39,10 +40,13 @@ When this maul is used to hit a creature, one use can be expended to release som
       <set name="cost">50 gp</set>
       <set name="weight">10 lb.</set>
       <set name="damage">2d6</set>
+      <set name="type" addition="maul">Weapon</set>
+      <set name="weapon">Maul</set>
       <set name="damage-type">B</set>
       <set name="properties">H, 2H</set>
     </setters>
   </element>
+ 
   <element name="Priest's Bullet" type="Item" source="Libris Mortis" id="ID_CUSTOM_LM_ITEM_PRIEST_S_BULLET">
     <description>These hollow glass sling bullets are filled with holy water. When they strike a target, they immediately shatter, dousing the target with half a pint of holy water and dealing 1d6 additional radiant damage to fiends and undead.</description>
     <sheet>
