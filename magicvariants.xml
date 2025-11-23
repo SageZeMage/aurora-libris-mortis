@@ -23,9 +23,11 @@
       </description>
     </sheet>
     <setters>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="any">Weapon</set>
       <set name="rarity">Uncommon</set>
-      <set name="category">Weapon</set>
-      <set name="type">Weapon</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
     </setters>
   </element>
 
@@ -43,9 +45,13 @@
       </description>
     </sheet>
     <setters>
+      <set name="category">Magic Armor</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="slot">body</set>
+      <set name="type" addition="light, medium, or heavy">Armor</set>
+      <set name="attunement">true</set>
       <set name="rarity">Very Rare</set>
-      <set name="category">Magic Item</set>
-      <set name="type">Wondrous Item</set>
+      <set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
     </setters>
   </element>
 
@@ -63,9 +69,13 @@
       </description>
     </sheet>
     <setters>
+      <set name="category">Magic Armor</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="slot">body</set>
+      <set name="type" addition="light, medium, or heavy">Armor</set>
+      <set name="attunement">true</set>
       <set name="rarity">Very Rare</set>
-      <set name="category">Magic Item</set>
-      <set name="type">Wondrous Item</set>
+      <set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
     </setters>
   </element>
 
@@ -85,9 +95,13 @@
       </description>
     </sheet>
     <setters>
+      <set name="category">Magic Armor</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="slot">body</set>
+      <set name="type" addition="light, medium, or heavy">Armor</set>
+      <set name="attunement">true</set>
       <set name="rarity">Rare</set>
-      <set name="category">Magic Item</set>
-      <set name="type">Wondrous Item</set>
+      <set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
     </setters>
   </element>
 
@@ -105,9 +119,13 @@
       </description>
     </sheet>
     <setters>
+      <set name="category">Magic Armor</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="slot">body</set>
+      <set name="type" addition="light, medium, or heavy">Armor</set>
+      <set name="attunement">true</set>
       <set name="rarity">Rare</set>
-      <set name="category">Magic Item</set>
-      <set name="type">Wondrous Item</set>
+      <set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
     </setters>
   </element>
 
@@ -125,9 +143,13 @@
       </description>
     </sheet>
     <setters>
+      <set name="category">Magic Armor</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="slot">body</set>
+      <set name="type" addition="light, medium, or heavy">Armor</set>
+      <set name="attunement">true</set>
       <set name="rarity">Rare</set>
-      <set name="category">Magic Item</set>
-      <set name="type">Wondrous Item</set>
+      <set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
     </setters>
   </element>
 
@@ -145,9 +167,11 @@
       </description>
     </sheet>
     <setters>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="any">Weapon</set>
       <set name="rarity">Uncommon</set>
-      <set name="category">Weapon</set>
-      <set name="type">Weapon</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
     </setters>
   </element>
 
@@ -163,9 +187,11 @@
       </description>
     </sheet>
     <setters>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="any">Weapon</set>
       <set name="rarity">Rare</set>
-      <set name="category">Weapon</set>
-      <set name="type">Weapon</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
     </setters>
   </element>
 
@@ -183,9 +209,11 @@
       </description>
     </sheet>
     <setters>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="any">Weapon</set>
       <set name="rarity">Rare</set>
-      <set name="category">Weapon</set>
-      <set name="type">Weapon</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
     </setters>
   </element>
 
@@ -203,9 +231,13 @@
       </description>
     </sheet>
     <setters>
+      <set name="category">Magic Armor</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="slot">body</set>
+      <set name="type" addition="light, medium, or heavy">Armor</set>
+      <set name="attunement">true</set>
       <set name="rarity">Very Rare</set>
-      <set name="category">Magic Item</set>
-      <set name="type">Wondrous Item</set>
+      <set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
     </setters>
   </element>
 </elements>
